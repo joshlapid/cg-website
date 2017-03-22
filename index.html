@@ -1,0 +1,327 @@
+<!DOCTYPE html
+<html>
+	<head>
+		<title>Corrao Group</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Bootstrap CDN's -->
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		<!-- Style CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/style.css">
+
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+	</head>
+	<body>
+		<!-- Logo -->
+	  <a class="navbar-logo" href="index.html"><img class="navbar-img" src="img/CG_Logo.png" alt=""></a>
+
+		<!-- Contact Us Button -->
+		<div class="container-fluid">
+			<button class="contact-us-button">CONTACT US</button>
+		</div>
+
+		<!-- Navigation -->
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+
+				<!-- Logo -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- <a href="#" class="navbar-brand">Corrao Group</a> -->
+				</div>
+
+				<!-- Menu Items -->
+				<div class="collapse navbar-collapse" id="mainNavBar">
+					<ul class="nav navbar-nav navbar-right">
+
+						<!-- Salesforce Dropdown -->
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">SALESFORCE <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="new_to_salesforce.html">New to Salesforce</a></li>
+								<li><a href="optimizing_salesforce.html">Optimizing Salesforce</a></li>
+								<li><a href="salesforce_expansion.html">Salesforce Expansion</a></li>
+							</ul>
+						</li>
+
+						<li><a href="solutions.html">SOLUTIONS</a></li>
+						<li><a href="about_us.html">ABOUT US</a></li>
+						<li><a href="giving_back.html">GIVING BACK</a></li>
+						<li><a href="blog.html">BLOG</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Header - Rotating Images -->
+		<div id="myCarousel" class="carousel slide">
+
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+
+			<div class="carousel-inner">
+
+				<div class="item active">
+					<div class="overlay"></div>
+					<img src="img/slider1.jpg" alt="" class="img-responsive">
+					<div class="container">
+						<div class="carousel-caption">
+							<div class="center-block">
+								<h1 class="carousel-heading">Salesforce Optimization</h1>
+								<h3 class="carousel-subheading">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+								<button class="carousel-button btn btn-default" type="button" name="button">READ MORE</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="item">
+					<div class="overlay"></div>
+					<img src="img/slider2.jpg" alt="" class="img-responsive">
+					<div class="container">
+						<div class="carousel-caption">
+							<div class="center-block">
+								<h1 class="carousel-heading">Heading</h1>
+								<h3 class="carousel-subheading">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+								<button class="carousel-button btn btn-default" type="button" name="button">READ MORE</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="item">
+					<div class="overlay"></div>
+					<img src="img/slider3.jpg" alt="" class="img-responsive">
+					<div class="container">
+						<div class="carousel-caption">
+							<div class="center-block">
+								<h1 class="carousel-heading">Heading</h1>
+								<h3 class="carousel-subheading">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+								<button class="carousel-button btn btn-default" type="button" name="button">READ MORE</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<a class="carousel-control left" href="#myCarousel" data-slide="prev">
+				<span class="icon-prev"></span>
+			</a>
+
+			<a class="carousel-control right" href="#myCarousel" data-slide="next">
+				<span class="icon-next"></span>
+			</a>
+		</div>
+
+		<!-- Live Images - 3 Flipping Cards -->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 flipcard-header-line"></div>
+				<div class="col-sm-4 text-center">
+					<h1 class="flipcard-header">Salesforce</h1>
+				</div>
+				<div class="col-sm-4 flipcard-header-line"></div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4 text-center">
+					<div class="flipcard-container" ontouchstart="this.classList.toggle('hover');">
+						<div class="flipcard">
+							<div class="front">
+								<img class="img-responsive center-block flipcard-image" src="img/person-logo.png" alt="" >
+								<h2 class="flipcard-caption">NEW TO SALESFORCE</h2>
+							</div>
+							<div class="back">
+								<p>In order to successfully grow and adopt your Salesforce instance company-wide, a solid foundation is required.</p>
+								<button class="flipcard-button">LEARN MORE</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-4 text-center">
+					<div class="flipcard-container" ontouchstart="this.classList.toggle('hover');">
+						<div class="flipcard">
+							<div class="front">
+								<img class="img-responsive center-block flipcard-image" src="img/speedometer-logo.png" alt="">
+								<h2 class="flipcard-caption">OPTIMIZING SALESFORCE</h2>
+							</div>
+							<div class="back">
+								<p>Once Salesforce has been adopted amongst your initial , it’s time to optimize your SF instance.</p>
+								<button class="flipcard-button">LEARN MORE</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-4 text-center">
+					<div class="flipcard-container" ontouchstart="this.classList.toggle('hover');">
+						<div class="flipcard">
+							<div class="front">
+								<img class="img-responsive center-block flipcard-image" src="img/globe-logo.png" alt="">
+								<h2 class="flipcard-caption">SALESFORCE EXPANSION</h2>
+							</div>
+							<div class="back">
+								<p>Grow your Salesforce company-wide to ensure ROI is exceeded, and business is better than ever. Utilize 3rd party solutions...</p>
+								<button class="flipcard-button">LEARN MORE</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- Salesforce Services -->
+		<div class="container-fluid service-container container-padding">
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<h1>Salesforce Services</h1>
+					<h4 class="service-subheader1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</h4>
+					<h4 class="service-subheader2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</h4>
+				</div>
+			</div>
+			<div class="container">
+
+				<div class="row service-row">
+					<div class="col-xs-4 service-zoom">
+						<img class="service-image .img-responsive center-block" src="img/placeholder.jpg" alt="">
+						<h3 class="text-center service-caption">Sales Cloud</h3>
+					</div>
+					<div class="col-xs-4 service-zoom">
+						<img class="service-image .img-responsive center-block" src="img/placeholder.jpg" alt="">
+						<h3 class="text-center service-caption">Service Cloud</h3>
+					</div>
+					<div class="col-xs-4 service-zoom">
+						<img class="service-image .img-responsive center-block" src="img/placeholder.jpg" alt="">
+						<h3 class="text-center service-caption">Pardot</h3>
+					</div>
+				</div>
+
+				<div class="row service-row">
+					<div class="col-xs-4 service-zoom">
+						<img class="service-image .img-responsive center-block" src="img/placeholder.jpg" alt="">
+						<h3 class="text-center service-caption">Community Cloud</h3>
+					</div>
+					<div class="col-xs-4 service-zoom">
+						<img class="service-image .img-responsive center-block" src="img/placeholder.jpg" alt="">
+						<h3 class="text-center service-caption">Salesforce CPQ</h3>
+					</div>
+					<div class="col-xs-4 service-zoom">
+						<img class="service-image .img-responsive center-block" src="img/placeholder.jpg" alt="">
+						<h3 class="text-center service-caption">Financial Services Cloud</h3>
+					</div>
+				</div>
+
+				<div class="row service-row">
+					<div class="col-xs-4 service-zoom">
+						<img class="service-image .img-responsive center-block" src="img/placeholder.jpg" alt="">
+						<h3 class="text-center service-caption">SalesforceIQ</h3>
+					</div>
+					<div class="col-xs-4 service-zoom">
+						<img class="service-image .img-responsive center-block" src="img/placeholder.jpg" alt="">
+						<h3 class="text-center service-caption">Wave Apps</h3>
+					</div>
+					<div class="col-xs-4 service-zoom">
+						<img class="service-image .img-responsive center-block" src="img/placeholder.jpg" alt="">
+						<h3 class="text-center service-caption">Force.com</h3>
+					</div>
+				</div>
+
+				<div class="row service-row">
+					<div class="col-xs-4 service-zoom">
+						<img class="service-image .img-responsive center-block" src="img/placeholder.jpg" alt="">
+						<h3 class="text-center service-caption">Analytics Cloud</h3>
+					</div>
+					<div class="col-xs-4 service-zoom">
+						<img class="service-image .img-responsive center-block" src="img/placeholder.jpg" alt="">
+						<h3 class="text-center service-caption">Chatter</h3>
+					</div>
+					<div class="col-xs-4 service-zoom">
+						<img class="service-image .img-responsive center-block" src="img/placeholder.jpg" alt="">
+						<h3 class="text-center service-caption">Desk.com</h3>
+					</div>
+				</div>
+
+				<div class="row service-row">
+					<div class="col-sm-12 service-zoom">
+						<img class="service-image .img-responsive center-block" src="img/placeholder.jpg" alt="">
+						<h3 class="text-center service-caption">Heroku</h3>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- Our Customers -->
+		<div class="container container-padding">
+			<h1 class="text-center">Our Customers</h1>
+			<div class="row">
+				<div class="col-sm-12">
+					<img class="img-responsive center-block our-customers-image" src="img/placeholder-large.jpg" alt="">
+				</div>
+			</div>
+			<h2 class="text-center">Salesforce Footprint</h2>
+			<p class="text-center">uis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velr</p>
+			<p class="text-center"> occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, seorem ipsum dolor sit amet, consect sint</p>
+		</div>
+		<!-- Footer -->
+		<footer>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-4">
+						<h6>Salesforce</h6>
+						<ul class="list-unstyled">
+							<li><a href="#"></a>New to Salesforce</li>
+							<li><a href="#"></a>Optimizing Salesforce</li>
+							<li><a href="#"></a>Salesforce Expansion</li>
+						</ul>
+					</div>
+
+					<div class="col-sm-2">
+						<h6>Solutions</h6>
+						<ul class="list-unstyled">
+							<li><a href="#"></a>EZ-AR</li>
+						</ul>
+					</div>
+
+
+					<div class="col-sm-2">
+						<h6>About Us</h6>
+					</div>
+
+					<div class="col-sm-2">
+						<h6>Giving Back</h6>
+					</div>
+
+					<div class="col-sm-2">
+						<h6>Blog</h6>
+					</div>
+
+				</div>
+			</div>
+		</footer>
+
+		<!-- Scripts -->
+		<!-- JQuery CDN -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</body>
+</html>
