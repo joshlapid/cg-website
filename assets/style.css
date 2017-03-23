@@ -5,7 +5,8 @@ h1 {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 4vw;
-  margin-top: 40px; }
+  margin-top: 40px;
+  margin-bottom: 40px; }
 
 h2 {
   font-family: "Roboto", sans-serif;
@@ -119,9 +120,6 @@ h2 {
 .flipcard-container {
   perspective: 1000px; }
 
-.flipcard-header {
-  margin-bottom: 40px; }
-
 .flipcard-header-line {
   height: 6vw;
   border-bottom: 1px solid black; }
@@ -180,6 +178,18 @@ h2 {
   transform: rotateY(180deg);
   background-color: #5798d0;
   color: white; }
+
+.flipcard-mobile-container .row > .col-xs-4 {
+  background-color: #337ab7;
+  height: 35vw;
+  border: 3px solid white;
+  padding: 7vw 10px; }
+.flipcard-mobile-container .flipcard-image {
+  width: 10vw; }
+.flipcard-mobile-container .flipcard-caption {
+  color: white;
+  font-size: 3vw;
+  letter-spacing: 2px; }
 
 .service-container {
   background-color: #eff5fa; }
@@ -263,6 +273,11 @@ footer {
   .back {
     padding: 70px 30px; } }
 @media (max-width: 767px) {
+  h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 6vw; }
+
   .navbar-logo {
     background-size: cover;
     background-position: center center;
@@ -283,6 +298,15 @@ footer {
     font-size: 2.5vw; }
 
   .flipcard-header-line {
+    display: none; }
+
+  .flipcard-row {
+    display: none; }
+
+  .flipcard-image {
+    width: 60px; } }
+@media (min-width: 767px) {
+  .flipcard-mobile-container {
     display: none; } }
 @media (max-width: 425px) {
   h1 {
@@ -290,7 +314,8 @@ footer {
     font-size: 9vw; }
 
   .carousel-heading {
-    font-size: 8vw; }
+    font-size: 8vw;
+    margin-bottom: 10px; }
 
   .carousel-subheading {
     margin-top: 0px;
@@ -298,6 +323,16 @@ footer {
 
   .carousel-button {
     display: none; }
+
+  .flipcard-mobile-container .row > .col-xs-4 {
+    background-color: #337ab7;
+    height: 35vw;
+    border: 3px solid white;
+    padding: 20px 0px; }
+  .flipcard-mobile-container .flipcard-caption {
+    font-weight: normal;
+    letter-spacing: 2px;
+    font-size: 3.4vw; }
 
   .flipcard-header {
     margin-bottom: 20px; }
