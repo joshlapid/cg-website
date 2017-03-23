@@ -215,7 +215,6 @@ p {
   z-index: 2;
   transform: rotateY(0deg);
   background-color: $primary-color;
-  // border-bottom: 5px solid $primary-color;
   color: white;
 
   h2{
@@ -225,7 +224,7 @@ p {
 }
 
 .back {
-  padding: 70px 55px;
+  padding: 50px 55px;
   transform: rotateY(180deg);
   background-color: lighten($primary-color, 12);
   color: white;
@@ -391,7 +390,13 @@ footer {
 // Media Queries
 @media (max-width: 1200px) {
   .back {
-    padding: 70px 30px;
+    padding: 50px 30px;
+  }
+}
+
+@media (max-width: 992px) {
+  .back > p {
+    font-size: 12pt;
   }
 }
 
