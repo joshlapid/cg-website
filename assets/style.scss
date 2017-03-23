@@ -13,12 +13,16 @@ h1 {
   font-weight: bold;
   font-size: 4vw;
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
 }
 
 h2 {
   font-family: $primary-font;
   font-weight: bold;
+}
+
+p {
+  font-size: 14pt;
 }
 
 .container-padding {
@@ -318,6 +322,15 @@ h2 {
   padding-right: 20px;
 }
 
+// New to Salesforce Page
+.foundation-list {
+
+  li {
+    font-family: $primary-font;
+    font-size: 16pt;
+  }
+}
+
 // Optimizing Salesforce Page
 .optimizing-salesforce-container {
   background-color: rgba(0, 0, 0, 0.2);
@@ -343,13 +356,32 @@ h2 {
 
 // Footer
 footer {
-  background-color: rgba(0, 0, 0, 0.2);
+
+  .container-fluid {
+    background-color: darken($primary-color, 30);
+    padding: 50px;
+  }
 }
 
 .footer-icon {
-  width: 70px;
+  max-width: 70px;
+  width: 11vw;
   height: auto;
-  margin-left: 15px;
+  margin: 15px;
+}
+
+.footer-nav-links {
+  .row {
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  a {
+    font-family: $primary-font;
+    color: white;
+    letter-spacing: 2px;
+  }
 }
 
 // Media Queries
@@ -364,6 +396,10 @@ footer {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 6vw;
+  }
+
+  p {
+    font-size: 12pt;
   }
 
   .navbar-logo {
@@ -403,7 +439,7 @@ footer {
 
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   .flipcard-mobile-container {
     display: none;
   }
