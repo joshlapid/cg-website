@@ -187,6 +187,10 @@ p {
   color: black;
 }
 
+.flipcard-link {
+  color: white;
+}
+
 .front, .back {
   background-color: rgba(0, 0, 0, 0.1);
   height: 280px;
@@ -230,7 +234,7 @@ p {
 // Flipcard Mobile Section
 .flipcard-mobile-container {
 
-  .row > .col-xs-4 {
+  .row > a > .col-xs-4 {
     background-color: $primary-color;
     height: 35vw;
     border: 3px solid white;
