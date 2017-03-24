@@ -291,8 +291,8 @@ footer .container-fluid {
 .parallax-window {
   background-color: rgba(0, 0, 0, 0.7);
   margin-bottom: 60px;
-  padding-top: 40px;
-  padding-bottom: 60px; }
+  padding-top: 60px;
+  padding-bottom: 80px; }
 
 .parallax-content {
   color: white; }
