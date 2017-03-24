@@ -11,9 +11,7 @@ body {
 h1 {
   font-family: $primary-font;
   font-weight: bold;
-  font-size: 4vw;
-  margin-top: 40px;
-  margin-bottom: 25px;
+  font-size: 5vw;
 }
 
 h2 {
@@ -155,7 +153,7 @@ p {
 }
 
 .flipcard-header-line {
-  height: 6vw;
+  height: 4vw;
   border-bottom: 1px solid black;
 }
 
@@ -385,6 +383,18 @@ footer {
     color: white;
     letter-spacing: 2px;
   }
+}
+
+// Parallax
+.parallax-window {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 60px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.parallax-content {
+  color: white;
 }
 
 // Media Queries
