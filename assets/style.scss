@@ -12,6 +12,7 @@ h1 {
   font-family: $primary-font;
   font-weight: bold;
   font-size: 5vw;
+  margin-top: 0px;
 }
 
 h2 {
@@ -24,7 +25,7 @@ p {
 }
 
 .container-padding {
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 // Navbar
@@ -153,8 +154,13 @@ p {
 }
 
 .flipcard-header-line {
-  height: 4vw;
+  height: 6.5vw;
   border-bottom: 1px solid black;
+}
+
+.flipcard-header {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .flipcard-container:hover .flipcard, .flipcard-container.hover .flipcard {
@@ -383,13 +389,14 @@ footer {
 
 // Parallax
 .parallax-window {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   margin-bottom: 60px;
-  padding-top: 60px;
+  padding-top: 80px;
   padding-bottom: 80px;
 }
 
 .parallax-content {
+  text-shadow: 0px 0px 5px black;
   color: white;
 }
 
@@ -497,7 +504,7 @@ footer {
   }
 
   .flipcard-header {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   .service-image {

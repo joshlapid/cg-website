@@ -4,7 +4,8 @@ body {
 h1 {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-  font-size: 5vw; }
+  font-size: 5vw;
+  margin-top: 0px; }
 
 h2 {
   font-family: "Roboto", sans-serif;
@@ -14,7 +15,7 @@ p {
   font-size: 14pt; }
 
 .container-padding {
-  padding-bottom: 40px; }
+  padding-bottom: 60px; }
 
 .navbar {
   margin-bottom: 0px;
@@ -122,8 +123,12 @@ p {
   perspective: 1000px; }
 
 .flipcard-header-line {
-  height: 4vw;
+  height: 6.5vw;
   border-bottom: 1px solid black; }
+
+.flipcard-header {
+  margin-top: 40px;
+  margin-bottom: 40px; }
 
 .flipcard-container:hover .flipcard, .flipcard-container.hover .flipcard {
   transform: rotateY(180deg); }
@@ -286,12 +291,13 @@ footer .container-fluid {
   letter-spacing: 2px; }
 
 .parallax-window {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   margin-bottom: 60px;
-  padding-top: 60px;
+  padding-top: 80px;
   padding-bottom: 80px; }
 
 .parallax-content {
+  text-shadow: 0px 0px 5px black;
   color: white; }
 
 @media (max-width: 1200px) {
@@ -366,7 +372,7 @@ footer .container-fluid {
     font-size: 3.4vw; }
 
   .flipcard-header {
-    margin-bottom: 20px; }
+    margin-bottom: 40px; }
 
   .service-image {
     width: 60px; }
