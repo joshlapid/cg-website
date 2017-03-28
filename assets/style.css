@@ -17,6 +17,9 @@ p {
 .container-padding {
   padding-bottom: 60px; }
 
+.image-padding {
+  padding: 20px 0px; }
+
 .navbar {
   margin-bottom: 0px;
   border-radius: 0px;
@@ -304,6 +307,9 @@ p {
 
 .advanced-features-heading {
   margin-bottom: 20px; }
+
+#company-wide-container {
+  margin-bottom: 0px; }
 
 .about-enf-container {
   background-color: rgba(0, 0, 0, 0.2);
