@@ -290,13 +290,16 @@ p {
   width: 100%; }
 
 .our-services-container {
-  background-color: rgba(0, 0, 0, 0.2);
   padding: 10px 40px; }
 
 .contact-us-form {
   background-color: #337ab7;
+  border: 1px solid white;
   padding-bottom: 10px;
   padding-right: 20px; }
+
+.col-form-label {
+  color: white; }
 
 .foundation-list li {
   font-family: "Roboto", sans-serif;

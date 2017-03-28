@@ -364,14 +364,18 @@ p {
 
 // Our Services Container
 .our-services-container {
-  background-color: rgba(0, 0, 0, 0.2);
   padding: 10px 40px;
 }
 
 .contact-us-form {
   background-color: $primary-color;
+  border: 1px solid white;
   padding-bottom: 10px;
   padding-right: 20px;
+}
+
+.col-form-label {
+  color: white;
 }
 
 // New to Salesforce Page
