@@ -20,6 +20,21 @@ p {
 .image-padding {
   padding: 20px 0px; }
 
+.default-button {
+  background-color: #5798d0;
+  border: 2px solid white;
+  padding: 10px 20px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  transition: background .25 ease;
+  -moz-transition: background .25s ease;
+  -webkit-transition: background .25s ease; }
+
+.default-button:hover {
+  background-color: white;
+  color: black; }
+
 .navbar {
   margin-bottom: 0px;
   border-radius: 0px;
@@ -176,20 +191,6 @@ p {
 
 .flipcard-image {
   max-width: 90px; }
-
-.flipcard-button {
-  background-color: #5798d0;
-  border: 2px solid white;
-  padding: 10px 20px;
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 1px;
-  transition: background .25 ease;
-  -moz-transition: background .25s ease;
-  -webkit-transition: background .25s ease; }
-
-.flipcard-button:hover {
-  background-color: white;
-  color: black; }
 
 .flipcard-link {
   color: white; }

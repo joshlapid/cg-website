@@ -32,6 +32,23 @@ p {
   padding: 20px 0px;
 }
 
+.default-button {
+  background-color: lighten($primary-color, 12);
+  border: 2px solid white;
+  padding: 10px 20px;
+  color: white;
+  font-family: $primary-font;
+  letter-spacing: 1px;
+  transition: background .25 ease;
+  -moz-transition: background .25s ease;
+  -webkit-transition: background .25s ease;
+}
+
+.default-button:hover {
+  background-color: white;
+  color: black;
+}
+
 // Navbar
 .navbar {
   margin-bottom: 0px;
@@ -218,22 +235,6 @@ p {
 
 .flipcard-image {
   max-width: 90px;
-}
-
-.flipcard-button {
-  background-color: lighten($primary-color, 12);
-  border: 2px solid white;
-  padding: 10px 20px;
-  font-family: $primary-font;
-  letter-spacing: 1px;
-  transition: background .25 ease;
-  -moz-transition: background .25s ease;
-  -webkit-transition: background .25s ease;
-}
-
-.flipcard-button:hover {
-  background-color: white;
-  color: black;
 }
 
 .flipcard-link {
