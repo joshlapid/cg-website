@@ -302,6 +302,9 @@ p {
 .optimizing-salesforce-container {
   background-color: rgba(0, 0, 0, 0.2); }
 
+.advanced-features-heading {
+  margin-bottom: 20px; }
+
 .about-enf-container {
   background-color: rgba(0, 0, 0, 0.2);
   padding-top: 40px; }
