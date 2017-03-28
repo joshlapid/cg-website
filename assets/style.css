@@ -65,9 +65,6 @@ p {
   background-color: white;
   color: black; }
 
-.sidebar-nav {
-  padding: 9px 0; }
-
 .dropdown-menu .sub-menu {
   left: 100%;
   position: absolute;
@@ -319,13 +316,6 @@ p {
 
 #company-wide-container {
   margin-bottom: 0px; }
-
-.about-enf-container {
-  background-color: rgba(0, 0, 0, 0.2);
-  padding-top: 40px; }
-
-.how-cg-container {
-  background-color: rgba(0, 0, 0, 0.2); }
 
 footer .container-fluid {
   background-color: #122a3f;
