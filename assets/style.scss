@@ -591,6 +591,8 @@ footer {
 
   .flipcard-mobile-container {
 
+    padding-bottom: 1px;   
+
     .row > .col-xs-4 {
       background-color: $primary-color;
       height: 35vw;
@@ -606,8 +608,7 @@ footer {
   }
 
   .flipcard-header {
-    margin-bottom: 20px;
-    margin-top: 20px;
+    display: none;
   }
 
   .service-image {

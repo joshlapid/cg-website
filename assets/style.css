@@ -441,19 +441,20 @@ footer .container-fluid {
   .carousel-button {
     display: none; }
 
-  .flipcard-mobile-container .row > .col-xs-4 {
-    background-color: #337ab7;
-    height: 35vw;
-    border: 3px solid white;
-    padding: 20px 0px; }
-  .flipcard-mobile-container .flipcard-caption {
-    font-weight: normal;
-    letter-spacing: 2px;
-    font-size: 3.4vw; }
+  .flipcard-mobile-container {
+    padding-bottom: 1px; }
+    .flipcard-mobile-container .row > .col-xs-4 {
+      background-color: #337ab7;
+      height: 35vw;
+      border: 3px solid white;
+      padding: 20px 0px; }
+    .flipcard-mobile-container .flipcard-caption {
+      font-weight: normal;
+      letter-spacing: 2px;
+      font-size: 3.4vw; }
 
   .flipcard-header {
-    margin-bottom: 20px;
-    margin-top: 20px; }
+    display: none; }
 
   .service-image {
     width: 60px; }
