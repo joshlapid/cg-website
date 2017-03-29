@@ -14,6 +14,9 @@ h2 {
 p {
   font-size: 14pt; }
 
+.container-fluid {
+  margin-bottom: 60px; }
+
 .container-padding {
   padding-bottom: 60px; }
 
@@ -40,6 +43,9 @@ p {
   border-radius: 0px;
   border: 0px solid white;
   box-shadow: inset 0 0px 0 rgba(255, 255, 255, 0.15), 0 3px 5px rgba(0, 0, 0, 0.075); }
+
+.navbar-container {
+  margin-bottom: 0px !important; }
 
 .navbar-default {
   background-color: white;
@@ -288,7 +294,8 @@ p {
   width: 100%; }
 
 .our-services-container {
-  padding: 10px 40px; }
+  padding: 10px 40px;
+  margin-bottom: 0px; }
 
 .contact-us-form {
   background-color: #337ab7;
@@ -337,8 +344,24 @@ footer .container-fluid {
   color: white;
   letter-spacing: 2px; }
 
+.footer-image {
+  margin-bottom: 10px;
+  height: 30px;
+  float: left; }
+
+.social-media-logo {
+  float: right;
+  height: 30px;
+  margin: 5px; }
+
+.rights-text {
+  background-color: #122a3f;
+  font-size: 10pt;
+  color: grey;
+  margin-bottom: 0px;
+  padding: 5px; }
+
 .parallax-window {
-  margin-bottom: 60px;
   padding-top: 80px;
   padding-bottom: 80px; }
 
@@ -436,7 +459,10 @@ footer .container-fluid {
     width: 60px; }
 
   .service-caption {
-    font-size: 12px; } }
+    font-size: 12px; }
+
+  .social-media-logo, .footer-image {
+    float: none; } }
 /*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */
