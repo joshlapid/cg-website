@@ -73,13 +73,13 @@ p {
   background-position: center center;
   background-repeat: no-repeat;
   position: absolute;
-  top: 20px;
+  top: 30px;
   left: 15px;
   z-index: 1051;
 }
 
 .navbar-img {
-  height: 40px;
+  height: 35px;
   width: auto;
 }
 
@@ -541,6 +541,10 @@ footer {
     font-size: 9vw;
   }
 
+  .navbar-logo {
+    top: 10px;
+  }
+
   .carousel-heading {
     font-size: 8vw;
     margin-bottom: 10px;
@@ -572,7 +576,8 @@ footer {
   }
 
   .flipcard-header {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
 
   .service-image {
