@@ -245,6 +245,9 @@ p {
   font-size: 3vw;
   letter-spacing: 2px; }
 
+.service-container {
+  margin-bottom: 0px; }
+
 .animation-element {
   opacity: 0;
   position: relative; }
@@ -427,8 +430,11 @@ footer .container-fluid {
     margin-top: 20px;
     font-size: 9vw; }
 
+  .container-padding {
+    padding-bottom: 20px; }
+
   .navbar-logo {
-    top: 10px; }
+    top: 8px; }
 
   .carousel-heading {
     font-size: 8vw;
@@ -461,6 +467,9 @@ footer .container-fluid {
 
   .service-caption {
     font-size: 12px; }
+
+  .our-services-container {
+    margin-bottom: 0px; }
 
   .social-media-logo, .footer-image {
     float: none; } }
