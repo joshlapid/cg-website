@@ -338,7 +338,6 @@ footer .container-fluid {
   letter-spacing: 2px; }
 
 .parallax-window {
-  background-color: rgba(0, 0, 0, 0.8);
   margin-bottom: 60px;
   padding-top: 80px;
   padding-bottom: 80px; }
@@ -394,7 +393,6 @@ footer .container-fluid {
     padding-bottom: 40px; }
 
   .parallax-window {
-    background-color: rgba(0, 0, 0, 0.8);
     margin-bottom: 20px;
     padding-top: 20px;
     padding-bottom: 40px; } }

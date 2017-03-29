@@ -446,10 +446,11 @@ footer {
 
 // Parallax
 .parallax-window {
-  background-color: rgba(0, 0, 0, 0.8);
+  // background-color: rgba(0, 0, 0, 0.8);
   margin-bottom: 60px;
   padding-top: 80px;
   padding-bottom: 80px;
+  // opacity: 0.5;
 }
 
 .parallax-content {
@@ -521,7 +522,6 @@ footer {
   }
 
   .parallax-window {
-    background-color: rgba(0, 0, 0, 0.8);
     margin-bottom: 20px;
     padding-top: 20px;
     padding-bottom: 40px;
