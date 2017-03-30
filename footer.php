@@ -49,6 +49,10 @@
 
   </div>
   <p class="text-right rights-text">All Rights Reserved &copy; 2017 Corrao Group</p>
+  <!-- <div class="">
+    <a href="#"  style="width: 100%; position: fixed; bottom: 0px; background-color: grey; text-align: center;">Contact Us</a>
+  </div> -->
+
 </footer>
 
 <!-- Scripts -->
