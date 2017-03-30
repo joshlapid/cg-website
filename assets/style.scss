@@ -140,6 +140,7 @@ p {
     left: -7px;
     top: 10px;
 }
+
 .navbar .sub-menu:after {
     border-top: 6px solid transparent;
     border-left: none;
@@ -286,6 +287,9 @@ p {
 }
 
 .back {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
   padding: 50px 55px;
   transform: rotateY(180deg);
   background-color: lighten($primary-color, 12);
@@ -418,18 +422,9 @@ p {
 }
 
 // Salesforce Expansion Page
-
 #company-wide-container {
   margin-bottom: 0px;
 }
-
-// About Us Page
-
-
-
-// Giving Back Page
-
-
 
 // Footer
 footer {
@@ -487,11 +482,8 @@ footer {
 
 // Parallax
 .parallax-window {
-  // background-color: rgba(0, 0, 0, 0.8);
-  // margin-bottom: 60px;
   padding-top: 80px;
   padding-bottom: 80px;
-  // opacity: 0.5;
 }
 
 .parallax-content {
@@ -650,7 +642,6 @@ footer {
   .our-services-container {
     margin-bottom: 0px;
   }
-
 
   .social-media-logo, .footer-image {
     float: none;

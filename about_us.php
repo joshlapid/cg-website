@@ -27,27 +27,32 @@
             <p class="text-center parallax-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
+
       </div>
     </div>
     <!-- Our Locations Image -->
     <div class="container container-padding">
+
       <div class="row">
         <div class="col-sm-12">
           <img src="img/placeholder-large.jpg" alt="" class="img-responsive center-block">
         </div>
       </div>
+
     </div>
 
     <!-- Our Services -->
     <div class="container-fluid our-services-container parallax-window" data-parallax="scroll" data-image-src="img/parallax-bg-2.jpg">
       <div class="container">
+
         <div class="row">
           <div class="col-sm-8">
             <h2 class="text-center parallax-content">Our Services</h2>
             <p class="parallax-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
           </div>
+
           <div class="col-sm-4 contact-us-form">
+
             <h2 class="text-center parallax-content">Contact Us</h2>
             <form action="">
 
@@ -83,6 +88,7 @@
 
             </form>
           </div>
+          
         </div>
       </div>
     </div>

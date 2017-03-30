@@ -16,6 +16,7 @@
 
 		<!-- Live Images - 3 Flipping Cards -->
 		<div class="container">
+
 			<div class="row">
 				<div class="col-sm-4 flipcard-header-line"></div>
 				<div class="col-sm-4 text-center">
@@ -23,6 +24,7 @@
 				</div>
 				<div class="col-sm-4 flipcard-header-line"></div>
 			</div>
+
 			<div class="row flipcard-row">
 				<div class="col-xs-4 text-center">
 					<div class="flipcard-container" ontouchstart="this.classList.toggle('hover');">
@@ -74,8 +76,8 @@
 
 		<!-- Flipcard Mobile -->
 		<div class="container flipcard-mobile-container container-padding">
-			<div class="row">
 
+			<div class="row">
 				<a href="new_to_salesforce.html">
 					<div class="col-xs-4 text-center">
 						<img class="img-responsive center-block flipcard-image" src="img/person-logo.png" alt="" >
@@ -96,12 +98,13 @@
 						<h2 class="flipcard-caption">SALESFORCE EXPANSION</h2>
 					</div>
 				</a>
+		  </div>
 
-			</div>
 		</div>
 
 		<!-- Our Customers -->
 		<div class="container-fluid parallax-window our-customers-container" data-parallax="scroll" data-image-src="img/parallax-bg-1.jpg" >
+
 			<div class="parallax-overlay">
 				<h1 class="text-center parallax-content">Our Customers</h1>
 				<div class="row">
@@ -110,12 +113,15 @@
 					</div>
 				</div>
 			</div>
+
 		</div>
 
 		<!-- Salesforce Footprint -->
 		<div class="container container-padding">
+
 			<h1 class="text-center salesforce">Salesforce Footprint</h1>
 			<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      
 		</div>
 		<!-- Footer -->
     <?php include('footer.php'); ?>
