@@ -430,6 +430,10 @@ footer .container-fluid {
     margin-top: 20px;
     font-size: 9vw; }
 
+  .foundation-list > li {
+    font-family: "Roboto", sans-serif;
+    font-size: 12pt; }
+
   .container-padding {
     padding-bottom: 20px; }
 
