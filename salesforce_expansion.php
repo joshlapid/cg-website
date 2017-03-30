@@ -20,50 +20,8 @@
 
   </head>
   <body>
-    <!-- Logo -->
-	  <a class="navbar-logo" href="index.html"><img class="navbar-img" src="img/CorraoGroup_Logo_4C_Transp.png" alt=""></a>
-
-    <!-- Contact Us Button -->
-		<div class="container-fluid navbar-container">
-			<button class="contact-us-button">CONTACT US</button>
-		</div>
-
     <!-- Navigation -->
-		<nav class="navbar navbar-default">
-			<div class="container-fluid navbar-container">
-
-				<!-- Logo -->
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<!-- <a href="#" class="navbar-brand">Corrao Group</a> -->
-				</div>
-
-				<!-- Menu Items -->
-				<div class="collapse navbar-collapse" id="mainNavBar">
-					<ul class="nav navbar-nav navbar-right">
-
-						<!-- Salesforce Dropdown -->
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">SALESFORCE <span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="new_to_salesforce.html">New to Salesforce</a></li>
-								<li><a href="optimizing_salesforce.html">Optimizing Salesforce</a></li>
-								<li><a href="salesforce_expansion.html">Salesforce Expansion</a></li>
-							</ul>
-						</li>
-
-						<li><a href="salesforce.html">SERVICES</a></li>
-						<li><a href="about_us.html">ABOUT US</a></li>
-						<li><a href="giving_back.html">GIVING BACK</a></li>
-						<li><a href="http://corraogroup.com/blog/">BLOG</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
+    <?php include('navbar.php'); ?>
 
     <!-- Sales Force Expansion -->
     <div class="container-fluid container-padding parallax-window" data-parallax="scroll" data-image-src="img/parallax-bg-3.jpg">
@@ -166,67 +124,6 @@
         </div>
       </div>
     </div>
-    <footer>
 
-      <div class="container-fluid navbar-container">
-
-        <div class="row">
-          <div class="col-sm-6 text-center">
-              <a href="index.html"><img class="footer-image" src="img/CorraoGroup_Logo_4C_Transp.png" alt=""></a>
-          </div>
-          <div class="col-sm-6 text-center">
-              <a href="index.html"><img class="social-media-logo" src="img/Twitter_Logo_White_On_Blue.png" alt="" ></a>
-              <a href="index.html"><img class="social-media-logo" src="img/wordpress-logo-32.png" alt=""></a>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-12 text-center">
-            <img class="footer-icon" src="img/placeholder.jpg" alt="">
-            <img class="footer-icon" src="img/placeholder.jpg" alt="">
-            <img class="footer-icon" src="img/placeholder.jpg" alt="">
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-12 text-center footer-nav-links">
-
-            <div class="row">
-              <div class="col-sm-3">
-                <a href="#">HOME</a>
-              </div>
-              <div class="col-sm-3">
-                <a href="#">SALESFORCE</a>
-              </div>
-              <div class="col-sm-3">
-                <a href="#">ABOUT US</a>
-              </div>
-              <div class="col-sm-3">
-                <a href="#">CONTACT US</a>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-sm-12">
-                <a href="#">GIVING BACK</a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-      <p class="text-right rights-text">All Rights Reserved &copy; 2017 Corrao Group</p>
-    </footer>
-    <!-- Scripts -->
-		<!-- JQuery CDN -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<script src="assets/parallax.min.js" charset="utf-8"></script>
-		<script>
-		$('.parallax-window').parallax();
-		</script>
-		<script type="text/javascript" src="assets/scrollshow.js"></script>
-  </body>
-</html>
+    <!-- Footer -->
+    <?php include('footer.php'); ?>
