@@ -4,11 +4,11 @@
 
     <div class="row">
       <div class="col-sm-6 text-center">
-          <a href="index.html"><img class="footer-image" src="img/CorraoGroup_Logo_4C_Transp.png" alt=""></a>
+          <a href="index.php"><img class="footer-image" src="img/CorraoGroup_Logo_4C_Transp.png" alt=""></a>
       </div>
       <div class="col-sm-6 text-center">
-          <a href="index.html"><img class="social-media-logo" src="img/Twitter_Logo_White_On_Blue.png" alt="" ></a>
-          <a href="index.html"><img class="social-media-logo" src="img/wordpress-logo-32.png" alt=""></a>
+          <a href="https://twitter.com/Corrao_Group" target="_blank"><img class="social-media-logo" src="img/Twitter_Logo_White_On_Blue.png" alt="" ></a>
+          <a href="http://corraogroup.com/blog" target="_blank"><img class="social-media-logo" src="img/wordpress-logo-32.png" alt=""></a>
       </div>
     </div>
 

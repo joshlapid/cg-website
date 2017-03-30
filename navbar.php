@@ -36,7 +36,7 @@
         <li><a href="salesforce.php">SERVICES</a></li>
         <li><a href="about_us.php">ABOUT US</a></li>
         <li><a href="giving_back.php">GIVING BACK</a></li>
-        <li><a href="http://corraogroup.com/blog/">BLOG</a></li>
+        <li><a href="http://corraogroup.com/blog/" target="_blank">BLOG</a></li>
       </ul>
     </div>
   </div>

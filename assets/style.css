@@ -178,6 +178,9 @@ p {
 .carousel-indicators {
   display: none; }
 
+#carousel-mobile {
+  display: none; }
+
 .flipcard-container {
   perspective: 1000px; }
 
@@ -429,6 +432,12 @@ footer .container-fluid {
   h1 {
     margin-top: 20px;
     font-size: 9vw; }
+
+  #carousel-desktop {
+    display: none; }
+
+  #carousel-mobile {
+    display: block; }
 
   .foundation-list > li {
     font-family: "Roboto", sans-serif;
