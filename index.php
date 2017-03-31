@@ -33,8 +33,8 @@
 								<img class="img-responsive center-block flipcard-image" src="img/placeholder.jpg" alt="" >
 								<h2 class="flipcard-caption">NEW TO SALESFORCE</h2>
 							</div>
-							<div class="back">
-								<p>In order to successfully grow and adopt your Salesforce instance company-wide, a solid foundation is required.</p>
+							<div class="back left">
+								<p>Establish a foundation on Salesforce Cloud to ensure your business processes are well defined, transferred over, and optimized.</p>
 								<a class="flipcard-link" href="new_to_salesforce.php"><button class="default-button">LEARN MORE</button></a>
 							</div>
 						</div>
@@ -49,7 +49,7 @@
 								<h2 class="flipcard-caption">OPTIMIZING SALESFORCE</h2>
 							</div>
 							<div class="back">
-								<p>Once Salesforce has been adopted amongst your initial , it’s time to optimize your SF instance.</p>
+								<p>Have a solid Salesforce foundation and ready to take it to the next level? Leverage our team for advanced custom configuration and training. </p>
 								<a class="flipcard-link" href="optimizing_salesforce.php"><button class="default-button">LEARN MORE</button></a>
 							</div>
 						</div>
@@ -63,8 +63,8 @@
 								<img class="img-responsive center-block flipcard-image" src="img/placeholder.jpg" alt="">
 								<h2 class="flipcard-caption">SALESFORCE EXPANSION</h2>
 							</div>
-							<div class="back">
-								<p>Grow your Salesforce company-wide to ensure ROI is exceeded, and business is better than ever. Utilize 3rd party solutions...</p>
+							<div class="back right">
+								<p>Expand the Salesforce platform across all of your departments: Marketing, Service, Accounting, Operations, and more.</p>
 								<a class="flipcard-link" href="salesforce_expansion.php"><button class="default-button">LEARN MORE</button></a>
 							</div>
 						</div>
@@ -120,7 +120,8 @@
 		<div class="container container-padding">
 
 			<h1 class="text-center salesforce">Salesforce Footprint</h1>
-			<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p class="">With 15 years of being in business, our Salesforce footprint has reached over 720 national clients, completed 1300+ projects, and have comprised a team of cross-industry experts dedicated to helping clients exceed their Salesforce expectations. Our expertise of the Salesforce platform comes from being everyday power users of the products we implement and train on, giving us insight into the everyday needs of Salesforce customers.</p>
+			<p class="">Corrao Group will translate your company’s day to day activities into an implementation plan that spans the breadth of Salesforce capabilities. We identify and optimize the functionality that will make the greatest impact in each phase of your growth on the Salesforce platform.</p>
 
 		</div>
 

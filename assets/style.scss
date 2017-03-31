@@ -289,10 +289,14 @@ p {
 }
 
 .back {
-  padding: 40px 55px;
+  padding: 30px 55px;
   transform: rotateY(180deg);
   background-color: lighten($primary-color, 12);
   color: white;
+}
+
+.left, .right {
+  padding-top: 40px;
 }
 
 // Flipcard Mobile Section
@@ -507,13 +511,21 @@ footer {
 // Media Queries
 @media (max-width: 1200px) {
   .back {
-    padding: 50px 30px;
+    padding: 30px 30px;
   }
 }
 
 @media (max-width: 992px) {
+  .back {
+    padding-top: 15px;
+  }
+
   .back > p {
     font-size: 12pt;
+  }
+
+  .left, .right {
+    padding-top: 25px;
   }
 }
 
