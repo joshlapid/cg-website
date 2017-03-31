@@ -231,7 +231,7 @@ p {
     font-size: 2vw; }
 
 .back {
-  padding: 50px 55px;
+  padding: 40px 55px;
   transform: rotateY(180deg);
   background-color: #5798d0;
   color: white; }
@@ -239,7 +239,9 @@ p {
 .flipcard-mobile-container .row > a > .col-xs-4 {
   background-color: #337ab7;
   height: 35vw;
-  border: 3px solid white;
+  border-right: 6px solid white;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
   padding: 7vw 10px; }
 .flipcard-mobile-container .flipcard-image {
   width: 10vw; }
@@ -247,6 +249,8 @@ p {
   color: white;
   font-size: 3vw;
   letter-spacing: 2px; }
+.flipcard-mobile-container .flipcard-mobile-left {
+  border-left: 6px solid white !important; }
 
 .service-container {
   margin-bottom: 0px; }
@@ -322,9 +326,6 @@ p {
   font-family: "Roboto", sans-serif;
   font-size: 16pt; }
 
-.optimizing-salesforce-container {
-  background-color: rgba(0, 0, 0, 0.2); }
-
 .advanced-features-heading {
   margin-bottom: 20px; }
 
@@ -369,6 +370,13 @@ footer .container-fluid {
   color: grey;
   margin-bottom: 0px;
   padding: 5px; }
+
+.contact-us-button-mobile {
+  background-color: #337ab7;
+  padding: 10px 0px; }
+  .contact-us-button-mobile a {
+    color: white;
+    text-decoration: none; }
 
 .parallax-window {
   padding-top: 80px;
@@ -489,6 +497,9 @@ footer .container-fluid {
 
   .social-media-logo, .footer-image {
     float: none; } }
+@media (min-width: 425px) {
+  .contact-us-button-mobile {
+    display: none; } }
 /*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */

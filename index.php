@@ -30,7 +30,7 @@
 					<div class="flipcard-container" ontouchstart="this.classList.toggle('hover');">
 						<div class="flipcard">
 							<div class="front">
-								<img class="img-responsive center-block flipcard-image" src="img/person-logo.png" alt="" >
+								<img class="img-responsive center-block flipcard-image" src="img/placeholder.jpg" alt="" >
 								<h2 class="flipcard-caption">NEW TO SALESFORCE</h2>
 							</div>
 							<div class="back">
@@ -45,7 +45,7 @@
 					<div class="flipcard-container" ontouchstart="this.classList.toggle('hover');">
 						<div class="flipcard">
 							<div class="front">
-								<img class="img-responsive center-block flipcard-image" src="img/speedometer-logo.png" alt="">
+								<img class="img-responsive center-block flipcard-image" src="img/placeholder.jpg" alt="">
 								<h2 class="flipcard-caption">OPTIMIZING SALESFORCE</h2>
 							</div>
 							<div class="back">
@@ -60,7 +60,7 @@
 					<div class="flipcard-container" ontouchstart="this.classList.toggle('hover');">
 						<div class="flipcard">
 							<div class="front">
-								<img class="img-responsive center-block flipcard-image" src="img/globe-logo.png" alt="">
+								<img class="img-responsive center-block flipcard-image" src="img/placeholder.jpg" alt="">
 								<h2 class="flipcard-caption">SALESFORCE EXPANSION</h2>
 							</div>
 							<div class="back">
@@ -79,22 +79,22 @@
 
 			<div class="row">
 				<a href="new_to_salesforce.html">
-					<div class="col-xs-4 text-center">
-						<img class="img-responsive center-block flipcard-image" src="img/person-logo.png" alt="" >
+					<div class="col-xs-4 text-center flipcard-mobile-left">
+						<img class="img-responsive center-block flipcard-image" src="img/placeholder.jpg" alt="" >
 						<h2 class="flipcard-caption">NEW TO SALESFORCE</h2>
 					</div>
 				</a>
 
 				<a href="optimizing_salesforce.html">
 					<div class="col-xs-4 text-center">
-						<img class="img-responsive center-block flipcard-image" src="img/speedometer-logo.png" alt="">
+						<img class="img-responsive center-block flipcard-image" src="img/placeholder.jpg" alt="">
 						<h2 class="flipcard-caption">OPTIMIZING SALESFORCE</h2>
 					</div>
 				</a>
 
 				<a href="salesforce_expansion.html">
-					<div class="col-xs-4 text-center">
-						<img class="img-responsive center-block flipcard-image" src="img/globe-logo.png" alt="">
+					<div class="col-xs-4 text-center flipcard-mobile-right">
+						<img class="img-responsive center-block flipcard-image" src="img/placeholder.jpg" alt="">
 						<h2 class="flipcard-caption">SALESFORCE EXPANSION</h2>
 					</div>
 				</a>

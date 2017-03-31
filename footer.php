@@ -52,7 +52,7 @@
   <p class="text-right rights-text">All Rights Reserved &copy; 2017 Corrao Group</p>
 
   <div class="navbar-default navbar-fixed-bottom">
-      <div class="container text-center">
+      <div class="container text-center contact-us-button-mobile">
         <a href="#">CONTACT US</a>
       </div>
   </div>
