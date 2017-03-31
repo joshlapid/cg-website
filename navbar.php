@@ -1,5 +1,5 @@
 <!-- Logo -->
-<a class="navbar-logo" href="index.php"><img class="navbar-img" src="img/CorraoGroup_Logo_4C_Transp.png" alt=""></a>
+<a class="navbar-logo" href="index.php"><img class="navbar-img" src="img/CorraoGroup_Logob.png" alt=""></a>
 
 <!-- Contact Us Button -->
 <div class="container-fluid navbar-container">

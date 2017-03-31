@@ -60,7 +60,7 @@ p {
   background-position: center center;
   background-repeat: no-repeat;
   position: absolute;
-  top: 30px;
+  top: 25px;
   left: 15px;
   z-index: 1051; }
 
@@ -185,6 +185,8 @@ p {
   perspective: 1000px; }
 
 .flipcard-header-line {
+  min-height: 70px;
+  max-height: 90px;
   height: 6.5vw;
   border-bottom: 1px solid black; }
 
@@ -486,6 +488,7 @@ footer .container-fluid {
   .flipcard-header {
     display: none; }
 
+  .flipcard-header-line
   .service-image {
     width: 60px; }
 
@@ -496,7 +499,10 @@ footer .container-fluid {
     margin-bottom: 0px; }
 
   .social-media-logo, .footer-image {
-    float: none; } }
+    float: none; }
+
+  .rights-text {
+    margin-bottom: 39px; } }
 @media (min-width: 425px) {
   .contact-us-button-mobile {
     display: none; } }

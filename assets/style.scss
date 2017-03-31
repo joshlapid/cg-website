@@ -81,7 +81,7 @@ p {
   background-position: center center;
   background-repeat: no-repeat;
   position: absolute;
-  top: 30px;
+  top: 25px;
   left: 15px;
   z-index: 1051;
 }
@@ -229,6 +229,8 @@ p {
 }
 
 .flipcard-header-line {
+  min-height: 70px;
+  max-height: 90px;
   height: 6.5vw;
   border-bottom: 1px solid black;
 }
@@ -641,6 +643,8 @@ footer {
     display: none;
   }
 
+  .flipcard-header-line
+
   .service-image {
     width: 60px;
   }
@@ -655,6 +659,10 @@ footer {
 
   .social-media-logo, .footer-image {
     float: none;
+  }
+
+  .rights-text {
+    margin-bottom: 39px;
   }
 }
 

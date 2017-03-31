@@ -4,7 +4,7 @@
 
     <div class="row">
       <div class="col-sm-6 text-center">
-          <a href="index.php"><img class="footer-image" src="img/CorraoGroup_Logo_4C_Transp.png" alt=""></a>
+          <a href="index.php"><img class="footer-image" src="img/CorraoGroup_Logob.png" alt=""></a>
       </div>
       <div class="col-sm-6 text-center">
           <a href="https://twitter.com/Corrao_Group" target="_blank"><img class="social-media-logo" src="img/Twitter_Logo_White_On_Blue.png" alt="" ></a>
@@ -53,7 +53,7 @@
 
   <div class="navbar-default navbar-fixed-bottom">
       <div class="container text-center contact-us-button-mobile">
-        <a href="#">CONTACT US</a>
+        <a href="#contact-us">CONTACT US</a>
       </div>
   </div>
 

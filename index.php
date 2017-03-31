@@ -18,11 +18,11 @@
 		<div class="container">
 
 			<div class="row">
-				<div class="col-sm-4 flipcard-header-line"></div>
-				<div class="col-sm-4 text-center">
+				<div class="col-sm-3 flipcard-header-line"></div>
+				<div class="col-sm-6 text-center">
 					<h1 class="flipcard-header">Salesforce</h1>
 				</div>
-				<div class="col-sm-4 flipcard-header-line"></div>
+				<div class="col-sm-3 flipcard-header-line"></div>
 			</div>
 
 			<div class="row flipcard-row">
@@ -35,7 +35,7 @@
 							</div>
 							<div class="back">
 								<p>In order to successfully grow and adopt your Salesforce instance company-wide, a solid foundation is required.</p>
-								<a class="flipcard-link" href="new_to_salesforce.html"><button class="default-button">LEARN MORE</button></a>
+								<a class="flipcard-link" href="new_to_salesforce.php"><button class="default-button">LEARN MORE</button></a>
 							</div>
 						</div>
 					</div>
@@ -50,7 +50,7 @@
 							</div>
 							<div class="back">
 								<p>Once Salesforce has been adopted amongst your initial , it’s time to optimize your SF instance.</p>
-								<a class="flipcard-link" href="optimizing_salesforce.html"><button class="default-button">LEARN MORE</button></a>
+								<a class="flipcard-link" href="optimizing_salesforce.php"><button class="default-button">LEARN MORE</button></a>
 							</div>
 						</div>
 					</div>
@@ -65,7 +65,7 @@
 							</div>
 							<div class="back">
 								<p>Grow your Salesforce company-wide to ensure ROI is exceeded, and business is better than ever. Utilize 3rd party solutions...</p>
-								<a class="flipcard-link" href="salesforce_expansion.html"><button class="default-button">LEARN MORE</button></a>
+								<a class="flipcard-link" href="salesforce_expansion.php"><button class="default-button">LEARN MORE</button></a>
 							</div>
 						</div>
 					</div>
@@ -78,21 +78,21 @@
 		<div class="container flipcard-mobile-container container-padding">
 
 			<div class="row">
-				<a href="new_to_salesforce.html">
+				<a href="new_to_salesforce.php">
 					<div class="col-xs-4 text-center flipcard-mobile-left">
 						<img class="img-responsive center-block flipcard-image" src="img/placeholder.jpg" alt="" >
 						<h2 class="flipcard-caption">NEW TO SALESFORCE</h2>
 					</div>
 				</a>
 
-				<a href="optimizing_salesforce.html">
+				<a href="optimizing_salesforce.php">
 					<div class="col-xs-4 text-center">
 						<img class="img-responsive center-block flipcard-image" src="img/placeholder.jpg" alt="">
 						<h2 class="flipcard-caption">OPTIMIZING SALESFORCE</h2>
 					</div>
 				</a>
 
-				<a href="salesforce_expansion.html">
+				<a href="salesforce_expansion.php">
 					<div class="col-xs-4 text-center flipcard-mobile-right">
 						<img class="img-responsive center-block flipcard-image" src="img/placeholder.jpg" alt="">
 						<h2 class="flipcard-caption">SALESFORCE EXPANSION</h2>

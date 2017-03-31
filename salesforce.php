@@ -33,7 +33,7 @@
 						<h3 class="text-center service-caption">Sales Cloud</h3>
 					</div>
 					<div class="col-xs-4 service-zoom">
-						<img class="service-image .img-responsive center-block" src="img/placeholder.jpg" alt="">
+						<img class="service-image img-responsive center-block" src="img/placeholder.jpg" alt="">
 						<h3 class="text-center service-caption">Service Cloud</h3>
 					</div>
 					<div class="col-xs-4 service-zoom">
@@ -88,7 +88,7 @@
 				</div>
 
 				<div class="row service-row animation-element slide-left">
-					<div class="col-sm-12 service-zoom">
+					<div class="col-xs-4 col-xs-offset-4 col service-zoom">
 						<img class="service-image img-responsive center-block" src="img/placeholder.jpg" alt="">
 						<h3 class="text-center service-caption">Heroku</h3>
 					</div>
@@ -107,7 +107,7 @@
             <p class="parallax-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
 
-          <div class="col-sm-4 contact-us-form">
+          <div id="contact-us" class="col-sm-4 contact-us-form">
             <h2 class="text-center parallax-content">Contact Us</h2>
             <form action="">
 
