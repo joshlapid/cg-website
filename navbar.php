@@ -1,9 +1,9 @@
 <!-- Logo -->
-<a class="navbar-logo" href="index.php"><img class="navbar-img" src="img/CorraoGroup_Logob.png" alt=""></a>
+<a class="navbar-logo" href="index.php"><img class="navbar-img" src="img/Corrao_Group_Logo_Resized.png" alt=""></a>
 
 <!-- Contact Us Button -->
 <div class="container-fluid navbar-container">
-  <button class="contact-us-button navbar-container">CONTACT US</button>
+  <button class="contact-us-button navbar-container" type="button">CONTACT US</button>
 </div>
 
 <nav class="navbar navbar-default">

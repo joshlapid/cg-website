@@ -4,7 +4,7 @@
 
     <div class="row">
       <div class="col-sm-6 text-center">
-          <a href="index.php"><img class="footer-image" src="img/CorraoGroup_Logob.png" alt=""></a>
+          <a href="index.php"><img class="footer-image" src="img/Corrao_Group_Logo_Resized.png" alt=""></a>
       </div>
       <div class="col-sm-6 text-center">
           <a href="https://twitter.com/Corrao_Group" target="_blank"><img class="social-media-logo" src="img/Twitter_Logo_White_On_Blue.png" alt="" ></a>
@@ -53,7 +53,7 @@
 
   <div class="navbar-default navbar-fixed-bottom">
       <div class="container text-center contact-us-button-mobile">
-        <a href="#contact-us">CONTACT US</a>
+        <a class="contact-us-button-mobile" href="#contact-us">CONTACT US</a>
       </div>
   </div>
 
@@ -69,5 +69,6 @@
 $('.parallax-window').parallax();
 </script>
 <script type="text/javascript" src="assets/scrollshow.js"></script>
+<script type="text/javascript" src="assets/smooth-scroll.js"></script>
 </body>
 </html>
