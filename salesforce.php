@@ -6,7 +6,7 @@
     <?php include('navbar.php'); ?>
 
 		<!-- Services -->
-		<div class="container-fluid container-padding parallax-window" data-parallax="scroll" data-image-src="img/parallax-bg-1.jpg" >
+		<div class="container-fluid parallax-window" data-parallax="scroll" data-image-src="img/parallax-bg-1.jpg" >
 			<div class="container">
 
 				<div class="row">
@@ -87,7 +87,7 @@
 					</div>
 				</div>
 
-				<div class="row service-row animation-element slide-left">
+				<div class="row service-row animation-element slide-left" style="margin-bottom: 0px;">
 					<div class="col-xs-4 col-xs-offset-4 col service-zoom">
 						<img class="service-image img-responsive center-block" src="img/placeholder.jpg" alt="">
 						<h3 class="text-center service-caption">Heroku</h3>

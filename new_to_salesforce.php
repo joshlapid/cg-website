@@ -6,7 +6,7 @@
     <?php include('navbar.php'); ?>
 
     <!-- New to Salesforce -->
-    <div class="container-fluid container-padding parallax-window" data-parallax="scroll" data-image-src="img/parallax-bg-1.jpg">
+    <div class="container-fluid parallax-window" data-parallax="scroll" data-image-src="img/parallax-bg-1.jpg">
       <div class="container">
 
         <div class="row">
@@ -39,7 +39,7 @@
 
     <!-- Playing Your SF Foundation -->
 
-    <div class="container-fluid container-padding parallax-window" data-parallax="scroll" data-image-src="img/parallax-bg-1.jpg">
+    <div class="container-fluid parallax-window" data-parallax="scroll" data-image-src="img/parallax-bg-1.jpg">
       <div class="container">
 
         <div class="row">

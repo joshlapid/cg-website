@@ -33,14 +33,8 @@
       <div class="container">
 
         <div class="row">
-          <div class="col-sm-12">
-            <h1 class="text-center">Youtube Video</h1>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-12">
-            <img src="img/placeholder.jpg" alt="" class="img-responsive center-block">
+          <div class="col-sm-12 text-center">
+            <iframe id="enf-youtube-video" src="https://www.youtube.com/embed/p6IVautGbrc" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
 
