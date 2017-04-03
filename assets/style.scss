@@ -25,7 +25,8 @@ p {
 }
 
 .container-fluid {
-  margin-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .container-padding {
@@ -63,6 +64,8 @@ p {
 
 .navbar-container {
   margin-bottom: 0px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
 }
 
 .navbar-default {
@@ -510,6 +513,7 @@ footer {
 // Our Certifications
 .our-certifications-container {
   padding-bottom: 40px;
+  padding-top: 0px;
   margin-bottom: 0px;
 }
 
@@ -532,6 +536,11 @@ footer {
 }
 
 @media (max-width: 992px) {
+  .container-fluid {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
   .back {
     padding-top: 15px;
   }
@@ -595,8 +604,12 @@ footer {
     padding-bottom: 40px;
   }
 
+  .container-fluid {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
   .parallax-window {
-    margin-bottom: 20px;
     padding-top: 20px;
     padding-bottom: 40px;
   }

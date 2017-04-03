@@ -117,37 +117,38 @@
 		</div>
 
 		<!-- Salesforce Footprint -->
-		<div class="container container-padding">
+    <div class="container-fluid">
+  		<div class="container">
 
-			<h1 class="text-center salesforce">Salesforce Footprint</h1>
-			<p class="">With 15 years of being in business, our Salesforce footprint has reached over 720 national clients, completed 1300+ projects, and have comprised a team of cross-industry experts dedicated to helping clients exceed their Salesforce expectations. Our expertise of the Salesforce platform comes from being everyday power users of the products we implement and train on, giving us insight into the everyday needs of Salesforce customers.</p>
-			<p class="">Corrao Group will translate your company’s day to day activities into an implementation plan that spans the breadth of Salesforce capabilities. We identify and optimize the functionality that will make the greatest impact in each phase of your growth on the Salesforce platform.</p>
+  			<h1 class="text-center salesforce">Salesforce Footprint</h1>
+  			<p class="">With 15 years of being in business, our Salesforce footprint has reached over 720 national clients, completed 1300+ projects, and have comprised a team of cross-industry experts dedicated to helping clients exceed their Salesforce expectations. Our expertise of the Salesforce platform comes from being everyday power users of the products we implement and train on, giving us insight into the everyday needs of Salesforce customers.</p>
+  			<p class="">Corrao Group will translate your company’s day to day activities into an implementation plan that spans the breadth of Salesforce capabilities. We identify and optimize the functionality that will make the greatest impact in each phase of your growth on the Salesforce platform.</p>
 
-      <div class="row">
-        <div class="col-xs-12 text-center">
-          <h2>Our Certifications</h2>
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <h2>Our Certifications</h2>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-2 col-xs-offset-1">
-          <img class="img-responsive" src="img/placeholder.jpg" />
+        <div class="row">
+          <div class="col-xs-2 col-xs-offset-1">
+            <img class="img-responsive" src="img/placeholder.jpg" />
+          </div>
+          <div class="col-xs-2">
+            <img class="img-responsive" src="img/placeholder.jpg" />
+          </div>
+          <div class="col-xs-2">
+            <img class="img-responsive" src="img/placeholder.jpg" />
+          </div>
+          <div class="col-xs-2">
+            <img class="img-responsive" src="img/placeholder.jpg" />
+          </div>
+          <div class="col-xs-2">
+            <img class="img-responsive" src="img/placeholder.jpg" />
+          </div>
         </div>
-        <div class="col-xs-2">
-          <img class="img-responsive" src="img/placeholder.jpg" />
-        </div>
-        <div class="col-xs-2">
-          <img class="img-responsive" src="img/placeholder.jpg" />
-        </div>
-        <div class="col-xs-2">
-          <img class="img-responsive" src="img/placeholder.jpg" />
-        </div>
-        <div class="col-xs-2">
-          <img class="img-responsive" src="img/placeholder.jpg" />
-        </div>
-      </div>
 
-		</div>
-
+  		</div>
+    </div>
     <!-- Contact Us -->
     <?php include('contact_us.php'); ?>
 

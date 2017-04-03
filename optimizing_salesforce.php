@@ -24,30 +24,32 @@
       </div>
     </div>
     <!-- Advanced Features and Automation -->
-    <div class="container container-padding">
-
-      <div class="row">
-        <div class="col-sm-12">
-          <h1 class="text-center advanced-features-heading">Advanced Features and Automation</h1>
-        </div>
-      </div>
-
+    <div class="container-fluid">
       <div class="container">
 
         <div class="row">
-          <div class="col-sm-6">
-            <ul class="foundation-list">
-              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, exercitation.</li>
-              <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</li>
-              <li>Duis aute irure dolor in reprehenderit in  velit esse cillum dolore eu fugiat nulla pariatur.</li>
-              <li>Excepteur sint occaecat cupidatat non , sunt in  qui  deserunt mollit anim id est laborum.</li>
-            </ul>
-          </div>
-          <div class="col-sm-6">
-            <img src="img/placeholder-large.jpg" alt="" class="img-responsive">
+          <div class="col-sm-12">
+            <h1 class="text-center advanced-features-heading">Advanced Features and Automation</h1>
           </div>
         </div>
 
+        <div class="container">
+
+          <div class="row">
+            <div class="col-sm-6">
+              <ul class="foundation-list">
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, exercitation.</li>
+                <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</li>
+                <li>Duis aute irure dolor in reprehenderit in  velit esse cillum dolore eu fugiat nulla pariatur.</li>
+                <li>Excepteur sint occaecat cupidatat non , sunt in  qui  deserunt mollit anim id est laborum.</li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <img src="img/placeholder-large.jpg" alt="" class="img-responsive">
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
 
@@ -101,6 +103,9 @@
 
       </div>
     </div>
+
+    <!-- Our Certifications -->
+    <?php include('our_certifications.php'); ?>
 
     <!-- Footer -->
     <?php include('footer.php'); ?>

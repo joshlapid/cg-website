@@ -30,15 +30,18 @@
 
       </div>
     </div>
+    
     <!-- Our Locations Image -->
-    <div class="container container-padding">
+    <div class="container-fluid">
+      <div class="container">
 
-      <div class="row">
-        <div class="col-sm-12">
-          <img src="img/placeholder-large.jpg" alt="" class="img-responsive center-block">
+        <div class="row">
+          <div class="col-sm-12">
+            <img src="img/placeholder-large.jpg" alt="" class="img-responsive center-block">
+          </div>
         </div>
-      </div>
 
+      </div>
     </div>
 
     <!-- Our Services -->

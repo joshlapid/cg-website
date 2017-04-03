@@ -25,14 +25,16 @@
     </div>
 
     <!-- Image -->
-    <div class="container container-padding">
+    <div class="container-fluid">
+      <div class="container">
 
-      <div class="row">
-        <div class="col-sm-12">
-          <img class="img-responsive center-block" src="img/placeholder-large.jpg" alt="">
+        <div class="row">
+          <div class="col-sm-12">
+            <img class="img-responsive center-block" src="img/placeholder-large.jpg" alt="">
+          </div>
         </div>
-      </div>
 
+      </div>
     </div>
 
     <!-- Playing Your SF Foundation -->
@@ -55,29 +57,32 @@
       </div>
     </div>
 
-    <div class="container container-padding">
+    <!-- Requirements -->
+    <div class="container-fluid">
+      <div class="container">
 
-      <div class="row">
-        <div class="col-sm-12">
-          <h2 class="text-center">There are a few requirements we recommend you have when starting out:</h2>
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="text-center">There are a few requirements we recommend you have when starting out:</h2>
+          </div>
         </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <ol class="foundation-list">
+              <li><strong>Detailed business processes</strong><br/>For a painless transfer into Salesforce.</li>
+              <li><strong>Company-wide implementation plan</strong><br/>Multi-phased approach</li>
+              <li><strong>User adoption plan</strong><br/>Leveraging Executive Sponsorship</li>
+              <li><strong>Implementation partner</strong><br/>Identify a seasoned firm willing to invest time upfront.</li>
+            </ol>
+          </div>
+          <div class="col-sm-6 text-center vcenter">
+            <img id="requirements-image" src="img/placeholder-large.jpg" alt="" class="img-responsive">
+          </div>
+        </div>
+
       </div>
-
-      <div class="row">
-        <div class="col-sm-6">
-          <ol class="foundation-list">
-            <li><strong>Detailed business processes</strong><br/>For a painless transfer into Salesforce.</li>
-            <li><strong>Company-wide implementation plan</strong><br/>Multi-phased approach</li>
-            <li><strong>User adoption plan</strong><br/>Leveraging Executive Sponsorship</li>
-            <li><strong>Implementation partner</strong><br/>Identify a seasoned firm willing to invest time upfront.</li>
-          </ol>
-        </div>
-        <div class="col-sm-6 text-center vcenter">
-          <img id="requirements-image" src="img/placeholder-large.jpg" alt="" class="img-responsive">
-        </div>
-      </div>
-
-    </div>
+  </div>
 
     <!-- Our Services -->
     <div class="container-fluid our-services-container parallax-window" data-parallax="scroll" data-image-src="img/parallax-bg-1.jpg">

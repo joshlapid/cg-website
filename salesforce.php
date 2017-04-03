@@ -149,5 +149,8 @@
       </div>
     </div>
 
+    <!-- Our Certifications -->
+    <?php include('our_certifications.php'); ?>
+
 		<!-- Footer -->
     <?php include('footer.php'); ?>

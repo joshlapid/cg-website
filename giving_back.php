@@ -30,20 +30,22 @@
     </div>
 
     <!-- Youtube Video -->
-    <div class="container container-padding">
+    <div class="container-fluid">
+      <div class="container">
 
-      <div class="row">
-        <div class="col-sm-12">
-          <h1 class="text-center">Youtube Video</h1>
+        <div class="row">
+          <div class="col-sm-12">
+            <h1 class="text-center">Youtube Video</h1>
+          </div>
         </div>
-      </div>
 
-      <div class="row">
-        <div class="col-sm-12">
-          <img src="img/placeholder.jpg" alt="" class="img-responsive center-block">
+        <div class="row">
+          <div class="col-sm-12">
+            <img src="img/placeholder.jpg" alt="" class="img-responsive center-block">
+          </div>
         </div>
-      </div>
 
+      </div>
     </div>
 
     <!-- How CG is involved -->
@@ -66,14 +68,16 @@
     </div>
 
     <!-- Image -->
-    <div class="container container-padding">
+    <div class="container-fluid">
+      <div class="container">
 
-      <div class="row">
-        <div class="col-sm-12">
-          <img src="img/placeholder-large.jpg" alt="" class="img-responsive center-block">
+        <div class="row">
+          <div class="col-sm-12">
+            <img src="img/placeholder-large.jpg" alt="" class="img-responsive center-block">
+          </div>
         </div>
-      </div>
 
+      </div>
     </div>
 
     <!-- Our Services -->
