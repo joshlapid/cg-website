@@ -27,13 +27,20 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">SALESFORCE <span class="caret"></span></a>
           <ul class="dropdown-menu">
+            <li><a href="salesforce.php">Salesforce Services</a></li>
             <li><a href="new_to_salesforce.php">New to Salesforce</a></li>
             <li><a href="optimizing_salesforce.php">Optimizing Salesforce</a></li>
             <li><a href="salesforce_expansion.php">Salesforce Expansion</a></li>
           </ul>
         </li>
 
-        <li><a href="salesforce.php">SERVICES</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">SOLUTIONS <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://ezarsolutions.com/">EZ-AR</a></li>
+          </ul>
+        </li>
+
         <li><a href="about_us.php">ABOUT US</a></li>
         <li><a href="giving_back.php">GIVING BACK</a></li>
         <li><a href="http://corraogroup.com/blog/" target="_blank">BLOG</a></li>

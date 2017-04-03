@@ -17,7 +17,7 @@
 
         <div class="row">
           <div class="col-sm-12">
-            <p class="text-center parallax-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="text-center parallax-content">Salesforce is a powerful, company-wide business platform. Expanding your departmental use of Salesforce will provide maximum ROI and real-time visibility to key KPI’s and customer insight. Doing so provides your company with a real-time, 360 view of your prospects and customers, in addition to maximizing employee productivity.</p>
           </div>
         </div>
 
@@ -34,6 +34,12 @@
           </div>
         </div>
 
+        <div class="row">
+          <div class="col-sm-12">
+            <p>Salesforce adapts to its customers’ needs, making major updates to their system three times a year. It’s crucial to monitor those updates and make any necessary changes in your Salesforce instance. To stay competitive in today’s marketplace, business processes will change. Hiring a certified implementation partner ensure your Salesforce system adapts according to best practices.</p>
+          </div>
+        </div>
+
       </div>
     </div>
 
@@ -43,22 +49,18 @@
 
         <div class="row">
           <div class="col-sm-12">
-            <h1 class="text-center parallax-content container-padding">Salesforce - The Company Wide Platform</h1>
+            <h1 class="text-center parallax-content container-padding">Salesforce - Company Wide Development</h1>
           </div>
         </div>
 
         <div class="container">
 
           <div class="row">
-            <div class="col-sm-6">
-              <ul class="foundation-list parallax-content">
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, exercitation.</li>
-                <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</li>
-                <li>Duis aute irure dolor in reprehenderit in  velit esse cillum dolore eu fugiat nulla pariatur.</li>
-                <li>Excepteur sint occaecat cupidatat non , sunt in  qui  deserunt mollit anim id est laborum.</li>
-              </ul>
+            <div class="col-md-6">
+              <p class="parallax-content">There are numerous ways Salesforce can help your company grow and scale accordingly, you just need someone to show you the way. That’s where Corrao Group come in. Corrao Group’s knowledge of implementing Salesforce company-wide is second to none, not limiting ourselves to only know how the products function, but also how they can integrate together. </p>
+              <p class="parallax-content">With Corrao Group, you’ll receive the deep knowledge of a team that has completed more than 1,300 projects. A team that will translate your entire business processes into a long term Salesforce Expansion Plan, helping you identify and deploy the right functionality for the right moment in your Business Lifecycle. </p>
             </div>
-            <div class="col-sm-6">
+            <div class="col-md-6">
               <img src="img/placeholder-large.jpg" alt="" class="img-responsive">
             </div>
           </div>

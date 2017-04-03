@@ -30,7 +30,7 @@
 
       </div>
     </div>
-    
+
     <!-- Our Locations Image -->
     <div class="container-fluid">
       <div class="container">
@@ -95,6 +95,9 @@
         </div>
       </div>
     </div>
+
+    <!-- Our Certifications -->
+    <?php include('our_certifications.php'); ?>
 
     <!-- Footer -->
     <?php include('footer.php'); ?>

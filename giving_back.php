@@ -17,9 +17,8 @@
 
         <div class="row">
           <div class="col-sm-6">
-            <p class="parallax-content">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+            <p class="parallax-content">The Emilio Nares Foundation helps families navigate through their child’s journey with cancer. Their services include Knitting for Hope for families to share their own experiences, Financial Aid programs and a Resource Center to learn about the different types of cancer, treatments and more.</p>
+            <p class="parallax-content">Their flagship program, Ride with Emilio, provides free transportation for underprivileged children and their parents to and from the hospital for cancer-related appointments. Their goal is to bring Ride with Emilio to cities across the country. </p>
           </div>
           <div class="col-sm-6">
             <img src="img/placeholder-large.jpg" alt="" class="img-responsive">
@@ -54,13 +53,14 @@
 
         <div class="row">
           <div class="col-sm-12">
-            <h1 class="text-center parallax-content" style="color: white;">How CG is Involved?</h1>
+            <h1 class="text-center parallax-content" style="color: white;">Corrao's Group's Involvement</h1>
           </div>
         </div>
 
         <div class="row">
           <div class="col-sm-12">
-            <p class="text-center parallax-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="text-center parallax-content">“My company and I have been involved with ENF dating back to 2007. As part of Salesforce’s 1/1/1 Integrated Philanthropy, we provide business consulting and SF implementation and training free of charge. We are extremely privileged to work with Richard and Diane Nares, in addition to the entire Emilio Nares Foundation Staff. It is unacceptable having a child miss a cancer treatment due to lack of transportation”</p>
+            <p class="text-center parallax-content">- Jack Corrao, Corrao Group Managing Partner</p>
           </div>
         </div>
 
