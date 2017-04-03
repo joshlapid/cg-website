@@ -167,7 +167,6 @@ p {
 
 .item.next .carousel-caption {
   opacity: 0;
-  top: 50;
 }
 
 .carousel-caption {
@@ -299,7 +298,7 @@ p {
   color: white;
 }
 
-.left, .right {
+.flipcard-left, .flipcard-right {
   padding-top: 40px;
 }
 
@@ -444,8 +443,9 @@ p {
 }
 
 // Salesforce Expansion Page
-#company-wide-container {
-  margin-bottom: 0px;
+#company-wide-development {
+  color: lighten($primary-color, 15);
+  font-size: 3.5vw;
 }
 
 // Footer
@@ -551,7 +551,7 @@ footer {
     font-size: 12pt;
   }
 
-  .left, .right {
+  .flipcard-left, .flipcard-right {
     padding-top: 25px;
   }
 

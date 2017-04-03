@@ -11,7 +11,7 @@
 
         <div class="row">
           <div class="col-sm-12">
-            <h1 class="text-center parallax-content" style="color: white;">Salesforce Expansion</h1>
+            <h1 class="text-center parallax-content">Salesforce Expansion</h1>
           </div>
         </div>
 
@@ -49,7 +49,7 @@
 
         <div class="row">
           <div class="col-sm-12">
-            <h1 class="text-center parallax-content container-padding">Salesforce - Company Wide Development</h1>
+            <h1 class="text-center parallax-content">Salesforce<br/><span id="company-wide-development">Company Wide Development</span></h1>
           </div>
         </div>
 

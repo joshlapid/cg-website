@@ -33,7 +33,7 @@
 								<img class="img-responsive center-block flipcard-image" src="img/placeholder.jpg" alt="" >
 								<h2 class="flipcard-caption">NEW TO SALESFORCE</h2>
 							</div>
-							<div class="back left">
+							<div class="back flipcard-left">
 								<p>Establish a foundation on Salesforce Cloud to ensure your business processes are well defined, transferred over, and optimized.</p>
 								<a class="flipcard-link" href="new_to_salesforce.php"><button class="default-button">LEARN MORE</button></a>
 							</div>
@@ -63,7 +63,7 @@
 								<img class="img-responsive center-block flipcard-image" src="img/placeholder.jpg" alt="">
 								<h2 class="flipcard-caption">SALESFORCE EXPANSION</h2>
 							</div>
-							<div class="back right">
+							<div class="back flipcard-right">
 								<p>Expand the Salesforce platform across all of your departments: Marketing, Service, Accounting, Operations, and more.</p>
 								<a class="flipcard-link" href="salesforce_expansion.php"><button class="default-button">LEARN MORE</button></a>
 							</div>

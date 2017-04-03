@@ -132,8 +132,7 @@ p {
   opacity: .8; }
 
 .item.next .carousel-caption {
-  opacity: 0;
-  top: 50; }
+  opacity: 0; }
 
 .carousel-caption {
   position: absolute;
@@ -242,7 +241,7 @@ p {
   background-color: #5798d0;
   color: white; }
 
-.left, .right {
+.flipcard-left, .flipcard-right {
   padding-top: 40px; }
 
 .flipcard-mobile-container .row > a > .col-xs-4 {
@@ -347,8 +346,9 @@ p {
 .advanced-features-heading {
   margin-bottom: 20px; }
 
-#company-wide-container {
-  margin-bottom: 0px; }
+#company-wide-development {
+  color: #63a0d4;
+  font-size: 3.5vw; }
 
 footer .container-fluid {
   background-color: #122a3f;
@@ -423,7 +423,7 @@ footer .container-fluid {
   .back > p {
     font-size: 12pt; }
 
-  .left, .right {
+  .flipcard-left, .flipcard-right {
     padding-top: 25px; }
 
   .foundation-list {
