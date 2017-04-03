@@ -47,7 +47,7 @@
 
         <div class="row">
           <div class="col-sm-12">
-            <h1 class="text-center parallax-content" style="color: white;">Corrao's Group's Involvement</h1>
+            <h1 class="text-center parallax-content" style="color: white;">Corrao Group's Involvement</h1>
           </div>
         </div>
 

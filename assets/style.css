@@ -481,15 +481,15 @@ footer .container-fluid {
   .flipcard-mobile-container {
     display: none;
     padding-bottom: 1px; } }
-@media (max-width: 425px) {
-  h1 {
-    font-size: 9vw; }
-
+@media (max-width: 670px) {
   #carousel-desktop {
     display: none; }
 
   #carousel-mobile {
-    display: block; }
+    display: block; } }
+@media (max-width: 425px) {
+  h1 {
+    font-size: 9vw; }
 
   .foundation-list > li {
     font-family: "Roboto", sans-serif;

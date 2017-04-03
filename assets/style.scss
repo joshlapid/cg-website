@@ -633,17 +633,19 @@ footer {
   }
 }
 
-@media (max-width: 425px) {
-  h1 {
-    font-size: 9vw;
-  }
-
+@media(max-width: 670px) {
   #carousel-desktop {
     display: none;
   }
 
   #carousel-mobile {
     display: block;
+  }
+}
+
+@media (max-width: 425px) {
+  h1 {
+    font-size: 9vw;
   }
 
   .foundation-list>li {
