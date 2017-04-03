@@ -416,10 +416,21 @@ p {
 // New to Salesforce Page
 .foundation-list {
 
+  list-style-type: upper-roman;
+
   li {
     font-family: $primary-font;
     font-size: 16pt;
+    margin: 10px 0px;
   }
+
+  li > strong {
+    color: $primary-color;
+  }
+}
+
+#requirements-image {
+  padding-top: 20px;
 }
 
 // Optimizing Salesforce Page
@@ -496,6 +507,11 @@ footer {
   }
 }
 
+// Our Certifications
+.our-certifications-container {
+  padding-bottom: 40px;
+  margin-bottom: 0px;
+}
 
 // Parallax
 .parallax-window {

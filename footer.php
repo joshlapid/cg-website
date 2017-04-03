@@ -14,9 +14,15 @@
 
     <div class="row">
       <div class="col-sm-12 text-center">
-        <img class="footer-icon" src="img/placeholder.jpg" alt="">
-        <img class="footer-icon" src="img/placeholder.jpg" alt="">
-        <img class="footer-icon" src="img/placeholder.jpg" alt="">
+        <a href="new_to_salesforce.php">
+          <img class="footer-icon" src="img/placeholder.jpg" alt="">
+        </a>
+        <a href="optimizing_salesforce.php">
+          <img class="footer-icon" src="img/placeholder.jpg" alt="">
+        </a>
+        <a href="salesforce_expansion.php">
+          <img class="footer-icon" src="img/placeholder.jpg" alt="">
+        </a>
       </div>
     </div>
 

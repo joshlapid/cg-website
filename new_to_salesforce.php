@@ -65,15 +65,15 @@
 
       <div class="row">
         <div class="col-sm-6">
-          <ul class="foundation-list">
-            <li><strong>Detailed business processes</strong> - For a painless transfer into Salesforce.</li>
-            <li><strong>Company-wide implementation plan</strong> - Multi-phased approach</li>
-            <li><strong>User adoption plan</strong> - Leveraging Executive Sponsorship</li>
-            <li><strong>Implementation partner</strong> - Identify a seasoned firm willing to invest time upfront.</li>
-          </ul>
+          <ol class="foundation-list">
+            <li><strong>Detailed business processes</strong><br/>For a painless transfer into Salesforce.</li>
+            <li><strong>Company-wide implementation plan</strong><br/>Multi-phased approach</li>
+            <li><strong>User adoption plan</strong><br/>Leveraging Executive Sponsorship</li>
+            <li><strong>Implementation partner</strong><br/>Identify a seasoned firm willing to invest time upfront.</li>
+          </ol>
         </div>
-        <div class="col-sm-6">
-          <img src="img/placeholder-large.jpg" alt="" class="img-responsive">
+        <div class="col-sm-6 text-center vcenter">
+          <img id="requirements-image" src="img/placeholder-large.jpg" alt="" class="img-responsive">
         </div>
       </div>
 
@@ -129,6 +129,8 @@
 
       </div>
     </div>
+
+    <?php include('our_certifications.php'); ?>
 
     <!-- Footer -->
     <?php include('footer.php'); ?>
