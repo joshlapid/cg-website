@@ -75,7 +75,7 @@
 		</div>
 
 		<!-- Flipcard Mobile -->
-		<div class="container flipcard-mobile-container container-padding">
+		<div class="container flipcard-mobile-container">
 
 			<div class="row">
 				<a href="new_to_salesforce.php">

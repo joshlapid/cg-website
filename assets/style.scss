@@ -609,6 +609,10 @@ footer {
     display: none;
   }
 
+  .flipcard-header {
+    display: none;
+  }
+
   .flipcard-image {
     width: 60px;
   }
@@ -631,6 +635,7 @@ footer {
 @media (min-width: 768px) {
   .flipcard-mobile-container {
     display: none;
+    padding-bottom: 1px;
   }
 }
 

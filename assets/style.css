@@ -466,6 +466,9 @@ footer .container-fluid {
   .flipcard-row {
     display: none; }
 
+  .flipcard-header {
+    display: none; }
+
   .flipcard-image {
     width: 60px; }
 
@@ -481,7 +484,8 @@ footer .container-fluid {
     padding-bottom: 40px; } }
 @media (min-width: 768px) {
   .flipcard-mobile-container {
-    display: none; } }
+    display: none;
+    padding-bottom: 1px; } }
 @media (max-width: 425px) {
   h1 {
     margin-top: 20px;
