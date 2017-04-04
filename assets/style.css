@@ -80,7 +80,6 @@ p {
   background-color: #337ab7;
   color: white;
   border: 1px solid #337ab7;
-  border-top: 0px solid white;
   font-family: "Roboto", sans-serif;
   letter-spacing: 2px;
   transition: background 0.8s ease;
