@@ -383,13 +383,15 @@ p {
   z-index: 1000;
 }
 
+// Our Customers Section
 .our-customers-heading {
-  margin-bottom: 40px;
+  margin-bottom: 40px
 }
 
-.our-customers-image {
-  max-width: 700px;
-  width: 100%;
+.ticker-number {
+  font-size: 5vw;
+  font-weight: 900;
+  font-style: $primary-font;
 }
 
 // Our Services Container

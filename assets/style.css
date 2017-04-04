@@ -307,9 +307,10 @@ p {
 .our-customers-heading {
   margin-bottom: 40px; }
 
-.our-customers-image {
-  max-width: 700px;
-  width: 100%; }
+.ticker-number {
+  font-size: 5vw;
+  font-weight: 900;
+  font-style: "Roboto", sans-serif; }
 
 .contact-us-form {
   background-color: #337ab7;

@@ -76,5 +76,6 @@ $('.parallax-window').parallax();
 </script>
 <script type="text/javascript" src="assets/scrollshow.js"></script>
 <script type="text/javascript" src="assets/smooth-scroll.js"></script>
+<script type="text/javascript" src="assets/number_ticker.js"></script>
 </body>
 </html>

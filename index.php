@@ -104,16 +104,31 @@
 
 		<!-- Our Customers -->
 		<div class="container-fluid parallax-window our-customers-container" data-parallax="scroll" data-image-src="img/parallax-bg-1.jpg" >
+      <div class="container">
 
-			<div class="parallax-overlay">
-				<h1 class="text-center parallax-content">Our Clients</h1>
-				<div class="row">
-					<div class="col-sm-12">
-						<img class="img-responsive center-block our-customers-image" src="img/placeholder-large.jpg" alt="">
-					</div>
-				</div>
-			</div>
+  			<div class="parallax-overlay">
+  				<h1 class="text-center parallax-content">Our Customers</h1>
+  				<div class="row parallax-content text-center">
+  					<div class="col-sm-3">
+              <div class="ticker-number" data-counter="720">0</div>
+  						<p># of Customers</p>
+  					</div>
+  					<div class="col-sm-3">
+  						<div class="ticker-number" data-counter="1300">0</div>
+  						<p>Projects</p>
+  					</div>
+  					<div class="col-sm-3">
+  						<div class="ticker-number" data-counter="5" style="display: inline;">0</div><div class="ticker-number" style="display: inline;">/5</div>
+  						<p>Salesforce AppExchange Score</p>
+  					</div>
+  					<div class="col-sm-3">
+  						<div class="ticker-number" data-counter="890">0</div>
+  						<p># of Cancer Transportation Rides Donated</p>
+  					</div>
+  				</div>
+  			</div>
 
+      </div>
 		</div>
 
 		<!-- Salesforce Footprint -->
