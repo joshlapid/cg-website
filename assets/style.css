@@ -201,6 +201,8 @@ p {
 
 .flipcard-container {
   height: 350px; }
+  .flipcard-container .flipcard-caption {
+    margin-top: 20px; }
 
 .flipcard-image {
   max-width: 90px; }
@@ -309,7 +311,7 @@ p {
 .ticker-number {
   font-size: 5vw;
   font-weight: 900;
-  font-style: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif; }
 
 .contact-us-form {
   background-color: #337ab7;
@@ -521,8 +523,9 @@ footer .container-fluid {
       padding: 20px 0px; }
     .flipcard-mobile-container .flipcard-caption {
       font-weight: normal;
-      letter-spacing: 2px;
-      font-size: 3.4vw; }
+      letter-spacing: 1px;
+      font-size: 3.4vw;
+      margin-top: 10px; }
 
   .flipcard-header {
     display: none; }
@@ -544,7 +547,10 @@ footer .container-fluid {
     margin-bottom: 39px; }
 
   #enf-youtube-video {
-    height: 200px; } }
+    height: 200px; }
+
+  .ticker-number {
+    font-size: 6vw; } }
 @media (min-width: 425px) {
   .contact-us-button-mobile {
     display: none; } }

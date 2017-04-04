@@ -13,7 +13,7 @@ $(window).scroll(function() {
         },
 
         {
-          duration: 2500,
+          duration: 4000,
           easing: 'linear',
           step: function() {
             $this.text(Math.floor(this.countNum));

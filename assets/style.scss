@@ -248,6 +248,10 @@ p {
 
 .flipcard-container {
   height: 350px;
+
+  .flipcard-caption {
+    margin-top: 20px;
+  }
 }
 
 .flipcard-image {
@@ -390,7 +394,7 @@ p {
 .ticker-number {
   font-size: 5vw;
   font-weight: 900;
-  font-style: $primary-font;
+  font-family: $primary-font;
 }
 
 // Our Services Container
@@ -689,8 +693,9 @@ footer {
 
     .flipcard-caption {
       font-weight: normal;
-      letter-spacing: 2px;
+      letter-spacing: 1px;
       font-size: 3.4vw;
+      margin-top: 10px;
     }
   }
 
@@ -722,6 +727,10 @@ footer {
 
   #enf-youtube-video {
     height: 200px;
+  }
+
+  .ticker-number {
+    font-size: 6vw;
   }
 }
 

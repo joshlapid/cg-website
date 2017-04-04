@@ -16,11 +16,11 @@
         </div>
 
         <div class="row">
-          <div class="col-sm-6">
+          <div class="col-lg-6">
             <p class="parallax-content">The Emilio Nares Foundation helps families navigate through their child’s journey with cancer. Their services include Knitting for Hope for families to share their own experiences, Financial Aid programs and a Resource Center to learn about the different types of cancer, treatments and more.</p>
             <p class="parallax-content">Their flagship program, Ride with Emilio, provides free transportation for underprivileged children and their parents to and from the hospital for cancer-related appointments. Their goal is to bring Ride with Emilio to cities across the country. </p>
           </div>
-          <div class="col-sm-6">
+          <div class="col-lg-6">
             <img src="img/placeholder-large.jpg" alt="" class="img-responsive">
           </div>
         </div>
