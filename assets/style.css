@@ -308,7 +308,7 @@ p {
 .our-customers-heading {
   margin-bottom: 40px; }
 
-.ticker-number {
+.ticker-number, .ticker-number2 {
   font-size: 5vw;
   font-weight: 900;
   font-family: "Roboto", sans-serif; }
@@ -390,10 +390,10 @@ footer .container-fluid {
   float: right;
   height: 34px;
   width: 43px;
-  background: url(../img/linkedin-sprite.png) no-repeat 0 0; }
+  background: url(../img/linkedin-sprite.png) no-repeat 0 -34px; }
 
 #linkedin-sprite:hover {
-  background-position: 0 -34px; }
+  background-position: 0 0; }
 
 #twitter-sprite {
   float: right;
@@ -401,10 +401,10 @@ footer .container-fluid {
   width: 34px;
   margin-right: 5px;
   border-radius: 3px;
-  background: url(../img/twitter-sprite.png) no-repeat 0 0; }
+  background: url(../img/twitter-sprite.png) no-repeat 0 -34px; }
 
 #twitter-sprite:hover {
-  background-position: 0 -34px; }
+  background-position: 0 0; }
 
 .rights-text {
   background-color: #122a3f;
@@ -573,7 +573,7 @@ footer .container-fluid {
   #enf-youtube-video {
     height: 200px; }
 
-  .ticker-number {
+  .ticker-number, .ticker-number2 {
     font-size: 6vw; } }
 @media (min-width: 425px) {
   .contact-us-button-mobile {

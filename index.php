@@ -118,7 +118,7 @@
   						<p>Projects</p>
   					</div>
   					<div class="col-sm-3">
-  						<div class="ticker-number" data-counter="5" style="display: inline;">0</div><div class="ticker-number" style="display: inline;">/5</div>
+  						<div class="ticker-number" data-counter="5" style="display: inline;">0</div><div class="ticker-number2" style="display: inline;">/5</div>
   						<p>Salesforce AppExchange Score</p>
   					</div>
   					<div class="col-sm-3">
@@ -164,6 +164,7 @@
 
   		</div>
     </div>
+
     <!-- Contact Us -->
     <?php include('contact_us.php'); ?>
 
