@@ -13,8 +13,8 @@ $(window).scroll(function() {
         },
 
         {
-          duration: 4000,
-          easing: 'linear',
+          duration: 8000,
+          easing: 'swing',
           step: function() {
             $this.text(Math.floor(this.countNum));
           },

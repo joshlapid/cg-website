@@ -7,8 +7,10 @@
           <a href="index.php"><img class="footer-image" src="img/Corrao_Group_Logo_Resized.png" alt=""></a>
       </div>
       <div class="col-sm-6 text-center">
-          <a href="https://twitter.com/Corrao_Group" target="_blank"><img class="social-media-logo" src="img/Twitter_Logo_White_On_Blue.png" alt="" ></a>
-          <a href="http://corraogroup.com/blog" target="_blank"><img class="social-media-logo" src="img/wordpress-logo-32.png" alt=""></a>
+        <a href="http://corraogroup.com/blog" target="_blank"><div id="linkedin-sprite"></div></a>
+        <a href="http://corraogroup.com/blog" target="_blank"><div id="twitter-sprite"></div></a>
+        <a href="https://twitter.com/Corrao_Group" target="_blank"><img class="social-media-logo" src="img/Twitter_Logo_White_On_Blue.png" alt="" ></a>
+        <a href="http://corraogroup.com/blog" target="_blank"><img class="social-media-logo" src="img/linkedin-logo.png" alt=""></a>
       </div>
     </div>
 

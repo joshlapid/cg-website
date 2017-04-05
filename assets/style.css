@@ -383,7 +383,28 @@ footer .container-fluid {
 .social-media-logo {
   float: right;
   height: 30px;
-  margin: 5px; }
+  margin: 5px;
+  border-radius: 3px; }
+
+#linkedin-sprite {
+  float: right;
+  height: 34px;
+  width: 43px;
+  background: url(../img/linkedin-sprite.png) no-repeat 0 0; }
+
+#linkedin-sprite:hover {
+  background-position: 0 -34px; }
+
+#twitter-sprite {
+  float: right;
+  height: 34px;
+  width: 34px;
+  margin-right: 5px;
+  border-radius: 3px;
+  background: url(../img/twitter-sprite.png) no-repeat 0 0; }
+
+#twitter-sprite:hover {
+  background-position: 0 -34px; }
 
 .rights-text {
   background-color: #122a3f;
@@ -540,7 +561,10 @@ footer .container-fluid {
   .our-services-container {
     margin-bottom: 0px; }
 
-  .social-media-logo, .footer-image {
+  #twitter-sprite, #linkedin-sprite {
+    display: none; }
+
+  .footer-image, .social-media-logo {
     float: none; }
 
   .rights-text {
@@ -553,6 +577,9 @@ footer .container-fluid {
     font-size: 6vw; } }
 @media (min-width: 425px) {
   .contact-us-button-mobile {
+    display: none; }
+
+  .social-media-logo {
     display: none; } }
 /*# sourceMappingURL=style.css.map */
 

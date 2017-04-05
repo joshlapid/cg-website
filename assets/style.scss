@@ -499,6 +499,31 @@ footer {
   float: right;
   height: 30px;
   margin: 5px;
+  border-radius: 3px;
+}
+
+#linkedin-sprite {
+  float: right;
+  height: 34px;
+  width: 43px;
+  background: url(../img/linkedin-sprite.png) no-repeat 0 0;
+}
+
+#linkedin-sprite:hover {
+  background-position: 0 -34px;
+}
+
+#twitter-sprite {
+  float: right;
+  height: 34px;
+  width: 34px;
+  margin-right: 5px;
+  border-radius: 3px;
+  background: url(../img/twitter-sprite.png) no-repeat 0 0;
+}
+
+#twitter-sprite:hover {
+  background-position: 0 -34px;
 }
 
 .rights-text {
@@ -717,7 +742,11 @@ footer {
     margin-bottom: 0px;
   }
 
-  .social-media-logo, .footer-image {
+  #twitter-sprite, #linkedin-sprite {
+    display: none;
+  }
+
+  .footer-image, .social-media-logo {
     float: none;
   }
 
@@ -736,6 +765,10 @@ footer {
 
 @media (min-width: 425px) {
   .contact-us-button-mobile {
+    display: none;
+  }
+
+  .social-media-logo {
     display: none;
   }
 }
