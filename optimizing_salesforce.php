@@ -17,7 +17,7 @@
 
         <div class="row">
           <div class="col-sm-12">
-            <p class="text-center parallax-content">Intended for organizations who do not have a dedicated Salesforce System Administrator or are not sure if your system is being utilized to its full potential. We offer services that analyze your current Salesforce implementation while providing and executing recommendations to optimize your platform to ensure maximum ROI. </p>
+            <p class="text-justify parallax-content">Intended for organizations who do not have a dedicated Salesforce System Administrator or are not sure if your system is being utilized to its full potential. We offer services that analyze your current Salesforce implementation while providing and executing recommendations to optimize your platform to ensure maximum ROI. </p>
           </div>
         </div>
 
@@ -29,23 +29,16 @@
 
         <div class="row">
           <div class="col-sm-12">
-            <h1 class="text-center advanced-features-heading">Advanced Features and Automation</h1>
+            <h1 class="text-center advanced-features-heading">Maximize Your Salesforce Investment</h1>
           </div>
         </div>
 
         <div class="container">
 
           <div class="row">
-            <div class="col-sm-6">
-              <ul class="foundation-list">
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, exercitation.</li>
-                <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</li>
-                <li>Duis aute irure dolor in reprehenderit in  velit esse cillum dolore eu fugiat nulla pariatur.</li>
-                <li>Excepteur sint occaecat cupidatat non , sunt in  qui  deserunt mollit anim id est laborum.</li>
-              </ul>
-            </div>
-            <div class="col-sm-6">
-              <img src="img/placeholder-large.jpg" alt="" class="img-responsive">
+            <div class="col-sm-12 text-justify">
+              <p>After your Salesforce foundation is set, Salesforce will need to grow with your company, but before you grow you need to make sure that the current system is as efficient as possible. If you let Salesforce grow without proper maintenance, you’ll end up with outdated process and the chances of process errors will increase. Corrao Group will help you determine where to optimize, where to automate, how to protect your data quality, and more.</p>
+              <p>Our certifications grow as Salesforce grows, we maintain a staff with up to date certifications for many Salesforce products and types. If you have a Salesforce project with us, have no fear, you’ll have a dedicated Salesforce Certified Administrator assigned to your project.</p>
             </div>
           </div>
 

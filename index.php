@@ -15,7 +15,7 @@
 		</div> -->
 
     <!-- Main Banner -->
-    <div class="container-fluid parallax-window" data-parallax="scroll" data-image-src="img/binary-placeholder.jpg">
+    <div class="container-fluid parallax-window" data-parallax="scroll" data-image-src="img/parallax-bg-1.jpg">
       <div class="container">
 
         <div class="row">
@@ -106,21 +106,21 @@
 			<div class="row">
 				<a href="new_to_salesforce.php">
 					<div class="col-xs-4 text-center flipcard-mobile-left">
-						<img class="img-responsive center-block flipcard-image" src="img/placeholder.jpg" alt="" >
+						<img class="img-responsive center-block flipcard-image" src="img/binary-icon-placeholder.jpg" alt="" >
 						<h2 class="flipcard-caption">NEW TO SALESFORCE</h2>
 					</div>
 				</a>
 
 				<a href="optimizing_salesforce.php">
 					<div class="col-xs-4 text-center">
-						<img class="img-responsive center-block flipcard-image" src="img/placeholder.jpg" alt="">
+						<img class="img-responsive center-block flipcard-image" src="img/binary-icon-placeholder.jpg" alt="">
 						<h2 class="flipcard-caption">OPTIMIZING SALESFORCE</h2>
 					</div>
 				</a>
 
 				<a href="salesforce_expansion.php">
 					<div class="col-xs-4 text-center flipcard-mobile-right">
-						<img class="img-responsive center-block flipcard-image" src="img/placeholder.jpg" alt="">
+						<img class="img-responsive center-block flipcard-image" src="img/binary-icon-placeholder.jpg" alt="">
 						<h2 class="flipcard-caption">SALESFORCE EXPANSION</h2>
 					</div>
 				</a>
@@ -162,39 +162,17 @@
   		<div class="container">
 
   			<h1 class="text-center salesforce">Salesforce Footprint</h1>
-  			<p class="">With 15 years of being in business, our Salesforce footprint has reached over 720 national clients, completed 1300+ projects, and have comprised a team of cross-industry experts dedicated to helping clients exceed their Salesforce expectations. Our expertise of the Salesforce platform comes from being everyday power users of the products we implement and train on, giving us insight into the everyday needs of Salesforce customers.</p>
-  			<p class="">Corrao Group will translate your company’s day to day activities into an implementation plan that spans the breadth of Salesforce capabilities. We identify and optimize the functionality that will make the greatest impact in each phase of your growth on the Salesforce platform.</p>
-
-        <div class="row">
-          <div class="col-xs-12 text-center">
-            <h2>Our Certifications</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-6 col-sm-4 col-md-2 col-md-offset-1">
-            <img class="img-responsive" src="img/forcedev.png" />
-          </div>
-          <div class="col-xs-6 col-sm-4 col-md-2">
-            <img class="img-responsive" src="img/pardot.png" />
-          </div>
-          <div class="col-xs-6 col-sm-4 col-md-2">
-            <img class="img-responsive" src="img/salescloud.png" />
-          </div>
-          <div id="our-certifications" class="col-sm-2"></div>
-          <div class="col-xs-6 col-sm-4 col-md-2">
-            <img class="img-responsive" src="img/salesforceadmin.png" />
-          </div>
-          <div id="our-certifications2" class="col-xs-3"></div>
-          <div class="col-xs-6 col-sm-4 col-md-2">
-            <img class="img-responsive" src="img/servicecloud.png" />
-          </div>
-        </div>
+  			<p class="text-justify">With 15 years of being in business, our Salesforce footprint has reached over 720 national clients, completed 1300+ projects, and have comprised a team of cross-industry experts dedicated to helping clients exceed their Salesforce expectations. Our expertise of the Salesforce platform comes from being everyday power users of the products we implement and train on, giving us insight into the everyday needs of Salesforce customers.</p>
+  			<p class="text-justify">Corrao Group will translate your company’s day to day activities into an implementation plan that spans the breadth of Salesforce capabilities. We identify and optimize the functionality that will make the greatest impact in each phase of your growth on the Salesforce platform.</p>
 
   		</div>
     </div>
 
     <!-- Contact Us -->
     <?php include('contact_us.php'); ?>
+
+    <!-- Certifications -->
+    <?php include('our_certifications.php'); ?>
 
 		<!-- Footer -->
     <?php include('footer.php'); ?>

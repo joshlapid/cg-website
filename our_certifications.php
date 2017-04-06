@@ -6,20 +6,22 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-2 col-xs-offset-1">
-        <img class="img-responsive" src="img/salesforce-certification.png" />
+      <div class="col-xs-6 col-sm-4 col-md-2 col-md-offset-1">
+        <img class="img-responsive" src="img/forcedev.png" />
       </div>
-      <div class="col-xs-2">
-        <img class="img-responsive" src="img/salesforce-certification.png" />
+      <div class="col-xs-6 col-sm-4 col-md-2">
+        <img class="img-responsive" src="img/pardot.png" />
       </div>
-      <div class="col-xs-2">
-        <img class="img-responsive" src="img/salesforce-certification.png" />
+      <div class="col-xs-6 col-sm-4 col-md-2">
+        <img class="img-responsive" src="img/salescloud.png" />
       </div>
-      <div class="col-xs-2">
-        <img class="img-responsive" src="img/salesforce-certification.png" />
+      <div id="our-certifications" class="col-sm-2"></div>
+      <div class="col-xs-6 col-sm-4 col-md-2">
+        <img class="img-responsive" src="img/salesforceadmin.png" />
       </div>
-      <div class="col-xs-2">
-        <img class="img-responsive" src="img/salesforce-certification.png" />
+      <div id="our-certifications2" class="col-xs-3"></div>
+      <div class="col-xs-6 col-sm-4 col-md-2">
+        <img class="img-responsive" src="img/servicecloud.png" />
       </div>
     </div>
   </div>

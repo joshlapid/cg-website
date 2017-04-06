@@ -4,7 +4,9 @@
 
   <!-- Contact Us Button -->
   <div class="container-fluid navbar-container">
-    <button class="contact-us-button navbar-container" type="button">CONTACT US</button>
+    <button class="contact-us-button" type="button">CONTACT US</button>
+    <a href="http://corraogroup.com/blog" target="_blank"><div id="linkedin-sprite-navbar"></div></a>
+    <a href="http://corraogroup.com/blog" target="_blank"><div id="twitter-sprite-navbar"></div></a>
   </div>
 
   <nav class="navbar navbar-default">
@@ -37,7 +39,7 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">SOLUTIONS <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="https://ezarsolutions.com/">EZ-AR</a></li>
+              <li><a href="ez-ar.php">EZ-AR</a></li>
             </ul>
           </li>
 

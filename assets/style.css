@@ -3,9 +3,11 @@ body {
 
 h1 {
   font-family: "Roboto", sans-serif;
+  color: #337ab7;
   font-weight: bold;
   font-size: 5vw;
-  margin-top: 0px; }
+  margin-top: 0px;
+  margin-bottom: 20px; }
 
 h2 {
   margin-top: 0px;
@@ -78,8 +80,8 @@ p {
   width: auto; }
 
 .contact-us-button {
-  position: relative;
-  right: -85%;
+  position: absolute;
+  right: 95px;
   border: none;
   padding: 5px 10px;
   background-color: #337ab7;
@@ -90,9 +92,26 @@ p {
   transition: background 0.8s ease;
   transition: color 0.5s ease; }
 
-.contact-us-button:hover {
-  background-color: white;
-  color: black; }
+#linkedin-sprite-navbar {
+  margin: 2px 0px;
+  float: right;
+  height: 26px;
+  width: 33px;
+  background: url(../img/linkedin-sprite-navbar.png) no-repeat 0 -26px; }
+
+#linkedin-sprite-navbar:hover {
+  background-position: 0 0; }
+
+#twitter-sprite-navbar {
+  margin: 2px 5px;
+  border-radius: 3px;
+  float: right;
+  height: 26px;
+  width: 26px;
+  background: url(../img/twitter-sprite-navbar.png) no-repeat 0 -26px; }
+
+#twitter-sprite-navbar:hover {
+  background-position: 0 0; }
 
 .dropdown-menu .sub-menu {
   left: 100%;
@@ -262,7 +281,8 @@ p {
 .flipcard-mobile-container .flipcard-caption {
   color: white;
   font-size: 3vw;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  margin-top: 20px; }
 .flipcard-mobile-container .flipcard-mobile-left {
   border-left: 6px solid white !important; }
 
@@ -341,17 +361,13 @@ p {
     font-size: 16pt;
     margin: 10px 0px; }
   .foundation-list li > strong {
-    color: #337ab7; }
+    color: #63a0d4; }
 
 #requirements-image {
   padding-top: 20px; }
 
 .advanced-features-heading {
   margin-bottom: 20px; }
-
-#company-wide-development {
-  color: #63a0d4;
-  font-size: 3.5vw; }
 
 #enf-youtube-video {
   max-width: 700px;
@@ -480,7 +496,7 @@ footer .container-fluid {
     margin-top: 5px;
     font-size: 16px; }
 
-  .contact-us-button {
+  .contact-us-button, #twitter-sprite-navbar, #linkedin-sprite-navbar {
     display: none; }
 
   .front > h2 {
