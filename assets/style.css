@@ -456,6 +456,9 @@ footer .container-fluid {
       font-family: "Roboto", sans-serif;
       font-size: 12pt;
       margin: 10px 0px; } }
+@media (min-width: 992px) {
+  #our-certifications {
+    display: none; } }
 @media (max-width: 767px) {
   h1 {
     margin-bottom: 20px;
@@ -508,7 +511,10 @@ footer .container-fluid {
 @media (min-width: 768px) {
   .flipcard-mobile-container {
     display: none;
-    padding-bottom: 1px; } }
+    padding-bottom: 1px; }
+
+  #our-certifications2 {
+    display: none; } }
 @media (max-width: 670px) {
   #carousel-desktop {
     display: none; }

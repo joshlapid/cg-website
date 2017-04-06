@@ -598,6 +598,12 @@ footer {
   }
 }
 
+@media(min-width: 992px) {
+  #our-certifications {
+    display: none;
+  }
+}
+
 @media (max-width: 767px) {
   h1 {
     margin-bottom: 20px;
@@ -666,6 +672,10 @@ footer {
   .flipcard-mobile-container {
     display: none;
     padding-bottom: 1px;
+  }
+
+  #our-certifications2 {
+    display: none;
   }
 }
 
