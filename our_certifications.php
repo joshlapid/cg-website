@@ -7,19 +7,19 @@
     </div>
     <div class="row">
       <div class="col-xs-2 col-xs-offset-1">
-        <img class="img-responsive" src="img/placeholder.jpg" />
+        <img class="img-responsive" src="img/salesforce-certification.png" />
       </div>
       <div class="col-xs-2">
-        <img class="img-responsive" src="img/placeholder.jpg" />
+        <img class="img-responsive" src="img/salesforce-certification.png" />
       </div>
       <div class="col-xs-2">
-        <img class="img-responsive" src="img/placeholder.jpg" />
+        <img class="img-responsive" src="img/salesforce-certification.png" />
       </div>
       <div class="col-xs-2">
-        <img class="img-responsive" src="img/placeholder.jpg" />
+        <img class="img-responsive" src="img/salesforce-certification.png" />
       </div>
       <div class="col-xs-2">
-        <img class="img-responsive" src="img/placeholder.jpg" />
+        <img class="img-responsive" src="img/salesforce-certification.png" />
       </div>
     </div>
   </div>

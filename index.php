@@ -14,8 +14,8 @@
 			<?php include('carousel-mobile.php'); ?>
 		</div> -->
 
-    <!-- New to Salesforce -->
-    <div class="container-fluid parallax-window" data-parallax="scroll" data-image-src="img/parallax-bg-1.jpg">
+    <!-- Main Banner -->
+    <div class="container-fluid parallax-window" data-parallax="scroll" data-image-src="img/binary-placeholder.jpg">
       <div class="container">
 
         <div class="row">
@@ -26,7 +26,13 @@
 
         <div class="row">
           <div class="col-sm-12">
-            <p class="text-center parallax-content">Whether you’re thinking about adopting the Salesforce platform, have already done so but don’t use it as much as you’d like, or your Salesforce Administrator took on a new role, you’ve come to the right place. Unsuccessfully adopting a new system can cost teams a great deal of time, and ultimately money. It’s important to take in all the factors when using a new system such as user adoption, business process accountability, and more. Companies cannot afford to experiment their way through their initial deployment or take a wrong turn early in their Salesforce journey.</p>
+            <h2 class="text-center parallax-content">Salesforce Optimization</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <button class="carousel-button btn btn-default" type="button" name="button">READ MORE</button>
           </div>
         </div>
 
@@ -50,7 +56,7 @@
 					<div class="flipcard-container" ontouchstart="this.classList.toggle('hover');">
 						<div class="flipcard">
 							<div class="front">
-								<img class="img-responsive center-block flipcard-image" src="img/placeholder.jpg" alt="" >
+								<img class="img-responsive center-block flipcard-image" src="img/binary-icon-placeholder.jpg" alt="" >
 								<h2 class="flipcard-caption">NEW TO SALESFORCE</h2>
 							</div>
 							<div class="back flipcard-left">
@@ -65,7 +71,7 @@
 					<div class="flipcard-container" ontouchstart="this.classList.toggle('hover');">
 						<div class="flipcard">
 							<div class="front">
-								<img class="img-responsive center-block flipcard-image" src="img/placeholder.jpg" alt="">
+								<img class="img-responsive center-block flipcard-image" src="img/binary-icon-placeholder.jpg" alt="">
 								<h2 class="flipcard-caption">OPTIMIZING SALESFORCE</h2>
 							</div>
 							<div class="back">
@@ -80,7 +86,7 @@
 					<div class="flipcard-container" ontouchstart="this.classList.toggle('hover');">
 						<div class="flipcard">
 							<div class="front">
-								<img class="img-responsive center-block flipcard-image" src="img/placeholder.jpg" alt="">
+								<img class="img-responsive center-block flipcard-image" src="img/binary-icon-placeholder.jpg" alt="">
 								<h2 class="flipcard-caption">SALESFORCE EXPANSION</h2>
 							</div>
 							<div class="back flipcard-right">
@@ -166,19 +172,19 @@
         </div>
         <div class="row">
           <div class="col-xs-2 col-xs-offset-1">
-            <img class="img-responsive" src="img/placeholder.jpg" />
+            <img class="img-responsive" src="img/salesforce-certification.png" />
           </div>
           <div class="col-xs-2">
-            <img class="img-responsive" src="img/placeholder.jpg" />
+            <img class="img-responsive" src="img/salesforce-certification.png" />
           </div>
           <div class="col-xs-2">
-            <img class="img-responsive" src="img/placeholder.jpg" />
+            <img class="img-responsive" src="img/salesforce-certification.png" />
           </div>
           <div class="col-xs-2">
-            <img class="img-responsive" src="img/placeholder.jpg" />
+            <img class="img-responsive" src="img/salesforce-certification.png" />
           </div>
           <div class="col-xs-2">
-            <img class="img-responsive" src="img/placeholder.jpg" />
+            <img class="img-responsive" src="img/salesforce-certification.png" />
           </div>
         </div>
 
