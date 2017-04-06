@@ -59,21 +59,5 @@
       </div>
     </div>
 
-    <!-- Image -->
-    <div class="container-fluid">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-sm-12">
-            <img src="img/placeholder-large.jpg" alt="" class="img-responsive center-block">
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <!-- Footer -->
-    <?php include('contact_us.php'); ?>
-
     <!-- Footer -->
     <?php include('footer.php'); ?>

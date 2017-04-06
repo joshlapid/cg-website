@@ -364,7 +364,7 @@ p {
     font-size: 16pt;
     margin: 10px 0px; }
   .foundation-list li > strong {
-    color: #63a0d4; }
+    color: #337ab7; }
 
 #requirements-image {
   padding-top: 20px; }
@@ -533,7 +533,10 @@ footer .container-fluid {
     padding-bottom: 1px; }
 
   #our-certifications2 {
-    display: none; } }
+    display: none; }
+
+  .our-services-column {
+    padding-right: 50px; } }
 @media (max-width: 670px) {
   #carousel-desktop {
     display: none; }
