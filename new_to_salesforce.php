@@ -71,8 +71,8 @@
           <div class="col-sm-6">
             <ol class="foundation-list">
               <li><strong>Detailed business processes</strong><br/>For a painless transfer into Salesforce.</li>
-              <li><strong>Company-wide implementation plan</strong><br/>Multi-phased approach</li>
-              <li><strong>User adoption plan</strong><br/>Leveraging Executive Sponsorship</li>
+              <li><strong>Company-wide implementation plan</strong><br/>Multi-phased approach.</li>
+              <li><strong>User adoption plan</strong><br/>Leveraging Executive Sponsorship.</li>
               <li><strong>Implementation partner</strong><br/>Identify a seasoned firm willing to invest time upfront.</li>
             </ol>
           </div>

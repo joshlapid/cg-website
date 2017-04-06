@@ -28,7 +28,6 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">SALESFORCE <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="salesforce.php">SALESFORCE SERVICES</a></li>
               <li><a href="new_to_salesforce.php">NEW TO SALESFORCE</a></li>
               <li><a href="optimizing_salesforce.php">OPTIMIZING SALESFORCE</a></li>
               <li><a href="salesforce_expansion.php">SALESFORCE EXPANSION</a></li>
