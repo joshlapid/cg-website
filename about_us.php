@@ -13,6 +13,7 @@
         <div class="row">
           <div class="col-sm-12">
             <h1 class="text-center parallax-content">About the Corrao Group</h1>
+            <p class="text-center" style="color: rgba(255, 153, 0, 0.7);">[Binary Background Placeholder]</p>
           </div>
         </div>
 

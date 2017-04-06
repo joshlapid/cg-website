@@ -6,12 +6,13 @@
     <?php include('navbar.php'); ?>
 
     <!-- Sales Force Expansion -->
-    <div class="container-fluid container-padding parallax-window" data-parallax="scroll" data-image-src="img/parallax-bg-3.jpg">
+    <div class="container-fluid container-padding parallax-window" data-parallax="scroll" data-image-src="img/SFEXP_BG.jpg">
       <div class="container">
 
         <div class="row">
           <div class="col-sm-12">
             <h1 class="text-center parallax-content">Salesforce Expansion</h1>
+            <p class="text-center" style="color: rgba(255, 153, 0, 0.7);">[Binary Background Placeholder]</p>
           </div>
         </div>
 
@@ -41,7 +42,7 @@
             <p class="text-justify">With Corrao Group, you’ll receive the deep knowledge of a team that has completed more than 1,300 projects. A team that will translate your entire business processes into a long term Salesforce Expansion Plan, helping you identify and deploy the right functionality for the right moment in your Business Lifecycle. </p>
           </div>
           <div class="col-md-6">
-            <img src="img/placeholder-large.jpg" alt="" class="img-responsive">
+            <img src="img/SFEXP.jpg" alt="" class="img-responsive">
           </div>
         </div>
 
@@ -55,6 +56,7 @@
 				<div class="row">
 					<div class="col-sm-12">
 						<h1 class="text-center parallax-content" style="color: white;">Salesforce Services</h1>
+            <p class="text-center" style="color: rgba(255, 153, 0, 0.7);">[Binary Background Placeholder]</p>
 					</div>
 				</div>
 

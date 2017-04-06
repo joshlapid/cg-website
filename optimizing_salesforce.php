@@ -6,12 +6,13 @@
     <?php include('navbar.php'); ?>
 
     <!-- Optimizing Salesforce -->
-    <div class="container-fluid container-padding parallax-window" data-parallax="scroll" data-image-src="img/parallax-bg-2.jpg">
+    <div class="container-fluid container-padding parallax-window" data-parallax="scroll" data-image-src="img/SFOpt_1.jpg">
       <div class="container">
 
         <div class="row">
           <div class="col-sm-12">
             <h1 class="text-center parallax-content" style="color: white;">Optimizing Salesforce</h1>
+            <p class="text-center" style="color: rgba(255, 153, 0, 0.7);">[Binary Background Placeholder]</p>
           </div>
         </div>
 
@@ -36,9 +37,12 @@
         <div class="container">
 
           <div class="row">
-            <div class="col-sm-12 text-justify">
+            <div class="col-sm-6 text-justify">
               <p>After your Salesforce foundation is set, Salesforce will need to grow with your company, but before you grow you need to make sure that the current system is as efficient as possible. If you let Salesforce grow without proper maintenance, you’ll end up with outdated process and the chances of process errors will increase. Corrao Group will help you determine where to optimize, where to automate, how to protect your data quality, and more.</p>
               <p>Our certifications grow as Salesforce grows, we maintain a staff with up to date certifications for many Salesforce products and types. If you have a Salesforce project with us, have no fear, you’ll have a dedicated Salesforce Certified Administrator assigned to your project.</p>
+            </div>
+            <div class="col-sm-6">
+              <img class="img-responsive" src="img/SFOpt_1.jpg" alt="">
             </div>
           </div>
 

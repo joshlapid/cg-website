@@ -17,7 +17,6 @@
     <!-- Main Banner -->
     <div class="container-fluid parallax-window" data-parallax="scroll" data-image-src="img/parallax-bg-1.jpg">
       <div class="container">
-
         <div class="row">
           <div class="col-sm-12">
             <h1 class="text-center parallax-content" style="color: white;">Corrao Group</h1>
@@ -33,6 +32,7 @@
         <div class="row">
           <div class="col-sm-12 text-center">
             <button class="carousel-button btn btn-default" type="button" name="button">READ MORE</button>
+            <p class="text-center" style="color: rgba(255, 153, 0, 0.7);">[Binary Background Placeholder]</p>
           </div>
         </div>
 
@@ -151,6 +151,7 @@
   						<div class="ticker-number" data-counter="890">0</div>
   						<p># of Cancer Transportation Rides Donated</p>
   					</div>
+            <p class="text-center" style="color: rgba(255, 153, 0, 0.7);">[Binary Background Placeholder]</p>
   				</div>
   			</div>
 

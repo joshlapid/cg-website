@@ -36,7 +36,7 @@
             <a href="index.php">HOME</a>
           </div>
           <div class="col-sm-3">
-            <a href="salesforce.php">SALESFORCE</a>
+            <a href="new_to_salesforce.php">SALESFORCE</a>
           </div>
           <div class="col-sm-3">
             <a href="about_us.php">ABOUT US</a>

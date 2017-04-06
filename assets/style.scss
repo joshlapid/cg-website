@@ -3,7 +3,6 @@ $primary-font: 'Roboto', sans-serif;
 $secondary-font: 'Open Sans', sans-serif;
 $primary-color: #337ab7;
 $secondary-color: lighten(#337ab7, 15);
-$heading-color: darken(#337ab7, 25);
 
 // Global
 body {
@@ -32,6 +31,10 @@ p {
 .container-fluid {
   padding-top: 80px;
   padding-bottom: 80px;
+}
+
+.parallax-window {
+  background: rgba(0, 0, 0, 0.75);
 }
 
 .container-padding {

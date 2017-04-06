@@ -6,12 +6,14 @@
     <?php include('navbar.php'); ?>
 
     <!-- New to Salesforce -->
-    <div class="container-fluid parallax-window" data-parallax="scroll" data-image-src="img/parallax-bg-1.jpg">
+    <div class="container-fluid parallax-window" data-parallax="scroll" data-image-src="img/NewToSF_1.png">
       <div class="container">
 
         <div class="row">
           <div class="col-sm-12">
             <h1 class="text-center parallax-content" style="color: white;">New to Salesforce</h1>
+            <p class="text-center" style="color: rgba(255, 153, 0, 0.7);">[Binary Background Placeholder]</p>
+
           </div>
         </div>
 
@@ -50,6 +52,7 @@
         <div class="row">
           <div class="col-sm-12">
             <h2 class="text-center parallax-content">There are a few requirements we recommend you have when starting out:</h2>
+            <p class="text-center" style="color: rgba(255, 153, 0, 0.7);">[Binary Background Placeholder]</p>
           </div>
         </div>
 
@@ -63,7 +66,7 @@
             </ol>
           </div>
           <div class="col-sm-6 text-center vcenter">
-            <img id="requirements-image" src="img/placeholder-large.jpg" alt="" class="img-responsive">
+            <img id="requirements-image" src="img/NewToSF_1.png" alt="" class="img-responsive">
           </div>
         </div>
 

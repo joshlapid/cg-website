@@ -21,6 +21,9 @@ p {
   padding-top: 80px;
   padding-bottom: 80px; }
 
+.parallax-window {
+  background: rgba(0, 0, 0, 0.75); }
+
 .container-padding {
   padding-bottom: 60px; }
 
