@@ -7,22 +7,24 @@
 
     <!-- Sales Force Expansion -->
     <div class="container-fluid container-padding parallax-window" data-parallax="scroll" data-image-src="img/SFEXP_BG.jpg">
-      <div class="container">
+      <div class="container parallax-overlay">
+        <div class="container">
 
-        <div class="row">
-          <div class="col-sm-12">
-            <h1 class="text-center parallax-content">Salesforce Expansion</h1>
-            <p class="text-center" style="color: rgba(255, 153, 0, 0.7);">[Binary Background Placeholder]</p>
+          <div class="row">
+            <div class="col-sm-12">
+              <h1 class="text-center parallax-content">Salesforce Expansion</h1>
+              <p class="text-center" style="color: rgba(255, 153, 0, 0.7);">[Binary Background Placeholder]</p>
+            </div>
           </div>
-        </div>
 
-        <div class="row">
-          <div class="col-sm-12">
-            <p class="text-justify parallax-content">Salesforce is a powerful, company-wide business platform. Expanding your departmental use of Salesforce will provide maximum ROI and real-time visibility to key KPI’s and customer insight. Doing so provides your company with a real-time, 360 view of your prospects and customers, in addition to maximizing employee productivity.</p>
-            <p class="text-justify parallax-content">Salesforce adapts to its customers’ needs, making major updates to their system three times a year. It’s crucial to monitor those updates and make any necessary changes in your Salesforce instance. To stay competitive in today’s marketplace, business processes will change. Hiring a certified implementation partner ensure your Salesforce system adapts according to best practices.</p>
+          <div class="row">
+            <div class="col-sm-12">
+              <p class="text-justify parallax-content">Salesforce is a powerful, company-wide business platform. Expanding your departmental use of Salesforce will provide maximum ROI and real-time visibility to key KPI’s and customer insight. Doing so provides your company with a real-time, 360 view of your prospects and customers, in addition to maximizing employee productivity.</p>
+              <p class="text-justify parallax-content">Salesforce adapts to its customers’ needs, making major updates to their system three times a year. It’s crucial to monitor those updates and make any necessary changes in your Salesforce instance. To stay competitive in today’s marketplace, business processes will change. Hiring a certified implementation partner ensure your Salesforce system adapts according to best practices.</p>
+            </div>
           </div>
-        </div>
 
+        </div>
       </div>
     </div>
 
@@ -51,21 +53,23 @@
 
     <!-- Services -->
 		<div class="container-fluid parallax-window" data-parallax="scroll" data-image-src="img/parallax-bg-1.jpg" >
-			<div class="container">
+			<div class="container parallax-overlay">
+  			<div class="container">
 
-				<div class="row">
-					<div class="col-sm-12">
-						<h1 class="text-center parallax-content" style="color: white;">Salesforce Services</h1>
-            <p class="text-center" style="color: rgba(255, 153, 0, 0.7);">[Binary Background Placeholder]</p>
-					</div>
-				</div>
+  				<div class="row">
+  					<div class="col-sm-12">
+  						<h1 class="text-center parallax-content" style="color: white;">Salesforce Services</h1>
+              <p class="text-center" style="color: rgba(255, 153, 0, 0.7);">[Binary Background Placeholder]</p>
+  					</div>
+  				</div>
 
-				<div class="row">
-					<div class="col-sm-12">
-						<p class="text-justify parallax-content">Corrao Group provides Salesforce services to those who are New to Salesforce, would like to Optimize their Salesforce instance, and those who would like to expand Salesforce company-wide to maximize their ROI. Our services range from fully customized solutions utilizing multiple Salesforce products to support hours used at the client’s discretion.</p>
-					</div>
-				</div>
+  				<div class="row">
+  					<div class="col-sm-12">
+  						<p class="text-justify parallax-content">Corrao Group provides Salesforce services to those who are New to Salesforce, would like to Optimize their Salesforce instance, and those who would like to expand Salesforce company-wide to maximize their ROI. Our services range from fully customized solutions utilizing multiple Salesforce products to support hours used at the client’s discretion.</p>
+  					</div>
+  				</div>
 
+  			</div>
 			</div>
 		</div>
 
