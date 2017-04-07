@@ -20,7 +20,6 @@
           <div class="row">
             <div class="col-sm-12">
               <p class="text-justify parallax-content">Salesforce is a powerful, company-wide business platform. Expanding your departmental use of Salesforce will provide maximum ROI and real-time visibility to key KPI’s and customer insight. Doing so provides your company with a real-time, 360 view of your prospects and customers, in addition to maximizing employee productivity.</p>
-              <p class="text-justify parallax-content">Salesforce adapts to its customers’ needs, making major updates to their system three times a year. It’s crucial to monitor those updates and make any necessary changes in your Salesforce instance. To stay competitive in today’s marketplace, business processes will change. Hiring a certified implementation partner ensure your Salesforce system adapts according to best practices.</p>
             </div>
           </div>
 
@@ -39,12 +38,13 @@
         </div>
 
         <div class="row">
-          <div class="col-md-8">
+          <div class="col-sm-8">
             <p class="text-justify">There are numerous ways Salesforce can help your company grow and scale accordingly, you just need someone to show you the way. That’s where Corrao Group come in. Corrao Group’s knowledge of implementing Salesforce company-wide is second to none, not limiting ourselves to only know how the products function, but also how they can integrate together. </p>
             <p class="text-justify">With Corrao Group, you’ll receive the deep knowledge of a team that has completed more than 1,300 projects. A team that will translate your entire business processes into a long term Salesforce Expansion Plan, helping you identify and deploy the right functionality for the right moment in your Business Lifecycle. </p>
+            <p class="text-justify">Salesforce adapts to its customers’ needs, making major updates to their system three times a year. It’s crucial to monitor those updates and make any necessary changes in your Salesforce instance. To stay competitive in today’s marketplace, business processes will change. Hiring a certified implementation partner ensure your Salesforce system adapts according to best practices.</p>
           </div>
-          <div class="col-md-4">
-            <img src="img/SF_Expansion.jpg" alt="" class="img-responsive">
+          <div class="col-sm-4">
+            <img src="img/SF_Expansion.jpg" alt="" class="img-responsive center-block img-shadow">
           </div>
         </div>
 

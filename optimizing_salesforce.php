@@ -44,7 +44,7 @@
               <p>Our certifications grow as Salesforce grows, we maintain a staff with up to date certifications for many Salesforce products and types. If you have a Salesforce project with us, have no fear, you’ll have a dedicated Salesforce Certified Administrator assigned to your project.</p>
             </div>
             <div class="col-sm-6">
-              <img class="img-responsive" src="img/SFEXP.jpg" alt="">
+              <img class="img-responsive img-shadow" src="img/SFEXP.jpg" alt="">
             </div>
           </div>
 

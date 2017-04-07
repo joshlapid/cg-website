@@ -50,6 +50,9 @@ p {
   background-color: white;
   color: black; }
 
+.img-shadow {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.23), 0 7px 8px rgba(0, 0, 0, 0.21); }
+
 .navbar {
   margin-bottom: 0px;
   border-radius: 0px;
@@ -388,7 +391,7 @@ p {
 
 footer .container-fluid {
   background-color: #122a3f;
-  padding: 50px; }
+  padding: 20px 40px; }
 
 .footer-icon {
   max-width: 70px;

@@ -67,6 +67,10 @@ p {
   color: black;
 }
 
+.img-shadow {
+  box-shadow: 0 12px 24px rgba(0,0,0,0.23), 0 7px 8px rgba(0,0,0,0.21);
+}
+
 // Navbar
 .navbar {
   margin-bottom: 0px;
@@ -502,7 +506,7 @@ footer {
 
   .container-fluid {
     background-color: darken($primary-color, 30);
-    padding: 50px;
+    padding: 20px 40px;
   }
 }
 

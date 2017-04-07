@@ -34,7 +34,7 @@
 
         <div class="row">
           <div class="col-sm-12 text-center">
-            <iframe id="enf-youtube-video" src="https://www.youtube.com/embed/p6IVautGbrc" frameborder="0" allowfullscreen></iframe>
+            <iframe id="enf-youtube-video" class="img-shadow" src="https://www.youtube.com/embed/p6IVautGbrc" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
 
