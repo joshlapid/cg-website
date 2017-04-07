@@ -29,12 +29,30 @@
     </div>
 
     <!-- Our Locations Image -->
-    <div class="container-fluid">
+    <div class="container-fluid location-container">
       <div class="container">
 
+        <!-- Locations Map -->
         <div class="row">
           <div class="col-sm-12">
-            <img src="img/locations-map.jpg" alt="" class="img-responsive center-block">
+            <img src="img/locations-map.jpg" alt="" class="img-responsive center-block" style="margin-bottom: 40px;">
+          </div>
+        </div>
+
+      </div>
+      <div class="container" style="border-top: 1px solid rgba(0,0,0,0.2); padding-top: 20px;">
+
+        <div class="row">
+          <div class="col-sm-6 text-center">
+            <h2>Location & Phone Number</h2>
+          </div>
+
+          <div class="col-sm-6 text-left">
+            <p><strong>Corrao Group LLC</strong></p>
+            <p>11230 Sorrento Valley Rd.</p>
+            <p>Suite 100</p>
+            <p>San Diego, CA 92121</p>
+            <p><a href="tel:858-210-8188">858-210-8188</a></p>
           </div>
         </div>
 

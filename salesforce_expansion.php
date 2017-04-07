@@ -78,68 +78,62 @@
 
 				<div class="row service-row animation-element slide-left">
 					<div class="col-xs-4 service-zoom text-center">
-						<img class="service-image img-responsive center-block" src="img/placeholder.jpg" alt="">
-						<h3 class="text-center service-caption">Sales Cloud</h3>
+						<img class="service-image img-responsive center-block" src="img/services/salescloud.png" alt="">
+						<!-- <h3 class="text-center service-caption">Sales Cloud</h3> -->
 					</div>
 					<div class="col-xs-4 service-zoom text-center">
-						<img class="service-image img-responsive center-block" src="img/placeholder.jpg" alt="">
-						<h3 class="text-center service-caption">Service Cloud</h3>
+						<img class="service-image img-responsive center-block" src="img/services/servicecloud.png" alt="">
+						<!-- <h3 class="text-center service-caption">Service Cloud</h3> -->
 					</div>
 					<div class="col-xs-4 service-zoom text-center">
-						<img class="service-image img-responsive center-block" src="img/placeholder.jpg" alt="">
-						<h3 class="text-center service-caption">Pardot</h3>
+						<img class="service-image img-responsive center-block" src="img/services/pardot.png" alt="">
+						<!-- <h3 class="text-center service-caption">Pardot</h3> -->
 					</div>
 				</div>
 
 				<div class="row service-row animation-element slide-left">
 					<div class="col-xs-4 service-zoom text-center">
-						<img class="service-image img-responsive center-block" src="img/placeholder.jpg" alt="">
-						<h3 class="text-center service-caption">Community Cloud</h3>
+						<img class="service-image img-responsive center-block" src="img/services/communitycloud.jpg" alt="">
+						<!-- <h3 class="text-center service-caption">Community Cloud</h3> -->
 					</div>
-					<div class="col-xs-4 service-zoom text-center">
-						<img class="service-image img-responsive center-block" src="img/placeholder.jpg" alt="">
-						<h3 class="text-center service-caption">Salesforce CPQ</h3>
+          <div class="col-xs-4 service-zoom text-center">
+						<img class="service-image img-responsive center-block" src="img/services/desk.png" alt="">
+						<!-- <h3 class="text-center service-caption">Desk.com</h3> -->
 					</div>
-					<div class="col-xs-4 service-zoom text-center">
-						<img class="service-image img-responsive center-block" src="img/placeholder.jpg" alt="">
-						<h3 class="text-center service-caption">Financial Services Cloud</h3>
+          <div class="col-xs-4 service-zoom text-center">
+						<img class="service-image img-responsive center-block" src="img/services/analyticscloud.png" alt="">
+						<!-- <h3 class="text-center service-caption">Analytics Cloud</h3> -->
 					</div>
 				</div>
+
+        <div class="row service-row animation-element slide-left">
+          <div class="col-xs-4 service-zoom text-center">
+            <img class="service-image img-responsive center-block" src="img/services/force.svg" alt="">
+            <!-- <h3 class="text-center service-caption">Salesforce CPQ</h3> -->
+          </div>
+          <div class="col-xs-4 service-zoom text-center">
+            <img class="service-image img-responsive center-block" src="img/services/waveanalytics.png" alt="">
+            <!-- <h3 class="text-center service-caption">Wave Apps</h3> -->
+          </div>
+          <div class="col-xs-4 service-zoom text-center">
+            <img class="service-image img-responsive center-block" src="img/services/chatter.png" alt="">
+            <!-- <h3 class="text-center service-caption">Heroku</h3> -->
+          </div>
+        </div>
+
 
 				<div class="row service-row animation-element slide-left">
-					<div class="col-xs-4 service-zoom text-center">
-						<img class="service-image img-responsive center-block" src="img/placeholder.jpg" alt="">
-						<h3 class="text-center service-caption">SalesforceIQ</h3>
+          <div class="col-xs-4 service-zoom text-center">
+						<img class="service-image img-responsive center-block" src="img/services/cpq.png" alt="">
+						<!-- <h3 class="text-center service-caption">Salesforce CPQ</h3> -->
 					</div>
-					<div class="col-xs-4 service-zoom text-center">
-						<img class="service-image img-responsive center-block" src="img/placeholder.jpg" alt="">
-						<h3 class="text-center service-caption">Wave Apps</h3>
-					</div>
-					<div class="col-xs-4 service-zoom text-center">
-						<img class="service-image img-responsive center-block" src="img/placeholder.jpg" alt="">
-						<h3 class="text-center service-caption">Force.com</h3>
-					</div>
-				</div>
-
-				<div class="row service-row animation-element slide-left">
-					<div class="col-xs-4 service-zoom text-center">
-						<img class="service-image img-responsive center-block" src="img/placeholder.jpg" alt="">
-						<h3 class="text-center service-caption">Analytics Cloud</h3>
-					</div>
-					<div class="col-xs-4 service-zoom text-center">
-						<img class="service-image img-responsive center-block" src="img/placeholder.jpg" alt="">
-						<h3 class="text-center service-caption">Chatter</h3>
-					</div>
-					<div class="col-xs-4 service-zoom text-center">
-						<img class="service-image img-responsive center-block" src="img/placeholder.jpg" alt="">
-						<h3 class="text-center service-caption">Desk.com</h3>
-					</div>
-				</div>
-
-				<div class="row service-row animation-element slide-left" style="margin-bottom: 0px;">
-					<div class="col-xs-4 col-xs-offset-4 col service-zoom text-center">
-						<img class="service-image img-responsive center-block" src="img/placeholder.jpg" alt="">
-						<h3 class="text-center service-caption">Heroku</h3>
+          <div class="col-xs-4 service-zoom text-center">
+            <img class="service-image img-responsive center-block" src="img/services/salesforceiq.png" alt="">
+            <!-- <h3 class="text-center service-caption">Wave Apps</h3> -->
+          </div>
+          <div class="col-xs-4 service-zoom text-center">
+						<img class="service-image img-responsive center-block" src="img/services/heroku.png" alt="">
+						<!-- <h3 class="text-center service-caption">Heroku</h3> -->
 					</div>
 				</div>
 

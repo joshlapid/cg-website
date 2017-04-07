@@ -20,7 +20,6 @@
           <div class="row">
             <div class="col-sm-12">
               <p class="text-justify parallax-content">Salesforce is a powerful, company-wide business platform. Expanding your departmental use of Salesforce will provide maximum ROI and real-time visibility to key KPI’s and customer insight. Doing so provides your company with a real-time, 360 view of your prospects and customers, in addition to maximizing employee productivity.</p>
-              <p class="text-justify parallax-content">Salesforce adapts to its customers’ needs, making major updates to their system three times a year. It’s crucial to monitor those updates and make any necessary changes in your Salesforce instance. To stay competitive in today’s marketplace, business processes will change. Hiring a certified implementation partner ensure your Salesforce system adapts according to best practices.</p>
             </div>
           </div>
 
@@ -98,7 +97,7 @@
 				<div class="row service-row animation-element slide-left">
 					<div class="col-xs-4 service-zoom">
             <div class="service-icon text-center center-block row2">
-						  <h3 class="text-center service-caption center-block">Community Cloud</h3>
+						  <h3 class="text-center service-caption center-block">Community</br>Cloud</h3>
             </div>
           </div>
 					<div class="col-xs-4 service-zoom">
