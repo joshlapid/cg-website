@@ -7,22 +7,24 @@
 
     <!-- New to Salesforce -->
     <div class="container-fluid parallax-window" data-parallax="scroll" data-image-src="img/NewToSF_1.png">
-      <div class="container">
+      <div class="container parallax-overlay">
+        <div class="container">
 
-        <div class="row">
-          <div class="col-sm-12">
-            <h1 class="text-center parallax-content" style="color: white;">New to Salesforce</h1>
-            <p class="text-center" style="color: rgba(255, 153, 0, 0.7);">[Binary Background Placeholder]</p>
+          <div class="row">
+            <div class="col-sm-12">
+              <h1 class="text-center parallax-content" style="color: white;">New to Salesforce</h1>
+              <p class="text-center" style="color: rgba(255, 153, 0, 0.7);">[Binary Background Placeholder]</p>
 
+            </div>
           </div>
-        </div>
 
-        <div class="row">
-          <div class="col-sm-12">
-            <p class="text-justify parallax-content">Whether you’re thinking about adopting the Salesforce platform, have already done so but don’t use it as much as you’d like, or your Salesforce Administrator took on a new role, you’ve come to the right place. Unsuccessfully adopting a new system can cost teams a great deal of time, and ultimately money. It’s important to take in all the factors when using a new system such as user adoption, business process accountability, and more. Companies cannot afford to experiment their way through their initial deployment or take a wrong turn early in their Salesforce journey.</p>
+          <div class="row">
+            <div class="col-sm-12">
+              <p class="text-justify parallax-content">Whether you’re thinking about adopting the Salesforce platform, have already done so but don’t use it as much as you’d like, or your Salesforce Administrator took on a new role, you’ve come to the right place. Unsuccessfully adopting a new system can cost teams a great deal of time, and ultimately money. It’s important to take in all the factors when using a new system such as user adoption, business process accountability, and more. Companies cannot afford to experiment their way through their initial deployment or take a wrong turn early in their Salesforce journey.</p>
+            </div>
           </div>
-        </div>
 
+        </div>
       </div>
     </div>
 
@@ -58,7 +60,7 @@
             </ol>
           </div>
           <div class="col-sm-6 text-center vcenter">
-            <img id="requirements-image" src="img/NewToSF_1.png" alt="" class="img-responsive">
+            <img id="requirements-image" src="img/new_to_sf.jpg" alt="" class="img-responsive">
           </div>
         </div>
 

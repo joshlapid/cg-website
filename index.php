@@ -16,26 +16,29 @@
 
     <!-- Main Banner -->
     <div class="container-fluid parallax-window" data-parallax="scroll" data-image-src="img/parallax-bg-1.jpg">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <h1 class="text-center parallax-content" style="color: white;">Corrao Group</h1>
-          </div>
-        </div>
+      <div class="container parallax-overlay">
+        <div class="container">
 
-        <div class="row">
-          <div class="col-sm-12">
-            <h2 class="text-center parallax-content">Salesforce Optimization</h2>
+          <div class="row">
+            <div class="col-sm-12">
+              <h1 class="text-center parallax-content" style="color: white;">Corrao Group</h1>
+            </div>
           </div>
-        </div>
 
-        <div class="row">
-          <div class="col-sm-12 text-center">
-            <!-- <button class="carousel-button btn btn-default" type="button" name="button">READ MORE</button> -->
-            <p class="text-center" style="color: rgba(255, 153, 0, 0.7);">[Binary Background Placeholder]</p>
+          <div class="row">
+            <div class="col-sm-12">
+              <h2 class="text-center parallax-content">Salesforce Optimization</h2>
+            </div>
           </div>
-        </div>
 
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <!-- <button class="carousel-button btn btn-default" type="button" name="button">READ MORE</button> -->
+              <p class="text-center" style="color: rgba(255, 153, 0, 0.7);">[Binary Background Placeholder]</p>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
 
@@ -130,30 +133,30 @@
 
 		<!-- Our Customers -->
 		<div class="container-fluid parallax-window our-customers-container" data-parallax="scroll" data-image-src="img/parallax-bg-1.jpg" >
-      <div class="container">
+      <div class="container parallax-overlay">
+        <div class="container">
 
-  			<div class="parallax-overlay">
-  				<h1 class="text-center parallax-content">Our Customers</h1>
-  				<div class="row parallax-content text-center">
-  					<div class="col-sm-3">
-              <div class="ticker-number" data-counter="720">0</div>
-  						<p># of Customers</p>
-  					</div>
-  					<div class="col-sm-3">
-  						<div class="ticker-number" data-counter="1300">0</div>
-  						<p>Projects</p>
-  					</div>
-  					<div class="col-sm-3">
-  						<div class="ticker-number-static">5/5</div>
-  						<p>Salesforce AppExchange Score</p>
-  					</div>
-  					<div class="col-sm-3">
-  						<div class="ticker-number" data-counter="890">0</div>
-  						<p># of Cancer Transportation Rides Donated</p>
-  					</div>
-  				</div>
-  			</div>
+    				<h1 class="text-center parallax-content">Our Customers</h1>
+    				<div class="row parallax-content text-center">
+    					<div class="col-sm-3">
+                <div class="ticker-number" data-counter="720">0</div>
+    						<p># of Customers</p>
+    					</div>
+    					<div class="col-sm-3">
+    						<div class="ticker-number" data-counter="1300">0</div>
+    						<p>Projects</p>
+    					</div>
+    					<div class="col-sm-3">
+    						<div class="ticker-number-static">5/5</div>
+    						<p>Salesforce AppExchange Score</p>
+    					</div>
+    					<div class="col-sm-3">
+    						<div class="ticker-number" data-counter="890">0</div>
+    						<p># of Cancer Transportation Rides Donated</p>
+    					</div>
+    				</div>
 
+        </div>
       </div>
 		</div>
 

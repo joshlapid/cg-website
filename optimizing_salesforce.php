@@ -7,21 +7,23 @@
 
     <!-- Optimizing Salesforce -->
     <div class="container-fluid container-padding parallax-window" data-parallax="scroll" data-image-src="img/SFOpt_1.jpg">
-      <div class="container">
+      <div class="container parallax-overlay">
+        <div class="container">
 
-        <div class="row">
-          <div class="col-sm-12">
-            <h1 class="text-center parallax-content" style="color: white;">Optimizing Salesforce</h1>
-            <p class="text-center" style="color: rgba(255, 153, 0, 0.7);">[Binary Background Placeholder]</p>
+          <div class="row">
+            <div class="col-sm-12">
+              <h1 class="text-center parallax-content" style="color: white;">Optimizing Salesforce</h1>
+              <p class="text-center" style="color: rgba(255, 153, 0, 0.7);">[Binary Background Placeholder]</p>
+            </div>
           </div>
-        </div>
 
-        <div class="row">
-          <div class="col-sm-12">
-            <p class="text-justify parallax-content">Intended for organizations who do not have a dedicated Salesforce System Administrator or are not sure if your system is being utilized to its full potential. We offer services that analyze your current Salesforce implementation while providing and executing recommendations to optimize your platform to ensure maximum ROI. </p>
+          <div class="row">
+            <div class="col-sm-12">
+              <p class="text-justify parallax-content">Intended for organizations who do not have a dedicated Salesforce System Administrator or are not sure if your system is being utilized to its full potential. We offer services that analyze your current Salesforce implementation while providing and executing recommendations to optimize your platform to ensure maximum ROI. </p>
+            </div>
           </div>
-        </div>
 
+        </div>
       </div>
     </div>
     <!-- Advanced Features and Automation -->
@@ -42,7 +44,7 @@
               <p>Our certifications grow as Salesforce grows, we maintain a staff with up to date certifications for many Salesforce products and types. If you have a Salesforce project with us, have no fear, you’ll have a dedicated Salesforce Certified Administrator assigned to your project.</p>
             </div>
             <div class="col-sm-6">
-              <img class="img-responsive" src="img/SFOpt_1.jpg" alt="">
+              <img class="img-responsive" src="img/SFEXP.jpg" alt="">
             </div>
           </div>
 

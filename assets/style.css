@@ -17,12 +17,17 @@ h2 {
 p {
   font-size: 14pt; }
 
-.container-fluid {
+.container-fluid, .parallax-overlay {
   padding-top: 80px;
   padding-bottom: 80px; }
 
 .parallax-window {
-  background: rgba(0, 0, 0, 0.75); }
+  padding: 0px !important; }
+
+.parallax-overlay {
+  background: rgba(0, 0, 0, 0.75);
+  margin: 0px;
+  width: 100%; }
 
 .container-padding {
   padding-bottom: 60px; }
@@ -453,14 +458,14 @@ footer .container-fluid {
   color: white; }
 
 @media (max-width: 1200px) {
-  .container-fluid {
+  .container-fluid, .parallax-overlay {
     padding-top: 60px;
     padding-bottom: 60px; }
 
   .back {
     padding: 30px 30px; } }
 @media (max-width: 992px) {
-  .container-fluid {
+  .container-fluid, .parallax-overlay {
     padding-top: 40px;
     padding-bottom: 40px; }
 
@@ -524,7 +529,7 @@ footer .container-fluid {
   .container-padding {
     padding-bottom: 40px; }
 
-  .container-fluid {
+  .container-fluid, .parallax-overlay {
     padding-top: 40px;
     padding-bottom: 40px; }
 

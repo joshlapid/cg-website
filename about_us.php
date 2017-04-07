@@ -8,21 +8,23 @@
 
     <!-- About the Corrao Group -->
     <div class="container-fluid parallax-window" data-parallax="scroll" data-image-src="img/parallax-bg-1.jpg">
-      <div class="container">
+      <div class="container parallax-overlay">
+        <div class="container">
 
-        <div class="row">
-          <div class="col-sm-12">
-            <h1 class="text-center parallax-content">About the Corrao Group</h1>
-            <p class="text-center" style="color: rgba(255, 153, 0, 0.7);">[Binary Background Placeholder]</p>
+          <div class="row">
+            <div class="col-sm-12">
+              <h1 class="text-center parallax-content">About the Corrao Group</h1>
+              <p class="text-center" style="color: rgba(255, 153, 0, 0.7);">[Binary Background Placeholder]</p>
+            </div>
           </div>
-        </div>
 
-        <div class="row">
-          <div class="col-sm-12">
-            <img src="img/binary-timeline.jpg" alt="" class="img-responsive center-block">
+          <div class="row">
+            <div class="col-sm-12">
+              <img src="img/binary-timeline.jpg" alt="" class="img-responsive center-block">
+            </div>
           </div>
-        </div>
 
+        </div>
       </div>
     </div>
 
