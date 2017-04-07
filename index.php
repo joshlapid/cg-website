@@ -31,7 +31,7 @@
 
         <div class="row">
           <div class="col-sm-12 text-center">
-            <button class="carousel-button btn btn-default" type="button" name="button">READ MORE</button>
+            <!-- <button class="carousel-button btn btn-default" type="button" name="button">READ MORE</button> -->
             <p class="text-center" style="color: rgba(255, 153, 0, 0.7);">[Binary Background Placeholder]</p>
           </div>
         </div>
@@ -144,14 +144,13 @@
   						<p>Projects</p>
   					</div>
   					<div class="col-sm-3">
-  						<div class="ticker-number" data-counter="5" style="display: inline;">0</div><div class="ticker-number2" style="display: inline;">/5</div>
+  						<div class="ticker-number-static">5/5</div>
   						<p>Salesforce AppExchange Score</p>
   					</div>
   					<div class="col-sm-3">
   						<div class="ticker-number" data-counter="890">0</div>
   						<p># of Cancer Transportation Rides Donated</p>
   					</div>
-            <p class="text-center" style="color: rgba(255, 153, 0, 0.7);">[Binary Background Placeholder]</p>
   				</div>
   			</div>
 

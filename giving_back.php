@@ -6,7 +6,7 @@
     <?php include('navbar.php'); ?>
 
     <!-- About ENF -->
-    <div class="container-fluid container-padding parallax-window" data-parallax="scroll" data-image-src="img/parallax-bg-1.jpg">
+    <div class="container-fluid container-padding parallax-window" data-parallax="scroll" data-image-src="img/enf-bg.jpg">
       <div class="container">
 
         <div class="row">

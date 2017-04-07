@@ -336,7 +336,7 @@ p {
 .our-customers-heading {
   margin-bottom: 40px; }
 
-.ticker-number, .ticker-number2 {
+.ticker-number, .ticker-number-static {
   font-size: 5vw;
   font-weight: 900;
   font-family: "Roboto", sans-serif; }
@@ -377,6 +377,10 @@ p {
   width: 100%;
   height: 400px; }
 
+.our-certifications-container {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
 footer .container-fluid {
   background-color: #122a3f;
   padding: 50px; }
@@ -413,7 +417,7 @@ footer .container-fluid {
 #linkedin-sprite {
   float: right;
   height: 34px;
-  width: 43px;
+  width: 34px;
   background: url(../img/linkedin-sprite.png) no-repeat 0 -34px; }
 
 #linkedin-sprite:hover {
@@ -606,7 +610,7 @@ footer .container-fluid {
   #enf-youtube-video {
     height: 200px; }
 
-  .ticker-number, .ticker-number2 {
+  .ticker-number, .ticker-number-static {
     font-size: 6vw; } }
 @media (min-width: 425px) {
   .contact-us-button-mobile {
@@ -614,6 +618,28 @@ footer .container-fluid {
 
   .social-media-logo {
     display: none; } }
+.service-icon-container .service-icon {
+  background-color: #337ab7;
+  color: white;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  line-height: 195px;
+  margin-bottom: 20px; }
+.service-icon-container .row1 {
+  background-color: #122a3f; }
+.service-icon-container .row2 {
+  background-color: #22527b; }
+.service-icon-container .row3 {
+  background-color: #337ab7; }
+.service-icon-container .row4 {
+  background-color: #4f93ce; }
+.service-icon-container .row5 {
+  background-color: #77acd9; }
+.service-icon-container .service-caption {
+  vertical-align: middle;
+  display: inline-block; }
+
 /*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */

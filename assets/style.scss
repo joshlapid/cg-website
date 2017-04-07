@@ -424,7 +424,7 @@ p {
   margin-bottom: 40px
 }
 
-.ticker-number, .ticker-number2 {
+.ticker-number, .ticker-number-static {
   font-size: 5vw;
   font-weight: 900;
   font-family: $primary-font;
@@ -485,6 +485,12 @@ p {
   height: 400px;
 }
 
+// Our Certifications
+.our-certifications-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 // Footer
 footer {
 
@@ -535,7 +541,7 @@ footer {
 #linkedin-sprite {
   float: right;
   height: 34px;
-  width: 43px;
+  width: 34px;
   background: url(../img/linkedin-sprite.png) no-repeat 0 -34px;
 }
 
@@ -802,7 +808,7 @@ footer {
     height: 200px;
   }
 
-  .ticker-number, .ticker-number2 {
+  .ticker-number, .ticker-number-static {
     font-size: 6vw;
   }
 }
@@ -814,6 +820,44 @@ footer {
 
   .social-media-logo {
     display: none;
+  }
+}
+
+// Services Backup
+.service-icon-container {
+  .service-icon {
+    background-color: $primary-color;
+    color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    line-height: 195px;
+    margin-bottom: 20px;
+  }
+
+  .row1 {
+    background-color: darken($primary-color,30);
+  }
+
+  .row2 {
+    background-color: darken($primary-color,15);
+  }
+
+  .row3 {
+    background-color: darken($primary-color,0);
+  }
+
+  .row4 {
+    background-color: lighten($primary-color,10);
+  }
+
+  .row5 {
+    background-color: lighten($primary-color,20);
+  }
+
+  .service-caption {
+    vertical-align: middle;
+    display: inline-block;
   }
 }
 
