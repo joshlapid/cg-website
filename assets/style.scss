@@ -1,7 +1,8 @@
 // Variables
 $primary-font: 'Roboto', sans-serif;
 $secondary-font: 'Open Sans', sans-serif;
-$primary-color: rgba(0, 0, 0, 0.75);
+$primary-color: #337ab7;
+$overlay-opacity: rgba(0, 0, 0, 0.75);
 
 // Global
 body {
@@ -37,7 +38,7 @@ p {
 }
 
 .parallax-overlay {
-  background: rgba(0, 0, 0, 0.75);
+  background: $overlay-opacity;
   margin: 0px;
   width: 100%;
 }
@@ -265,6 +266,18 @@ p {
 
 #carousel-mobile {
   display: none;
+}
+
+// Main Banner
+#main-banner {
+  max-height: 416px;
+  height: 100%;
+  background: url(../img/Home.jpg) center;
+  background-size: cover;
+
+  .container {
+    padding: 60px 0px;
+  }
 }
 
 // Flipcard Section
@@ -640,6 +653,12 @@ footer {
     padding-bottom: 60px;
   }
 
+  #main-banner {
+    .container {
+      padding: 45px 0px;
+    }
+  }
+
   .back {
     padding: 30px 30px;
   }
@@ -649,6 +668,12 @@ footer {
   .container-fluid, .parallax-overlay {
     padding-top: 40px;
     padding-bottom: 40px;
+  }
+
+  #main-banner {
+    .container {
+      padding: 35px 0px;
+    }
   }
 
   .back {
@@ -689,6 +714,12 @@ footer {
 
   p {
     font-size: 12pt;
+  }
+
+  #main-banner {
+    .container {
+      padding: 30px 0px;
+    }
   }
 
   .navbar-logo {

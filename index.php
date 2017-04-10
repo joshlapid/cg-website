@@ -15,8 +15,8 @@
 		</div> -->
 
     <!-- Main Banner -->
-    <div class="container-fluid parallax-window" data-parallax="scroll" data-image-src="img/Home.jpg">
-      <div class="container parallax-overlay" style="background: rgba(0, 0, 0, 0);">
+    <div id="main-banner" class="container-fluid parallax-window">
+      <div class="container">
         <div class="container">
 
           <div class="row">
@@ -34,7 +34,6 @@
           <div class="row">
             <div class="col-sm-12 text-center">
               <!-- <button class="carousel-button btn btn-default" type="button" name="button">READ MORE</button> -->
-              <p class="text-center" style="color: rgba(255, 153, 0, 0.7);">[Binary Background Placeholder]</p>
             </div>
           </div>
 
