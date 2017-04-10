@@ -58,7 +58,7 @@
 					<div class="flipcard-container" ontouchstart="this.classList.toggle('hover');">
 						<div class="flipcard">
 							<div id="front-new" class="front">
-								<h2 class="flipcard-caption">NEW TO SALESFORCE</h2>
+								<h2 class="flipcard-caption">New to Salesforce</h2>
 							</div>
 							<div class="back flipcard-left">
 								<p>Establish a foundation on Salesforce Cloud to ensure your business processes are well defined, transferred over, and optimized.</p>
@@ -72,7 +72,7 @@
 					<div class="flipcard-container" ontouchstart="this.classList.toggle('hover');">
 						<div class="flipcard">
 							<div id="front-optimizing" class="front">
-								<h2 class="flipcard-caption">OPTIMIZING SALESFORCE</h2>
+								<h2 class="flipcard-caption">Optimizing Salesforce</h2>
 							</div>
 							<div class="back">
 								<p>Have a solid Salesforce foundation and ready to take it to the next level? Leverage our team for advanced custom configuration and training. </p>
@@ -86,7 +86,7 @@
 					<div class="flipcard-container" ontouchstart="this.classList.toggle('hover');">
 						<div class="flipcard">
 							<div id="front-expansion" class="front">
-								<h2 class="flipcard-caption">SALESFORCE EXPANSION</h2>
+								<h2 class="flipcard-caption">Salesforce Expansion</h2>
 							</div>
 							<div class="back flipcard-right">
 								<p>Expand the Salesforce platform across all of your departments: Marketing, Service, Accounting, Operations, and more.</p>

@@ -10,7 +10,7 @@
         </div>
 
         <div id="contact-us" class="col-sm-4 contact-us-form">
-          <h2 class="text-center parallax-content">Contact Us</h2>
+          <h2 class="text-center" style="color: white;">Contact Us</h2>
           <form action="">
 
             <div class="form-group row">

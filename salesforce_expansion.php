@@ -6,14 +6,13 @@
     <?php include('navbar.php'); ?>
 
     <!-- Sales Force Expansion -->
-    <div class="container-fluid container-padding parallax-window" data-parallax="scroll" data-image-src="img/SFEXP_BG.jpg">
-      <div class="container parallax-overlay">
+    <div id="salesforce-expansion-banner" class="container-fluid container-padding parallax-window">
+      <div class="container header-overlay">
         <div class="container">
 
           <div class="row">
             <div class="col-sm-12">
               <h1 class="text-center parallax-content">Salesforce Expansion</h1>
-              <p class="text-center" style="color: rgba(255, 153, 0, 0.7);">[Binary Background Placeholder]</p>
             </div>
           </div>
 

@@ -1,8 +1,9 @@
 // Variables
-$primary-font: 'Roboto', sans-serif;
+$primary-font: 'Raleway', sans-serif;
 $secondary-font: 'Open Sans', sans-serif;
 $primary-color: #337ab7;
-$overlay-opacity: rgba(0, 0, 0, 0.75);
+$overlay-opacity: rgba(0, 0, 0, 0.65);
+$header-overlay-opacity: rgba(0, 0, 0, 0.3);
 
 // Global
 body {
@@ -12,7 +13,7 @@ body {
 h1 {
   font-family: $primary-font;
   color: $primary-color;
-  font-weight: bold;
+  // font-weight: bold;
   font-size: 5vw;
   margin-top: 0px;
   margin-bottom: 20px;
@@ -21,11 +22,12 @@ h1 {
 h2 {
   margin-top: 0px;
   font-family: $primary-font;
-  font-weight: bold;
+  // font-weight: bold;
 }
 
 p {
   font-size: 14pt;
+  font-weight: 300;
 }
 
 .container-fluid, .parallax-overlay {
@@ -39,6 +41,12 @@ p {
 
 .parallax-overlay {
   background: $overlay-opacity;
+  margin: 0px;
+  width: 100%;
+}
+
+.header-overlay {
+  background: $header-overlay-opacity;
   margin: 0px;
   width: 100%;
 }
@@ -501,12 +509,8 @@ p {
 #new-to-salesforce-banner {
   max-height: 416px;
   height: 100%;
-  background: url(../img/Home.jpg) center;
+  background: url(../img/New_to_Salesforce.jpg) center;
   background-size: cover;
-
-  .container {
-    padding: 60px 0px;
-  }
 }
 
 
@@ -518,6 +522,7 @@ p {
     font-family: $primary-font;
     font-size: 16pt;
     margin: 10px 0px;
+    font-weight: 300;
   }
 
   li > strong {
@@ -530,9 +535,25 @@ p {
 }
 
 // Optimizing Salesforce Page
+#optimizing-salesforce-banner {
+  max-height: 416px;
+  height: 100%;
+  background: url(../img/Optimizing_Salesforce.jpg) center;
+  background-size: cover;
+}
+
 .advanced-features-heading {
   margin-bottom: 20px;
 }
+
+// Salesforce Expansion
+#salesforce-expansion-banner {
+  max-height: 416px;
+  height: 100%;
+  background: url(../img/Salesforce_Expansion.jpg) center;
+  background-size: cover;
+}
+
 
 // About Us
 .location-container {
@@ -654,13 +675,13 @@ footer {
 
 // Parallax
 .parallax-content {
-  text-shadow: 0px 0px 5px black;
+  text-shadow: 0px 0px 5px black, 0px 2px 3px black, 1px 0px 2px black, -1px 0px 2px black, 0px 0px 8px black;
   color: white;
 }
 
 // Media Queries
 @media (max-width: 1200px) {
-  .container-fluid, .parallax-overlay {
+  .container-fluid, .parallax-overlay, .header-overlay {
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -677,7 +698,7 @@ footer {
 }
 
 @media (max-width: 992px) {
-  .container-fluid, .parallax-overlay {
+  .container-fluid, .parallax-overlay, .header-overlay {
     padding-top: 40px;
     padding-bottom: 40px;
   }
@@ -777,7 +798,7 @@ footer {
     padding-bottom: 40px;
   }
 
-  .container-fluid, .parallax-overlay {
+  .container-fluid, .parallax-overlay, .header-overlay {
     padding-top: 40px;
     padding-bottom: 40px;
   }
@@ -822,6 +843,10 @@ footer {
 }
 
 @media(max-width: 670px) {
+  p {
+    font-size: 10pt;
+  }
+
   #carousel-desktop {
     display: none;
   }
@@ -834,6 +859,15 @@ footer {
 @media (max-width: 425px) {
   h1 {
     font-size: 9vw;
+  }
+
+  h2 {
+    font-size: 6vw;
+  }
+
+  .header-overlay {
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 
   .foundation-list>li {

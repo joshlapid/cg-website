@@ -6,14 +6,13 @@
     <?php include('navbar.php'); ?>
 
     <!-- Optimizing Salesforce -->
-    <div class="container-fluid container-padding parallax-window" data-parallax="scroll" data-image-src="img/SFOpt_1.jpg">
-      <div class="container parallax-overlay">
+    <div id="optimizing-salesforce-banner" class="container-fluid container-padding parallax-window">
+      <div class="container header-overlay">
         <div class="container">
 
           <div class="row">
             <div class="col-sm-12">
               <h1 class="text-center parallax-content" style="color: white;">Optimizing Salesforce</h1>
-              <p class="text-center" style="color: rgba(255, 153, 0, 0.7);">[Binary Background Placeholder]</p>
             </div>
           </div>
 

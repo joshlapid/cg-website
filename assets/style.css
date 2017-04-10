@@ -2,20 +2,19 @@ body {
   font-family: "Open Sans", sans-serif; }
 
 h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #337ab7;
-  font-weight: bold;
   font-size: 5vw;
   margin-top: 0px;
   margin-bottom: 20px; }
 
 h2 {
   margin-top: 0px;
-  font-family: "Roboto", sans-serif;
-  font-weight: bold; }
+  font-family: "Raleway", sans-serif; }
 
 p {
-  font-size: 14pt; }
+  font-size: 14pt;
+  font-weight: 300; }
 
 .container-fluid, .parallax-overlay {
   padding-top: 80px;
@@ -25,7 +24,12 @@ p {
   padding: 0px !important; }
 
 .parallax-overlay {
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.65);
+  margin: 0px;
+  width: 100%; }
+
+.header-overlay {
+  background: rgba(0, 0, 0, 0.3);
   margin: 0px;
   width: 100%; }
 
@@ -40,7 +44,7 @@ p {
   border: 2px solid white;
   padding: 10px 20px;
   color: white;
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   letter-spacing: 1px;
   transition: background .25 ease;
   -moz-transition: background .25s ease;
@@ -71,7 +75,7 @@ p {
 
 .navbar-default {
   background-color: white;
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 10pt;
   letter-spacing: 1px; }
   .navbar-default .container-fluid {
@@ -98,7 +102,7 @@ p {
   background-color: #337ab7;
   color: white;
   border: 1px solid #337ab7;
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   letter-spacing: 2px;
   transition: background 0.8s ease;
   transition: color 0.5s ease; }
@@ -196,7 +200,7 @@ p {
   text-shadow: 0px 0px 10px black; }
 
 .carousel-button {
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 12pt;
   letter-spacing: 1px;
   border: 2px solid white;
@@ -271,7 +275,7 @@ p {
 
 .front {
   padding: 55px 40px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   letter-spacing: 3px;
   z-index: 2;
   transform: rotateY(0deg);
@@ -365,7 +369,7 @@ p {
 .ticker-number, .ticker-number-static {
   font-size: 5vw;
   font-weight: 900;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Raleway", sans-serif; }
 
 .contact-us-form {
   background-color: #337ab7;
@@ -393,25 +397,36 @@ p {
 #new-to-salesforce-banner {
   max-height: 416px;
   height: 100%;
-  background: url(../img/Home.jpg) center;
+  background: url(../img/New_to_Salesforce.jpg) center;
   background-size: cover; }
-  #new-to-salesforce-banner .container {
-    padding: 60px 0px; }
 
 .foundation-list {
   list-style-type: upper-roman; }
   .foundation-list li {
-    font-family: "Roboto", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 16pt;
-    margin: 10px 0px; }
+    margin: 10px 0px;
+    font-weight: 300; }
   .foundation-list li > strong {
     color: #337ab7; }
 
 #requirements-image {
   padding-top: 20px; }
 
+#optimizing-salesforce-banner {
+  max-height: 416px;
+  height: 100%;
+  background: url(../img/Optimizing_Salesforce.jpg) center;
+  background-size: cover; }
+
 .advanced-features-heading {
   margin-bottom: 20px; }
+
+#salesforce-expansion-banner {
+  max-height: 416px;
+  height: 100%;
+  background: url(../img/Salesforce_Expansion.jpg) center;
+  background-size: cover; }
 
 .location-container {
   padding-top: 40px;
@@ -450,7 +465,7 @@ footer .container-fluid {
   margin-left: auto;
   margin-right: auto; }
 .footer-nav-links a {
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: white;
   letter-spacing: 2px; }
 
@@ -503,11 +518,11 @@ footer .container-fluid {
     text-decoration: none; }
 
 .parallax-content {
-  text-shadow: 0px 0px 5px black;
+  text-shadow: 0px 0px 5px black, 0px 2px 3px black, 1px 0px 2px black, -1px 0px 2px black, 0px 0px 8px black;
   color: white; }
 
 @media (max-width: 1200px) {
-  .container-fluid, .parallax-overlay {
+  .container-fluid, .parallax-overlay, .header-overlay {
     padding-top: 60px;
     padding-bottom: 60px; }
 
@@ -517,7 +532,7 @@ footer .container-fluid {
   .back {
     padding: 30px 30px; } }
 @media (max-width: 992px) {
-  .container-fluid, .parallax-overlay {
+  .container-fluid, .parallax-overlay, .header-overlay {
     padding-top: 40px;
     padding-bottom: 40px; }
 
@@ -536,7 +551,7 @@ footer .container-fluid {
   .foundation-list {
     list-style-type: upper-roman; }
     .foundation-list li {
-      font-family: "Roboto", sans-serif;
+      font-family: "Raleway", sans-serif;
       font-size: 12pt;
       margin: 10px 0px; } }
 @media (min-width: 992px) {
@@ -587,7 +602,7 @@ footer .container-fluid {
   .container-padding {
     padding-bottom: 40px; }
 
-  .container-fluid, .parallax-overlay {
+  .container-fluid, .parallax-overlay, .header-overlay {
     padding-top: 40px;
     padding-bottom: 40px; }
 
@@ -618,6 +633,9 @@ footer .container-fluid {
   .our-services-column {
     padding-right: 50px; } }
 @media (max-width: 670px) {
+  p {
+    font-size: 10pt; }
+
   #carousel-desktop {
     display: none; }
 
@@ -627,8 +645,15 @@ footer .container-fluid {
   h1 {
     font-size: 9vw; }
 
+  h2 {
+    font-size: 6vw; }
+
+  .header-overlay {
+    padding-top: 25px;
+    padding-bottom: 25px; }
+
   .foundation-list > li {
-    font-family: "Roboto", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 12pt; }
 
   .container-padding {
