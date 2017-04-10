@@ -390,6 +390,14 @@ p {
 #contact-us-phone:hover {
   color: white; }
 
+#new-to-salesforce-banner {
+  max-height: 416px;
+  height: 100%;
+  background: url(../img/Home.jpg) center;
+  background-size: cover; }
+  #new-to-salesforce-banner .container {
+    padding: 60px 0px; }
+
 .foundation-list {
   list-style-type: upper-roman; }
   .foundation-list li {

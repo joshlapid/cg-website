@@ -268,7 +268,7 @@ p {
   display: none;
 }
 
-// Main Banner
+// Main Banners
 #main-banner {
   max-height: 416px;
   height: 100%;
@@ -498,6 +498,18 @@ p {
 }
 
 // New to Salesforce Page
+#new-to-salesforce-banner {
+  max-height: 416px;
+  height: 100%;
+  background: url(../img/Home.jpg) center;
+  background-size: cover;
+
+  .container {
+    padding: 60px 0px;
+  }
+}
+
+
 .foundation-list {
 
   list-style-type: upper-roman;

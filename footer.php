@@ -17,13 +17,13 @@
     <div class="row">
       <div class="col-sm-12 text-center">
         <a href="new_to_salesforce.php">
-          <img class="footer-icon" src="img/binary-icon-placeholder.jpg" alt="">
+          <img class="footer-icon" src="img/new_to_salesforce_icon.png" alt="">
         </a>
         <a href="optimizing_salesforce.php">
-          <img class="footer-icon" src="img/binary-icon-placeholder.jpg" alt="">
+          <img class="footer-icon" src="img/salesforce_optimization_icon.png" alt="">
         </a>
         <a href="salesforce_expansion.php">
-          <img class="footer-icon" src="img/binary-icon-placeholder.jpg" alt="">
+          <img class="footer-icon" src="img/salesforce_expansion_icon.png" alt="">
         </a>
       </div>
     </div>
