@@ -15,8 +15,8 @@
 		</div> -->
 
     <!-- Main Banner -->
-    <div class="container-fluid parallax-window" data-parallax="scroll" data-image-src="img/parallax-bg-1.jpg">
-      <div class="container parallax-overlay">
+    <div class="container-fluid parallax-window" data-parallax="scroll" data-image-src="img/Home.jpg">
+      <div class="container parallax-overlay" style="background: rgba(0, 0, 0, 0);">
         <div class="container">
 
           <div class="row">
@@ -58,8 +58,7 @@
 				<div class="col-xs-4 text-center">
 					<div class="flipcard-container" ontouchstart="this.classList.toggle('hover');">
 						<div class="flipcard">
-							<div class="front">
-								<img class="img-responsive center-block flipcard-image" src="img/binary-icon-placeholder.jpg" alt="" >
+							<div id="front-new" class="front">
 								<h2 class="flipcard-caption">NEW TO SALESFORCE</h2>
 							</div>
 							<div class="back flipcard-left">
@@ -73,8 +72,7 @@
 				<div class="col-xs-4 text-center">
 					<div class="flipcard-container" ontouchstart="this.classList.toggle('hover');">
 						<div class="flipcard">
-							<div class="front">
-								<img class="img-responsive center-block flipcard-image" src="img/binary-icon-placeholder.jpg" alt="">
+							<div id="front-optimizing" class="front">
 								<h2 class="flipcard-caption">OPTIMIZING SALESFORCE</h2>
 							</div>
 							<div class="back">
@@ -88,8 +86,7 @@
 				<div class="col-xs-4 text-center">
 					<div class="flipcard-container" ontouchstart="this.classList.toggle('hover');">
 						<div class="flipcard">
-							<div class="front">
-								<img class="img-responsive center-block flipcard-image" src="img/binary-icon-placeholder.jpg" alt="">
+							<div id="front-expansion" class="front">
 								<h2 class="flipcard-caption">SALESFORCE EXPANSION</h2>
 							</div>
 							<div class="back flipcard-right">

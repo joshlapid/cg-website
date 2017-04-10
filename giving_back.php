@@ -12,7 +12,7 @@
 
           <div class="row">
             <div class="col-sm-12">
-              <h1 class="text-center parallax-content" style="color: white;"><img src="img/ENF1.png" alt="" style="background-color:white; padding: 10px;"></h1>
+              <h1 class="text-center parallax-content" style="color: white;"><a href="http://enfhope.org/"><img src="img/ENF1.png" alt="" style="background-color:white; padding: 10px;"></a></h1>
             </div>
           </div>
 
@@ -35,6 +35,14 @@
         <div class="row">
           <div class="col-sm-12 text-center">
             <iframe id="enf-youtube-video" class="img-shadow" src="https://www.youtube.com/embed/p6IVautGbrc" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <br/>
+            <br/>
+            <a id="enf-donate-button" href="https://www.classy.org/checkout/donation?eid=15824">Donate</a>
           </div>
         </div>
 

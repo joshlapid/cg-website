@@ -17,5 +17,8 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
+		<!-- Font Awesome -->
+		<script src="https://use.fontawesome.com/8beb5e946f.js"></script>
+
 	</head>
 	<body>

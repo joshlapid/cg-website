@@ -42,7 +42,8 @@
             </div>
 
             <button type="submit" class="center-block default-button">SUBMIT</button>
-
+            <br/>
+            <p class="text-center"><a id="contact-us-phone" href="tel:858-210-8188"><i class="fa fa-phone" aria-hidden="true"></i> (858)210-8188</a></p>
           </form>
         </div>
       </div>
