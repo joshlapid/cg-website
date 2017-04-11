@@ -4,7 +4,11 @@
 
   <!-- Contact Us Button -->
   <div class="container-fluid navbar-container">
-    <button class="contact-us-button" type="button">CONTACT US</button>
+    <?php if($title != 'Giving Back') {?>
+      <button class="contact-us-button" type="button">CONTACT US</button>
+    <?php } else { ?>
+      <a href="about_us.php#our-services-container"><button class="contact-us-button" type="button">CONTACT US</button></a>
+    <?php } ?>
     <a href="http://corraogroup.com/blog" target="_blank"><div id="linkedin-sprite-navbar"></div></a>
     <a href="http://corraogroup.com/blog" target="_blank"><div id="twitter-sprite-navbar"></div></a>
   </div>
