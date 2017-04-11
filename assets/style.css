@@ -233,6 +233,10 @@ p {
     padding: 60px 0px; }
 
 .flipcard-container {
+  -ms-perspective: 1000px;
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  -o-perspective: 1000px;
   perspective: 1000px; }
 
 .flipcard-header-line {
@@ -246,16 +250,14 @@ p {
   margin-bottom: 40px; }
 
 .flipcard-container:hover .flipcard, .flipcard-container.hover .flipcard {
-  transform: rotateY(180deg);
   -ms-transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
-  -o-transform: rotateY(180deg); }
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg); }
 
 .flipcard-container {
   height: 350px; }
-  .flipcard-container .flipcard-caption {
-    margin-top: 20px; }
 
 .flipcard-image {
   max-width: 90px; }
@@ -268,6 +270,10 @@ p {
   height: 281px;
   max-width: 347px;
   width: 100%;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
   backface-visibility: hidden;
   position: absolute;
   top: 0;
@@ -275,7 +281,15 @@ p {
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.23), 0 7px 8px rgba(0, 0, 0, 0.21); }
 
 .flipcard {
-  transition: 0.4s;
+  -ms-transition: -ms-transform 0.4s;
+  -webkit-transition: -webkit-transform 0.4s;
+  -moz-transition: -moz-transform 0.4s;
+  -o-transition: -o-transform 0.4s;
+  transition: transform 0.4s;
+  -ms-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
   position: relative; }
 
@@ -284,11 +298,11 @@ p {
   font-family: "Raleway", sans-serif;
   letter-spacing: 3px;
   z-index: 2;
-  transform: rotateY(0deg);
   -ms-transform: rotateY(0deg);
   -webkit-transform: rotateY(0deg);
   -moz-transform: rotateY(0deg);
   -o-transform: rotateY(0deg);
+  transform: rotateY(0deg);
   color: white; }
   .front h2 {
     font-size: 2vw;
@@ -305,11 +319,11 @@ p {
 
 .back {
   padding: 30px 55px;
-  transform: rotateY(180deg);
   -ms-transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
   -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
   background-color: #5798d0;
   color: white; }
 
@@ -383,7 +397,7 @@ p {
 .ticker-number, .ticker-number-static {
   font-size: 5vw;
   font-weight: 900;
-  font-family: "Raleway", sans-serif; }
+  font-family: "Open Sans", sans-serif; }
 
 .contact-us-form {
   background-color: #337ab7;
@@ -415,7 +429,7 @@ p {
   background-size: cover; }
 
 .foundation-list {
-  list-style-type: upper-roman; }
+  list-style-type: none; }
   .foundation-list li {
     font-family: "Raleway", sans-serif;
     font-size: 16pt;
@@ -425,7 +439,7 @@ p {
     color: #337ab7; }
 
 #requirements-image {
-  padding-top: 20px; }
+  padding-top: 10px; }
 
 #optimizing-salesforce-banner {
   max-height: 416px;
@@ -441,10 +455,6 @@ p {
   height: 100%;
   background: url(../img/Salesforce_Expansion.jpg) center;
   background-size: cover; }
-
-.location-container {
-  padding-top: 40px;
-  padding-bottom: 40px; }
 
 #enf-youtube-video {
   max-width: 700px;
@@ -486,7 +496,7 @@ footer .container-fluid {
 .footer-nav-links a {
   font-family: "Raleway", sans-serif;
   color: white;
-  letter-spacing: 2px; }
+  letter-spacing: 1px; }
 
 .footer-image {
   background-color: white;
@@ -542,8 +552,8 @@ footer .container-fluid {
 
 @media (max-width: 1200px) {
   .container-fluid, .parallax-overlay, .header-overlay {
-    padding-top: 60px;
-    padding-bottom: 60px; }
+    padding-top: 50px;
+    padding-bottom: 50px; }
 
   #main-banner .container {
     padding: 45px 0px; }
@@ -568,7 +578,7 @@ footer .container-fluid {
     padding-top: 25px; }
 
   .foundation-list {
-    list-style-type: upper-roman; }
+    list-style-type: none; }
     .foundation-list li {
       font-family: "Raleway", sans-serif;
       font-size: 12pt;

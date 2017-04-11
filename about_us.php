@@ -13,7 +13,7 @@
 
           <div class="row">
             <div class="col-sm-12">
-              <h1 class="text-center parallax-content">About the Corrao Group</h1>
+              <h1 class="text-center parallax-content">Corporate Timeline</h1>
             </div>
           </div>
 
@@ -31,6 +31,12 @@
     <div class="container-fluid location-container">
       <div class="container">
 
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h1>Our Customers</h1>
+          </div>
+        </div>
+
         <!-- Locations Map -->
         <div class="row">
           <div class="col-sm-12">
@@ -44,7 +50,7 @@
         <div class="row">
 
           <div class="col-sm-12 text-center">
-            <h2>Locations</h2>
+            <h1>Our Locations</h1>
           </div>
         </div>
 

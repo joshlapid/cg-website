@@ -290,6 +290,10 @@ p {
 
 // Flipcard Section
 .flipcard-container {
+  -ms-perspective: 1000px;
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  -o-perspective: 1000px;
   perspective: 1000px;
 }
 
@@ -306,18 +310,17 @@ p {
 }
 
 .flipcard-container:hover .flipcard, .flipcard-container.hover .flipcard {
-  transform: rotateY(180deg);
   -ms-transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
   -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .flipcard-container {
   height: 350px;
 
   .flipcard-caption {
-    margin-top: 20px;
   }
 }
 
@@ -334,6 +337,10 @@ p {
   height: 281px;
   max-width: 347px;
   width: 100%;
+  -ms-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
   backface-visibility: hidden;
   position: absolute;
   top: 0;
@@ -342,7 +349,15 @@ p {
 }
 
 .flipcard {
-  transition: 0.4s;
+  -ms-transition: -ms-transform 0.4s;
+  -webkit-transition: -webkit-transform 0.4s;
+  -moz-transition: -moz-transform 0.4s;
+  -o-transition: -o-transform 0.4s;
+  transition: transform 0.4s;
+  -ms-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
   position: relative;
 }
@@ -352,11 +367,11 @@ p {
   font-family: $primary-font;
   letter-spacing: 3px;
   z-index: 2;
-  transform: rotateY(0deg);
   -ms-transform: rotateY(0deg);
   -webkit-transform: rotateY(0deg);
   -moz-transform: rotateY(0deg);
   -o-transform: rotateY(0deg);
+  transform: rotateY(0deg);
   color: white;
 
 
@@ -382,11 +397,11 @@ p {
 
 .back {
   padding: 30px 55px;
-  transform: rotateY(180deg);
   -ms-transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
   -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
   background-color: lighten($primary-color, 12);
   color: white;
 }
@@ -485,7 +500,7 @@ p {
 .ticker-number, .ticker-number-static {
   font-size: 5vw;
   font-weight: 900;
-  font-family: $primary-font;
+  font-family: $secondary-font;
 }
 
 // Our Services Container
@@ -528,7 +543,7 @@ p {
 
 .foundation-list {
 
-  list-style-type: upper-roman;
+  list-style-type: none;
 
   li {
     font-family: $primary-font;
@@ -543,7 +558,7 @@ p {
 }
 
 #requirements-image {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 // Optimizing Salesforce Page
@@ -569,8 +584,8 @@ p {
 
 // About Us
 .location-container {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  // padding-top: 40px;
+  // padding-bottom: 40px;
 }
 
 
@@ -627,7 +642,7 @@ footer {
   a {
     font-family: $primary-font;
     color: white;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
   }
 
 }
@@ -699,8 +714,8 @@ footer {
 // Media Queries
 @media (max-width: 1200px) {
   .container-fluid, .parallax-overlay, .header-overlay {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   #main-banner {
@@ -740,7 +755,7 @@ footer {
 
   .foundation-list {
 
-    list-style-type: upper-roman;
+    list-style-type: none;
 
     li {
       font-family: $primary-font;
