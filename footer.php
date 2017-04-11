@@ -55,7 +55,11 @@
 
   <div class="navbar-default navbar-fixed-bottom">
       <div class="container text-center contact-us-button-mobile">
-        <a class="contact-us-button-mobile" href="#contact-us">CONTACT US</a>
+        <?php if($title != 'Giving Back') {?>
+          <a class="contact-us-button-mobile" href="#contact-us">CONTACT US</a>
+        <?php } else { ?>
+          <a class="contact-us-button-mobile" href="about_us.php#contact-us">CONTACT US</a>
+        <?php } ?>
       </div>
   </div>
 
