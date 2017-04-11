@@ -16,7 +16,7 @@
 
     <!-- Main Banner -->
     <div id="main-banner" class="container-fluid parallax-window">
-      <div class="container">
+      <div class="container header-overlay">
         <div class="container">
 
           <div class="row">

@@ -49,8 +49,26 @@
         </div>
 
         <div class="row">
-          <div class="col-sm-12 text-left">
-            <p>San Diego, CA</p>
+          <div class="col-sm-12 text-center">
+            <p>Headquarters - San Diego, California</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6 text-center">
+            <p>Irvine, California</p>
+          </div>
+          <div class="col-sm-6 text-center">
+            <p>San Jose, California</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6 text-center">
+            <p>Atlanta, Georgia</p>
+          </div>
+          <div class="col-sm-6 text-center">
+            <p>Toronto, Canada</p>
           </div>
         </div>
 

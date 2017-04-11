@@ -1,6 +1,6 @@
 $(".contact-us-button").click(function() {
     $('html,body').animate({
-        scrollTop: $("#contact-us").offset().top},
+        scrollTop: $("#our-services-container").offset().top},
         'slow');
 });
 

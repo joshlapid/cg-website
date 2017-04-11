@@ -30,6 +30,8 @@ p {
 
 .header-overlay {
   background: rgba(0, 0, 0, 0.3);
+  padding-top: 80px;
+  padding-bottom: 80px;
   margin: 0px;
   width: 100%; }
 
@@ -244,7 +246,11 @@ p {
   margin-bottom: 40px; }
 
 .flipcard-container:hover .flipcard, .flipcard-container.hover .flipcard {
-  transform: rotateY(180deg); }
+  transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg); }
 
 .flipcard-container {
   height: 350px; }
@@ -279,6 +285,10 @@ p {
   letter-spacing: 3px;
   z-index: 2;
   transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
   color: white; }
   .front h2 {
     font-size: 2vw;
@@ -296,6 +306,10 @@ p {
 .back {
   padding: 30px 55px;
   transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
   background-color: #5798d0;
   color: white; }
 
@@ -442,6 +456,7 @@ p {
   font-size: 18pt;
   text-decoration: none;
   background-color: #337ab7;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.23), 0 7px 8px rgba(0, 0, 0, 0.21);
   padding: 10px 15px;
   border-radius: 3px;
   margin-top: 40px; }
@@ -456,9 +471,13 @@ footer .container-fluid {
 
 .footer-icon {
   max-width: 70px;
+  min-width: 55px;
+  border-radius: 5px;
+  background-color: #337ab7;
+  padding: 5px;
   width: 11vw;
   height: auto;
-  margin: 15px; }
+  margin: 20px; }
 
 .footer-nav-links .row {
   max-width: 550px;
@@ -640,7 +659,10 @@ footer .container-fluid {
     display: none; }
 
   #carousel-mobile {
-    display: block; } }
+    display: block; }
+
+  .footer-icon {
+    margin: 7px; } }
 @media (max-width: 425px) {
   h1 {
     font-size: 9vw; }
