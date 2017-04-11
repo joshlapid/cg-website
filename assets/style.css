@@ -309,13 +309,13 @@ p {
     text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.7), 0px 0px 5px rgba(0, 0, 0, 0.8), 0px 2px 3px rgba(0, 0, 0, 0.9); }
 
 #front-new {
-  background: url(../img/Tiles/new_to_salesforceb.jpg) center; }
+  background: url(../img/Tiles/nts.jpg) center; }
 
 #front-optimizing {
-  background: url(../img/Tiles/optimizing_salesforceb.jpg) center; }
+  background: url(../img/Tiles/os.jpg) center; }
 
 #front-expansion {
-  background: url(../img/Tiles/salesforce_expansionb.jpg) center; }
+  background: url(../img/Tiles/se.jpg) center; }
 
 .back {
   padding: 30px 55px;

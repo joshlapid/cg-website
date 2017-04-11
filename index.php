@@ -58,7 +58,8 @@
 					<div class="flipcard-container" ontouchstart="this.classList.toggle('hover');">
 						<div class="flipcard">
 							<div id="front-new" class="front">
-								<h2 class="flipcard-caption">New to Salesforce</h2>
+								<h2 class="flipcard-caption">New to</br>Salesforce</h2>
+                <img class="flipcard-icon" src="img/tiles/nts.png" alt="" style="margin-top: 40px;">
 							</div>
 							<div class="back flipcard-left">
 								<p>Establish a foundation on Salesforce Cloud to ensure your business processes are well defined, transferred over, and optimized.</p>
@@ -73,6 +74,7 @@
 						<div class="flipcard">
 							<div id="front-optimizing" class="front">
 								<h2 class="flipcard-caption">Optimizing Salesforce</h2>
+                <img class="flipcard-icon" src="img/tiles/os.png" alt="" style="margin-top: 20px;">
 							</div>
 							<div class="back">
 								<p>Have a solid Salesforce foundation and ready to take it to the next level? Leverage our team for advanced custom configuration and training. </p>
@@ -87,6 +89,7 @@
 						<div class="flipcard">
 							<div id="front-expansion" class="front">
 								<h2 class="flipcard-caption">Salesforce Expansion</h2>
+                <img class="flipcard-icon" src="img/tiles/se.png" alt="" style="margin-top: 10px;">
 							</div>
 							<div class="back flipcard-right">
 								<p>Expand the Salesforce platform across all of your departments: Marketing, Service, Accounting, Operations, and more.</p>
@@ -104,22 +107,22 @@
 
 			<div class="row">
 				<a href="new_to_salesforce.php">
-					<div class="col-xs-4 text-center flipcard-mobile-left">
-						<img class="img-responsive center-block flipcard-image" src="img/binary-icon-placeholder.jpg" alt="" >
+					<div class="col-xs-4 text-center flipcard-mobile-left" style="background-color: #9bb901">
+						<img class="img-responsive center-block flipcard-image" src="img/Tiles/nts.png" alt="" >
 						<h2 class="flipcard-caption">NEW TO SALESFORCE</h2>
 					</div>
 				</a>
 
 				<a href="optimizing_salesforce.php">
 					<div class="col-xs-4 text-center">
-						<img class="img-responsive center-block flipcard-image" src="img/binary-icon-placeholder.jpg" alt="">
+						<img class="img-responsive center-block flipcard-image" src="img/Tiles/os.png" alt="">
 						<h2 class="flipcard-caption">OPTIMIZING SALESFORCE</h2>
 					</div>
 				</a>
 
 				<a href="salesforce_expansion.php">
-					<div class="col-xs-4 text-center flipcard-mobile-right">
-						<img class="img-responsive center-block flipcard-image" src="img/binary-icon-placeholder.jpg" alt="">
+					<div class="col-xs-4 text-center flipcard-mobile-right" style="background-color: #f6c500">
+						<img class="img-responsive center-block flipcard-image" src="img/Tiles/se.png" alt="">
 						<h2 class="flipcard-caption">SALESFORCE EXPANSION</h2>
 					</div>
 				</a>
