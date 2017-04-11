@@ -29,7 +29,7 @@ $chrome = strpos($_SERVER["HTTP_USER_AGENT"], 'Chrome') ? true : false;
 
           <div class="row">
             <div class="col-sm-12">
-              <h1 id="main-banner-header" class="text-center parallax-content" style="color: white;">Ensuring You Maximize Your<br/>Salesforce Investment</h1>
+              <h1 id="main-banner-header" class="text-center parallax-content" style="color: white; font-size: 2.5vw;">Ensuring You Maximize Your Salesforce Investment</h1>
             </div>
           </div>
 
