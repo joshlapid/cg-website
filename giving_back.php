@@ -62,7 +62,7 @@
 
           <div class="row">
             <div class="col-sm-12">
-              <p class="text-center parallax-content text-justify">“My company and I have been involved with ENF dating back to 2007. As part of Salesforce’s 1/1/1 Integrated Philanthropy, we provide business consulting and SF implementation and training free of charge. We are extremely privileged to work with Richard and Diane Nares, in addition to the entire Emilio Nares Foundation Staff. It is unacceptable having a child miss a cancer treatment due to lack of transportation”</p>
+              <p class="text-center parallax-content text-justify">“My company and I have been involved with ENF dating back to 2007. As part of Salesforce’s 1/1/1 Integrated Philanthropy, we provide business consulting and Salesforce implementation and training free of charge. We are extremely privileged to work with Richard and Diane Nares, in addition to the entire Emilio Nares Foundation Staff. It is unacceptable having a child miss a cancer treatment due to lack of transportation”</p>
               <p class="text-center parallax-content text-justify">- Jack Corrao, Corrao Group Managing Partner</p>
             </div>
           </div>

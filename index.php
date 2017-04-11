@@ -33,18 +33,6 @@ $chrome = strpos($_SERVER["HTTP_USER_AGENT"], 'Chrome') ? true : false;
             </div>
           </div>
 
-          <div class="row">
-            <div class="col-sm-12">
-              <h2 class="text-center parallax-content">Salesforce Optimization</h2>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-sm-12 text-center">
-              <!-- <button class="carousel-button btn btn-default" type="button" name="button">READ MORE</button> -->
-            </div>
-          </div>
-
         </div>
       </div>
     </div>
@@ -53,10 +41,12 @@ $chrome = strpos($_SERVER["HTTP_USER_AGENT"], 'Chrome') ? true : false;
 		<!-- Live Images - 3 Flipping Cards -->
 		<div class="container">
 
+      <?php if ($chrome || $firefox || $safari) { ?>
+
 			<div class="row">
 				<div class="col-sm-3 flipcard-header-line"></div>
 				<div class="col-sm-6 text-center">
-					<h1 class="flipcard-header">Salesforce</h1>
+					<h1 class="flipcard-header" style="font-size: 3vw;">Custom Solutions</h1>
 				</div>
 				<div class="col-sm-3 flipcard-header-line"></div>
 			</div>
@@ -67,7 +57,6 @@ $chrome = strpos($_SERVER["HTTP_USER_AGENT"], 'Chrome') ? true : false;
 						<div class="flipcard">
 							<div id="front-new" class="front">
 								<h2 class="flipcard-caption">New to</br>Salesforce</h2>
-                <img class="flipcard-icon" src="img/tiles/nts.png" alt="" style="margin-top: 40px;">
 							</div>
 							<div class="back flipcard-left">
 								<p>Establish a foundation on Salesforce Cloud to ensure your business processes are well defined, transferred over, and optimized.</p>
@@ -82,7 +71,6 @@ $chrome = strpos($_SERVER["HTTP_USER_AGENT"], 'Chrome') ? true : false;
 						<div class="flipcard">
 							<div id="front-optimizing" class="front">
 								<h2 class="flipcard-caption">Optimizing Salesforce</h2>
-                <img class="flipcard-icon" src="img/tiles/os.png" alt="" style="margin-top: 20px;">
 							</div>
 							<div class="back">
 								<p>Have a solid Salesforce foundation and ready to take it to the next level? Leverage our team for advanced custom configuration and training. </p>
@@ -97,7 +85,6 @@ $chrome = strpos($_SERVER["HTTP_USER_AGENT"], 'Chrome') ? true : false;
 						<div class="flipcard">
 							<div id="front-expansion" class="front">
 								<h2 class="flipcard-caption">Salesforce Expansion</h2>
-                <img class="flipcard-icon" src="img/tiles/se.png" alt="" style="margin-top: 10px;">
 							</div>
 							<div class="back flipcard-right">
 								<p>Expand the Salesforce platform across all of your departments: Marketing, Service, Accounting, Operations, and more.</p>
@@ -107,6 +94,62 @@ $chrome = strpos($_SERVER["HTTP_USER_AGENT"], 'Chrome') ? true : false;
 					</div>
 				</div>
 			</div>
+
+    <?php } else { ?>
+
+      <div class="row">
+				<div class="col-sm-3 flipcard-header-line"></div>
+				<div class="col-sm-6 text-center">
+					<h1 class="flipcard-header" style="font-size: 3vw;">Custom Solutions</h1>
+				</div>
+				<div class="col-sm-3 flipcard-header-line"></div>
+			</div>
+
+			<div class="row flipcard-row">
+				<div class="col-xs-4 text-center">
+					<div class="flipcard-container-ie">
+						<div class="flipcard-ie">
+							<div id="front-new" class="front-ie">
+								<h2 class="flipcard-caption">New to</br>Salesforce</h2>
+							</div>
+							<div class="back-ie flipcard-left">
+								<p>Establish a foundation on Salesforce Cloud to ensure your business processes are well defined, transferred over, and optimized.</p>
+								<a class="flipcard-link" href="new_to_salesforce.php"><button class="default-button">LEARN MORE</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-4 text-center">
+					<div class="flipcard-container" ontouchstart="this.classList.toggle('hover');">
+						<div class="flipcard-ie">
+							<div id="front-optimizing" class="front-ie">
+								<h2 class="flipcard-caption">Optimizing Salesforce</h2>
+							</div>
+							<div class="back-ie">
+								<p>Have a solid Salesforce foundation and ready to take it to the next level? Leverage our team for advanced custom configuration and training. </p>
+								<a class="flipcard-link" href="optimizing_salesforce.php"><button class="default-button">LEARN MORE</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-4 text-center">
+					<div class="flipcard-container" ontouchstart="this.classList.toggle('hover');">
+						<div class="flipcard-ie">
+							<div id="front-expansion" class="front-ie">
+								<h2 class="flipcard-caption">Salesforce Expansion</h2>
+							</div>
+							<div class="back-ie flipcard-right">
+								<p>Expand the Salesforce platform across all of your departments: Marketing, Service, Accounting, Operations, and more.</p>
+								<a class="flipcard-link" href="salesforce_expansion.php"><button class="default-button">LEARN MORE</button></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+    <?php } ?>
 
 		</div>
 
@@ -143,7 +186,6 @@ $chrome = strpos($_SERVER["HTTP_USER_AGENT"], 'Chrome') ? true : false;
       <div class="container parallax-overlay">
         <div class="container">
 
-    				<h1 class="text-center parallax-content">Our Customers</h1>
     				<div class="row parallax-content text-center">
     					<div class="col-sm-3">
                 <div class="ticker-number" data-counter="720">0</div>
@@ -173,7 +215,7 @@ $chrome = strpos($_SERVER["HTTP_USER_AGENT"], 'Chrome') ? true : false;
 
   			<h1 class="text-center salesforce">Salesforce Footprint</h1>
   			<p class="text-justify">With 15 years of being in business, our Salesforce footprint has reached over 720 national clients, completed 1300+ projects, and have comprised a team of cross-industry experts dedicated to helping clients exceed their Salesforce expectations. Our expertise of the Salesforce platform comes from being everyday power users of the products we implement and train on, giving us insight into the everyday needs of Salesforce customers.</p>
-  			<p class="text-justify">Corrao Group will translate your company’s day to day activities into an implementation plan that spans the breadth of Salesforce capabilities. We identify and optimize the functionality that will make the greatest impact in each phase of your growth on the Salesforce platform.</p>
+  			<p class="text-justify">Corrao Group will translate your company’s day to day activities into an implementation plan that spans the breadth of Salesforce capabilities. We identify and optimize the functionality that will make the greatest impact in each phase of your growth on the business platform.</p>
 
   		</div>
     </div>

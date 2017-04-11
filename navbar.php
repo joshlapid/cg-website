@@ -9,8 +9,8 @@
     <?php } else { ?>
       <a href="about_us.php#our-services-container"><button class="contact-us-button" type="button">CONTACT US</button></a>
     <?php } ?>
-    <a href="http://corraogroup.com/blog" target="_blank"><div id="linkedin-sprite-navbar"></div></a>
-    <a href="http://corraogroup.com/blog" target="_blank"><div id="twitter-sprite-navbar"></div></a>
+    <a href="https://www.linkedin.com/company-beta/793013/" target="_blank"><div id="linkedin-sprite-navbar"></div></a>
+    <a href="https://twitter.com/Corrao_Group" target="_blank"><div id="twitter-sprite-navbar"></div></a>
   </div>
 
   <nav class="navbar navbar-default">

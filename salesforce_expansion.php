@@ -18,7 +18,7 @@
 
           <div class="row">
             <div class="col-sm-12">
-              <p class="text-justify parallax-content">Salesforce is a powerful, company-wide business platform. Expanding your departmental use of Salesforce will provide maximum ROI and real-time visibility to key KPI’s and customer insight. Doing so provides your company with a real-time, 360 view of your prospects and customers, in addition to maximizing employee productivity.</p>
+              <p class="text-justify parallax-content">Salesforce is a powerful, company-wide business platform. Expanding your departmental use of Salesforce will provide maximum ROI and real-time visibility to key KPI’s and customer insight. Doing so supplies your company with a real-time, 360 view of your prospects and customers, in addition to maximizing employee productivity. Expanding Salesforce company-wide allows you to leverage departmental Salesforce products that integrate seamlessly with third party applications. As we say at Corrao Group, “If it isn’t in Salesforce, it doesn’t exist.”</p>
             </div>
           </div>
 
@@ -58,13 +58,12 @@
   				<div class="row">
   					<div class="col-sm-12">
   						<h1 class="text-center parallax-content" style="color: white;">Salesforce Services</h1>
-              <p class="text-center" style="color: rgba(255, 153, 0, 0.7);">[Binary Background Placeholder]</p>
   					</div>
   				</div>
 
   				<div class="row">
   					<div class="col-sm-12">
-  						<p class="text-justify parallax-content">Corrao Group provides Salesforce services to those who are New to Salesforce, would like to Optimize their Salesforce instance, and those who would like to expand Salesforce company-wide to maximize their ROI. Our services range from fully customized solutions utilizing multiple Salesforce products to support hours used at the client’s discretion.</p>
+  						<p class="text-justify parallax-content">Corrao Group provides Salesforce services to those who are New to Salesforce, would like to optimize their Salesforce instance, and those who would like to expand Salesforce company-wide to maximize their ROI. Our services range from fully customized solutions utilizing multiple Salesforce products to support hours used at the client’s discretion. You will have a dedicated account manager invest time to document the right custom plan for your business. </p>
   					</div>
   				</div>
 

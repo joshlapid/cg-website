@@ -18,7 +18,7 @@
 
           <div class="row">
             <div class="col-sm-12">
-              <p class="text-justify parallax-content">Intended for organizations who do not have a dedicated Salesforce System Administrator or are not sure if your system is being utilized to its full potential. We offer services that analyze your current Salesforce implementation while providing and executing recommendations to optimize your platform to ensure maximum ROI. Prior to implementing Salesforce company-wide, assuring your current setup is ready for that expansion is just as important as making sure the foundation is setup properly. </p>
+              <p class="text-justify parallax-content">Intended for organizations who do not have a dedicated Salesforce System Administrator or are not sure if your system is being utilized to its full potential. We offer services that analyze your current Salesforce system while providing and executing recommendations to optimize your platform to ensure maximum ROI. Prior to implementing Salesforce company-wide, assuring your current setup is ready for that expansion is just as important as making sure the foundation is setup properly. </p>
             </div>
           </div>
 
@@ -31,7 +31,7 @@
 
         <div class="row">
           <div class="col-sm-12">
-            <h1 class="text-center advanced-features-heading">Maximize Your Salesforce Investment</h1>
+            <h1 class="text-center advanced-features-heading">Maximize Your Investment</h1>
           </div>
         </div>
 

@@ -13,7 +13,7 @@ body {
 h1 {
   font-family: $primary-font;
   color: $primary-color;
-  font-size: 5vw;
+  font-size: 4.2vw;
   margin-top: 0px;
   margin-bottom: 20px;
 }
@@ -29,8 +29,8 @@ p {
 }
 
 .container-fluid, .parallax-overlay {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .parallax-window {
@@ -278,13 +278,13 @@ p {
 
 // Main Banners
 #main-banner {
-  max-height: 416px;
+  max-height: 816px;
   height: 100%;
   background: url(../img/Home.jpg) center;
   background-size: cover;
 
   .container {
-    padding: 60px 0px;
+    padding: 80px 0px;
   }
 }
 
@@ -298,10 +298,10 @@ p {
 }
 
 .flipcard-header-line {
-  min-height: 70px;
+  min-height: 60px;
   max-height: 90px;
-  height: 6.5vw;
-  border-bottom: 1px solid black;
+  height: 3.5vw;
+  border-bottom: 1px solid rgba(0,0,0,0.3);
 }
 
 .flipcard-header {
@@ -319,9 +319,10 @@ p {
 
 .flipcard-container {
   height: 350px;
+}
 
-  .flipcard-caption {
-  }
+.flipcard-caption {
+  font-size: 22pt;
 }
 
 .flipcard-image {
@@ -376,7 +377,6 @@ p {
 
 
   h2{
-    font-size: 2vw;
     text-shadow: 0px 0px 7px rgba(0,0,0,.7), 0px 0px 5px rgba(0,0,0,.8), 0px 2px 3px rgba(0,0,0,.9);
   }
 
@@ -410,6 +410,48 @@ p {
   padding-top: 40px;
 }
 
+// Flipcard IE
+  .front-ie, .back-ie {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 281px;
+    max-width: 347px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 12px 24px rgba(0,0,0,0.23), 0 7px 8px rgba(0,0,0,0.21);
+  }
+
+  .front-ie {
+    padding: 55px 40px;
+    font-family: $primary-font;
+    letter-spacing: 3px;
+    z-index: 2;
+    color: white;
+
+
+    h2{
+      text-shadow: 0px 0px 7px rgba(0,0,0,.7), 0px 0px 5px rgba(0,0,0,.8), 0px 2px 3px rgba(0,0,0,.9);
+    }
+
+  }
+
+  .back-ie {
+    padding: 30px 55px;
+    background-color: lighten($primary-color, 12);
+    color: white;
+    z-index: 0;
+  }
+
+  .front-ie:hover {
+    z-index: -10;
+  }
+
+  .back-ie:hover {
+    z-index: 10;
+  }
+
+
 // Flipcard Mobile Section
 .flipcard-mobile-container {
 
@@ -419,11 +461,11 @@ p {
     border-right: 6px solid white;
     border-top: 3px solid white;
     border-bottom: 3px solid white;
-    padding: 7vw 10px;
+    padding: 7vw 6px;
   }
 
   .flipcard-image {
-    width: 10vw;
+    width: 11vw;
   }
 
   .flipcard-caption {
@@ -534,7 +576,7 @@ p {
 
 // New to Salesforce Page
 #new-to-salesforce-banner {
-  max-height: 416px;
+  max-height: 816px;
   height: 100%;
   background: url(../img/New_to_Salesforce.jpg) center ;
   background-size: cover;
@@ -544,15 +586,17 @@ p {
 .foundation-list {
 
   list-style-type: none;
+  padding-top: 20px;
 
   li {
     font-family: $primary-font;
     font-size: 16pt;
-    margin: 10px 0px;
+    margin: 15px 0px;
     font-weight: 300;
   }
 
   li > strong {
+    font-size: 17pt;
     color: $primary-color;
   }
 }
@@ -563,7 +607,7 @@ p {
 
 // Optimizing Salesforce Page
 #optimizing-salesforce-banner {
-  max-height: 416px;
+  max-height: 816px;
   height: 100%;
   background: url(../img/Optimizing_Salesforce.jpg) center;
   background-size: cover;
@@ -575,7 +619,7 @@ p {
 
 // Salesforce Expansion
 #salesforce-expansion-banner {
-  max-height: 416px;
+  max-height: 816px;
   height: 100%;
   background: url(../img/Salesforce_Expansion.jpg) center;
   background-size: cover;
@@ -583,10 +627,14 @@ p {
 
 
 // About Us
-.location-container {
-  // padding-top: 40px;
-  // padding-bottom: 40px;
+#corporate-timeline {
+  max-width: 750px;
+  width: 100%;
 }
+
+// #our-locations-header {
+//   padding-top: 40px;
+// }
 
 
 // Giving Back
@@ -626,11 +674,18 @@ footer {
   min-width: 55px;
   border-radius: 5px;
   background-color: $primary-color;
-  padding: 5px;
+  padding: 10px;
   width: 11vw;
   height: auto;
   margin: 20px;
 }
+
+.footer-icon:hover {
+  transition: all 200ms ease-in-out;
+  transform: scale(1.1);
+  z-index: 1000;
+}
+
 
 .footer-nav-links {
   .row {
@@ -712,6 +767,12 @@ footer {
 }
 
 // Media Queries
+@media (min-width: 2058px) {
+  h1 {
+    font-size: 3.7vw;
+  }
+}
+
 @media (max-width: 1200px) {
   .container-fluid, .parallax-overlay, .header-overlay {
     padding-top: 50px;
@@ -727,6 +788,28 @@ footer {
   .back {
     padding: 30px 30px;
   }
+
+  #requirements-text {
+    font-size: 17pt;
+  }
+
+  .foundation-list {
+
+    list-style-type: none;
+    padding-top: 0px;
+
+    li {
+      font-family: $primary-font;
+      font-size: 14pt;
+      margin: 15px 0px;
+      font-weight: 300;
+    }
+
+    li > strong {
+      font-size: 15pt;
+      color: $primary-color;
+    }
+  }
 }
 
 @media (max-width: 992px) {
@@ -741,6 +824,10 @@ footer {
     }
   }
 
+  .flipcard-caption {
+    font-size: 16pt;
+  }
+
   .back {
     padding-top: 15px;
   }
@@ -753,14 +840,25 @@ footer {
     padding-top: 25px;
   }
 
+  #requirements-text {
+    font-size: 14pt;
+  }
+
   .foundation-list {
 
     list-style-type: none;
+    padding-top: 0px;
 
     li {
       font-family: $primary-font;
       font-size: 12pt;
-      margin: 10px 0px;
+      margin: 15px 0px;
+      font-weight: 300;
+    }
+
+    li > strong {
+      font-size: 13pt;
+      color: $primary-color;
     }
   }
 }

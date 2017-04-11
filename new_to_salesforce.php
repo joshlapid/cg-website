@@ -32,7 +32,7 @@
 
         <div class="row">
           <div class="col-sm-12">
-            <h1 class="text-center">Plan Your SF Foundation</h1>
+            <h1 class="text-center">Plan Your Foundation</h1>
           </div>
         </div>
 
@@ -44,7 +44,7 @@
         <br/>
         <div class="row">
           <div class="col-sm-12" style="border-top: 1px solid rgba(0,0,0,0.3); padding-top: 20px;">
-            <h2 class="text-center">There are a few requirements we recommend you have when starting out:</h2>
+            <h2 id="requirements-text" class="text-center">There are a few requirements we recommend you have when starting out:</h2>
           </div>
         </div>
 

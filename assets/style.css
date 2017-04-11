@@ -4,7 +4,7 @@ body {
 h1 {
   font-family: "Raleway", sans-serif;
   color: #337ab7;
-  font-size: 5vw;
+  font-size: 4.2vw;
   margin-top: 0px;
   margin-bottom: 20px; }
 
@@ -17,8 +17,8 @@ p {
   font-weight: 300; }
 
 .container-fluid, .parallax-overlay {
-  padding-top: 80px;
-  padding-bottom: 80px; }
+  padding-top: 70px;
+  padding-bottom: 70px; }
 
 .parallax-window {
   padding: 0px !important; }
@@ -225,12 +225,12 @@ p {
   display: none; }
 
 #main-banner {
-  max-height: 416px;
+  max-height: 816px;
   height: 100%;
   background: url(../img/Home.jpg) center;
   background-size: cover; }
   #main-banner .container {
-    padding: 60px 0px; }
+    padding: 80px 0px; }
 
 .flipcard-container {
   -ms-perspective: 1000px;
@@ -240,10 +240,10 @@ p {
   perspective: 1000px; }
 
 .flipcard-header-line {
-  min-height: 70px;
+  min-height: 60px;
   max-height: 90px;
-  height: 6.5vw;
-  border-bottom: 1px solid black; }
+  height: 3.5vw;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
 
 .flipcard-header {
   margin-top: 40px;
@@ -258,6 +258,9 @@ p {
 
 .flipcard-container {
   height: 350px; }
+
+.flipcard-caption {
+  font-size: 22pt; }
 
 .flipcard-image {
   max-width: 90px; }
@@ -305,7 +308,6 @@ p {
   transform: rotateY(0deg);
   color: white; }
   .front h2 {
-    font-size: 2vw;
     text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.7), 0px 0px 5px rgba(0, 0, 0, 0.8), 0px 2px 3px rgba(0, 0, 0, 0.9); }
 
 #front-new {
@@ -330,15 +332,46 @@ p {
 .flipcard-left, .flipcard-right {
   padding-top: 40px; }
 
+.front-ie, .back-ie {
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 281px;
+  max-width: 347px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.23), 0 7px 8px rgba(0, 0, 0, 0.21); }
+
+.front-ie {
+  padding: 55px 40px;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 3px;
+  z-index: 2;
+  color: white; }
+  .front-ie h2 {
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.7), 0px 0px 5px rgba(0, 0, 0, 0.8), 0px 2px 3px rgba(0, 0, 0, 0.9); }
+
+.back-ie {
+  padding: 30px 55px;
+  background-color: #5798d0;
+  color: white;
+  z-index: 0; }
+
+.front-ie:hover {
+  z-index: -10; }
+
+.back-ie:hover {
+  z-index: 10; }
+
 .flipcard-mobile-container .row > a > .col-xs-4 {
   background-color: #337ab7;
   height: 35vw;
   border-right: 6px solid white;
   border-top: 3px solid white;
   border-bottom: 3px solid white;
-  padding: 7vw 10px; }
+  padding: 7vw 6px; }
 .flipcard-mobile-container .flipcard-image {
-  width: 10vw; }
+  width: 11vw; }
 .flipcard-mobile-container .flipcard-caption {
   color: white;
   font-size: 3vw;
@@ -423,26 +456,28 @@ p {
   color: white; }
 
 #new-to-salesforce-banner {
-  max-height: 416px;
+  max-height: 816px;
   height: 100%;
   background: url(../img/New_to_Salesforce.jpg) center;
   background-size: cover; }
 
 .foundation-list {
-  list-style-type: none; }
+  list-style-type: none;
+  padding-top: 20px; }
   .foundation-list li {
     font-family: "Raleway", sans-serif;
     font-size: 16pt;
-    margin: 10px 0px;
+    margin: 15px 0px;
     font-weight: 300; }
   .foundation-list li > strong {
+    font-size: 17pt;
     color: #337ab7; }
 
 #requirements-image {
   padding-top: 10px; }
 
 #optimizing-salesforce-banner {
-  max-height: 416px;
+  max-height: 816px;
   height: 100%;
   background: url(../img/Optimizing_Salesforce.jpg) center;
   background-size: cover; }
@@ -451,10 +486,14 @@ p {
   margin-bottom: 20px; }
 
 #salesforce-expansion-banner {
-  max-height: 416px;
+  max-height: 816px;
   height: 100%;
   background: url(../img/Salesforce_Expansion.jpg) center;
   background-size: cover; }
+
+#corporate-timeline {
+  max-width: 750px;
+  width: 100%; }
 
 #enf-youtube-video {
   max-width: 700px;
@@ -484,10 +523,15 @@ footer .container-fluid {
   min-width: 55px;
   border-radius: 5px;
   background-color: #337ab7;
-  padding: 5px;
+  padding: 10px;
   width: 11vw;
   height: auto;
   margin: 20px; }
+
+.footer-icon:hover {
+  transition: all 200ms ease-in-out;
+  transform: scale(1.1);
+  z-index: 1000; }
 
 .footer-nav-links .row {
   max-width: 550px;
@@ -550,6 +594,9 @@ footer .container-fluid {
   text-shadow: 0px 0px 5px black, 0px 2px 3px black, 1px 0px 2px black, -1px 0px 2px black, 0px 0px 8px black;
   color: white; }
 
+@media (min-width: 2058px) {
+  h1 {
+    font-size: 3.7vw; } }
 @media (max-width: 1200px) {
   .container-fluid, .parallax-overlay, .header-overlay {
     padding-top: 50px;
@@ -559,7 +606,22 @@ footer .container-fluid {
     padding: 45px 0px; }
 
   .back {
-    padding: 30px 30px; } }
+    padding: 30px 30px; }
+
+  #requirements-text {
+    font-size: 17pt; }
+
+  .foundation-list {
+    list-style-type: none;
+    padding-top: 0px; }
+    .foundation-list li {
+      font-family: "Raleway", sans-serif;
+      font-size: 14pt;
+      margin: 15px 0px;
+      font-weight: 300; }
+    .foundation-list li > strong {
+      font-size: 15pt;
+      color: #337ab7; } }
 @media (max-width: 992px) {
   .container-fluid, .parallax-overlay, .header-overlay {
     padding-top: 40px;
@@ -567,6 +629,9 @@ footer .container-fluid {
 
   #main-banner .container {
     padding: 35px 0px; }
+
+  .flipcard-caption {
+    font-size: 16pt; }
 
   .back {
     padding-top: 15px; }
@@ -577,12 +642,20 @@ footer .container-fluid {
   .flipcard-left, .flipcard-right {
     padding-top: 25px; }
 
+  #requirements-text {
+    font-size: 14pt; }
+
   .foundation-list {
-    list-style-type: none; }
+    list-style-type: none;
+    padding-top: 0px; }
     .foundation-list li {
       font-family: "Raleway", sans-serif;
       font-size: 12pt;
-      margin: 10px 0px; } }
+      margin: 15px 0px;
+      font-weight: 300; }
+    .foundation-list li > strong {
+      font-size: 13pt;
+      color: #337ab7; } }
 @media (min-width: 992px) {
   #our-certifications {
     display: none; } }
