@@ -2,7 +2,8 @@ body {
   font-family: "Open Sans", sans-serif; }
 
 h1 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Muli", sans-serif;
+  font-weight: 300;
   color: #337ab7;
   font-size: 4.2vw;
   margin-top: 0px;
@@ -10,7 +11,8 @@ h1 {
 
 h2 {
   margin-top: 0px;
-  font-family: "Raleway", sans-serif; }
+  font-family: "Muli", sans-serif;
+  font-weight: 300; }
 
 p {
   font-size: 14pt;
@@ -46,7 +48,7 @@ p {
   border: 2px solid white;
   padding: 10px 20px;
   color: white;
-  font-family: "Raleway", sans-serif;
+  font-family: "Muli", sans-serif;
   letter-spacing: 1px;
   transition: background .25 ease;
   -moz-transition: background .25s ease;
@@ -64,6 +66,8 @@ p {
   border-radius: 0px;
   border: 0px solid white !important;
   box-shadow: inset 0 0px 0 rgba(255, 255, 255, 0.15), 0 3px 5px rgba(0, 0, 0, 0.075); }
+  .navbar li > a {
+    font-size: 11pt; }
 
 .navbar-container {
   margin-bottom: 0px !important;
@@ -77,7 +81,7 @@ p {
 
 .navbar-default {
   background-color: white;
-  font-family: "Raleway", sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 10pt;
   letter-spacing: 1px; }
   .navbar-default .container-fluid {
@@ -104,7 +108,7 @@ p {
   background-color: #337ab7;
   color: white;
   border: 1px solid #337ab7;
-  font-family: "Raleway", sans-serif;
+  font-family: "Muli", sans-serif;
   letter-spacing: 2px;
   transition: background 0.8s ease;
   transition: color 0.5s ease; }
@@ -202,7 +206,7 @@ p {
   text-shadow: 0px 0px 10px black; }
 
 .carousel-button {
-  font-family: "Raleway", sans-serif;
+  font-family: "Muli", sans-serif;
   font-size: 12pt;
   letter-spacing: 1px;
   border: 2px solid white;
@@ -227,7 +231,7 @@ p {
 #main-banner {
   max-height: 816px;
   height: 100%;
-  background: url(../img/Home.jpg) center;
+  background: url(../img/Home2.jpg) center;
   background-size: cover; }
   #main-banner .container {
     padding: 80px 0px; }
@@ -249,6 +253,7 @@ p {
   border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
 
 .flipcard-header {
+  font-size: 3vw;
   margin-top: 40px;
   margin-bottom: 40px; }
 
@@ -301,7 +306,7 @@ p {
 
 .front {
   padding: 55px 40px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Muli", sans-serif;
   letter-spacing: 3px;
   z-index: 2;
   -ms-transform: rotateY(0deg);
@@ -347,7 +352,7 @@ p {
 
 .front-ie {
   padding: 55px 40px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Muli", sans-serif;
   letter-spacing: 3px;
   z-index: 2;
   color: white; }
@@ -451,6 +456,10 @@ p {
 .col-form-label {
   color: white; }
 
+#our-services-header {
+  padding-top: 80px;
+  padding-bottom: 10px; }
+
 #contact-us-phone {
   color: white;
   text-decoration: none; }
@@ -461,14 +470,14 @@ p {
 #new-to-salesforce-banner {
   max-height: 816px;
   height: 100%;
-  background: url(../img/New_to_Salesforce.jpg) center;
+  background: url(../img/New_to_Salesforce2.jpg) center;
   background-size: cover; }
 
 .foundation-list {
   list-style-type: none;
   padding-top: 20px; }
   .foundation-list li {
-    font-family: "Raleway", sans-serif;
+    font-family: "Muli", sans-serif;
     font-size: 16pt;
     margin: 15px 0px;
     font-weight: 300; }
@@ -494,7 +503,7 @@ p {
 #salesforce-expansion-banner {
   max-height: 816px;
   height: 100%;
-  background: url(../img/Salesforce_Expansion.jpg) center;
+  background: url(../img/Salesforce_Expansion2.jpg) center;
   background-size: cover; }
 
 #corporate-timeline {
@@ -544,7 +553,7 @@ footer .container-fluid {
   margin-left: auto;
   margin-right: auto; }
 .footer-nav-links a {
-  font-family: "Raleway", sans-serif;
+  font-family: "Muli", sans-serif;
   color: white;
   letter-spacing: 1px; }
 
@@ -602,7 +611,13 @@ footer .container-fluid {
 
 @media (min-width: 2058px) {
   h1 {
-    font-size: 3.7vw; } }
+    font-size: 3.7vw; }
+
+  .flipcard-header {
+    font-size: 2.5vw; }
+
+  #company-wide-deployment {
+    font-size: 3.2vw; } }
 @media (min-width: 1900px) {
   #main-banner-header {
     font-size: 2.7vw; } }
@@ -631,7 +646,7 @@ footer .container-fluid {
     padding-top: 0px;
     padding-left: 0px; }
     .foundation-list li {
-      font-family: "Raleway", sans-serif;
+      font-family: "Muli", sans-serif;
       font-size: 14pt;
       margin: 15px 0px;
       font-weight: 300; }
@@ -674,7 +689,7 @@ footer .container-fluid {
     list-style-type: none;
     padding-top: 0px; }
     .foundation-list li {
-      font-family: "Raleway", sans-serif;
+      font-family: "Muli", sans-serif;
       font-size: 12pt;
       margin: 15px 0px;
       font-weight: 300; }
@@ -684,14 +699,17 @@ footer .container-fluid {
 @media (min-width: 992px) {
   #our-certifications {
     display: none; } }
-@media (max-width: 800px) {
+@media (max-width: 840px) {
   .navbar-logo {
     top: 25px;
     left: 5px;
     z-index: 1051; }
 
   .navbar-img {
-    height: 30px; } }
+    height: 30px; }
+
+  .navbar li > a {
+    font-size: 10pt; } }
 @media (max-width: 767px) {
   h1 {
     margin-bottom: 20px;
@@ -699,6 +717,10 @@ footer .container-fluid {
 
   p {
     font-size: 12pt; }
+
+  #our-services-header {
+    padding-top: 0px;
+    padding-bottom: 10px; }
 
   #main-banner .container {
     padding: 30px 0px; }
@@ -794,7 +816,7 @@ footer .container-fluid {
     padding-bottom: 25px; }
 
   .foundation-list > li {
-    font-family: "Raleway", sans-serif;
+    font-family: "Muli", sans-serif;
     font-size: 12pt; }
 
   .container-padding {

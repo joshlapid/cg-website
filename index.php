@@ -46,7 +46,7 @@ $chrome = strpos($_SERVER["HTTP_USER_AGENT"], 'Chrome') ? true : false;
 			<div class="row">
 				<div class="col-sm-3 flipcard-header-line"></div>
 				<div class="col-sm-6 text-center">
-					<h1 class="flipcard-header" style="font-size: 3vw;">Custom Solutions</h1>
+					<h1 class="flipcard-header">Custom Solutions</h1>
 				</div>
 				<div class="col-sm-3 flipcard-header-line"></div>
 			</div>

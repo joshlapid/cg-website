@@ -58,7 +58,7 @@
             </ol>
           </div>
           <div class="col-sm-6 text-center vcenter">
-            <img id="requirements-image" src="img/new-to-salesforce-sprout.jpg" alt="" class="img-responsive">
+            <img id="requirements-image" src="img/new-to-salesforce-sprout.jpg" alt="" class="img-responsive img-shadow">
           </div>
         </div>
 

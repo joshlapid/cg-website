@@ -32,7 +32,7 @@
 
         <div class="row">
           <div class="col-sm-12">
-            <h1 class="text-center">Company Wide Deployment</h1>
+            <h1 id="company-wide-deployment" class="text-center">Company Wide Deployment</h1>
           </div>
         </div>
 

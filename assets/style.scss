@@ -1,5 +1,5 @@
 // Variables
-$primary-font: 'Raleway', sans-serif;
+$primary-font: 'Muli', sans-serif;
 $secondary-font: 'Open Sans', sans-serif;
 $primary-color: #337ab7;
 $overlay-opacity: rgba(0, 0, 0, 0.65);
@@ -12,6 +12,7 @@ body {
 
 h1 {
   font-family: $primary-font;
+  font-weight: 300;
   color: $primary-color;
   font-size: 4.2vw;
   margin-top: 0px;
@@ -21,6 +22,7 @@ h1 {
 h2 {
   margin-top: 0px;
   font-family: $primary-font;
+  font-weight: 300;
 }
 
 p {
@@ -86,6 +88,10 @@ p {
   border-radius: 0px;
   border: 0px solid white !important;
   box-shadow: inset 0 0px 0 rgba(255,255,255,.15), 0 3px 5px rgba(0,0,0,.075);
+
+  li > a {
+    font-size: 11pt;
+  }
 }
 
 .navbar-container {
@@ -280,7 +286,7 @@ p {
 #main-banner {
   max-height: 816px;
   height: 100%;
-  background: url(../img/Home.jpg) center;
+  background: url(../img/Home2.jpg) center;
   background-size: cover;
 
   .container {
@@ -309,6 +315,7 @@ p {
 }
 
 .flipcard-header {
+  font-size: 3vw;
   margin-top: 40px;
   margin-bottom: 40px;
 }
@@ -569,6 +576,11 @@ p {
   color: white;
 }
 
+#our-services-header {
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+
 #contact-us-phone {
   color: white;
   text-decoration: none;
@@ -582,7 +594,7 @@ p {
 #new-to-salesforce-banner {
   max-height: 816px;
   height: 100%;
-  background: url(../img/New_to_Salesforce.jpg) center ;
+  background: url(../img/New_to_Salesforce2.jpg) center ;
   background-size: cover;
 }
 
@@ -629,7 +641,7 @@ p {
 #salesforce-expansion-banner {
   max-height: 816px;
   height: 100%;
-  background: url(../img/Salesforce_Expansion.jpg) center;
+  background: url(../img/Salesforce_Expansion2.jpg) center;
   background-size: cover;
 }
 
@@ -779,6 +791,14 @@ footer {
   h1 {
     font-size: 3.7vw;
   }
+
+  .flipcard-header {
+    font-size: 2.5vw;
+  }
+
+  #company-wide-deployment {
+    font-size: 3.2vw;
+  }
 }
 
 @media (min-width: 1900px) {
@@ -903,7 +923,7 @@ footer {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 840px) {
   .navbar-logo {
     top: 25px;
     left: 5px;
@@ -912,6 +932,12 @@ footer {
 
   .navbar-img {
     height: 30px;
+  }
+
+  .navbar {
+    li > a {
+      font-size: 10pt;
+    }
   }
 }
 
@@ -923,6 +949,11 @@ footer {
 
   p {
     font-size: 12pt;
+  }
+
+  #our-services-header {
+    padding-top: 0px;
+    padding-bottom: 10px;
   }
 
   #main-banner {
