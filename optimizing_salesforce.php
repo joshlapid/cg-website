@@ -35,19 +35,16 @@
           </div>
         </div>
 
-        <div class="container">
-
           <div class="row">
-            <div class="col-sm-6 text-justify">
-              <p>After your Salesforce foundation is set, Salesforce will need to grow with your company, but before you grow you need to make sure that the current system is as efficient as possible. If you let Salesforce grow without proper maintenance, you’ll end up with outdated process and the chances of process errors will increase. Corrao Group will help you determine where to optimize, where to automate, how to protect your data quality, and more.</p>
-              <p>Our certifications grow as Salesforce grows, we maintain a staff with up to date certifications for many Salesforce products and types. If you have a Salesforce project with us, have no fear, you’ll have a dedicated Salesforce Certified Administrator assigned to your project.</p>
+            <div class="col-md-7 text-justify">
+              <p class="maximize-p">After your Salesforce foundation is set, Salesforce will need to grow with your company, but before you grow you need to make sure that the current system is as efficient as possible. If you let Salesforce grow without proper maintenance, you’ll end up with outdated process and the chances of process errors will increase. Corrao Group will help you determine where to optimize, where to automate, how to protect your data quality, and more.</p>
+              <p class="maximize-p">Our certifications grow as Salesforce grows, we maintain a staff with up to date certifications for many Salesforce products and types. If you have a Salesforce project with us, have no fear, you’ll have a dedicated Salesforce Certified Administrator assigned to your project.</p>
             </div>
-            <div class="col-sm-6">
+            <div class="col-md-5">
               <img class="img-responsive img-shadow" src="img/SFEXP.jpg" alt="">
             </div>
           </div>
 
-        </div>
       </div>
     </div>
 

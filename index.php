@@ -27,9 +27,9 @@ $chrome = strpos($_SERVER["HTTP_USER_AGENT"], 'Chrome') ? true : false;
       <div class="container header-overlay">
         <div class="container">
 
-          <div class="row">
+          <div class="row" style="margin: 0px;">
             <div class="col-sm-12">
-              <h1 id="main-banner-header" class="text-center parallax-content" style="color: white;">Ensuring You Maximize Your<br/>Salesforce Investment</h1>
+              <h1 id="main-banner-header" class="text-center parallax-content" style="color: white">Maximizing Your Salesforce Investment</h1>
             </div>
           </div>
 
@@ -200,8 +200,8 @@ $chrome = strpos($_SERVER["HTTP_USER_AGENT"], 'Chrome') ? true : false;
     						<p>Salesforce AppExchange Score</p>
     					</div>
     					<div class="col-sm-3">
-    						<div class="ticker-number" data-counter="890">0</div>
-    						<p># of Cancer Transportation Rides Donated</p>
+    						<a href="giving_back.php" style="color: white; text-decoration: none;"><div class="ticker-number" data-counter="890">0</div></a>
+    						<p><a href="giving_back.php" style="color: white; text-decoration: none;"># of Cancer Rides Donated</a></p>
     					</div>
     				</div>
 

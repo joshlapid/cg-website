@@ -88,12 +88,12 @@ p {
   background-position: center center;
   background-repeat: no-repeat;
   position: absolute;
-  top: 25px;
-  left: 15px;
+  top: 20px;
+  left: 20px;
   z-index: 1051; }
 
 .navbar-img {
-  height: 35px;
+  height: 45px;
   width: auto; }
 
 .contact-us-button {
@@ -231,6 +231,9 @@ p {
   background-size: cover; }
   #main-banner .container {
     padding: 80px 0px; }
+
+#main-banner-header {
+  font-size: 3.3vw; }
 
 .flipcard-container {
   -ms-perspective: 1000px;
@@ -428,7 +431,7 @@ p {
   margin-bottom: 40px; }
 
 .ticker-number, .ticker-number-static {
-  font-size: 5vw;
+  font-size: 46pt;
   font-weight: 900;
   font-family: "Open Sans", sans-serif; }
 
@@ -484,6 +487,9 @@ p {
 
 .advanced-features-heading {
   margin-bottom: 20px; }
+
+.maximize-p {
+  line-height: 29px; }
 
 #salesforce-expansion-banner {
   max-height: 816px;
@@ -597,6 +603,9 @@ footer .container-fluid {
 @media (min-width: 2058px) {
   h1 {
     font-size: 3.7vw; } }
+@media (min-width: 1900px) {
+  #main-banner-header {
+    font-size: 2.7vw; } }
 @media (max-width: 1200px) {
   .container-fluid, .parallax-overlay, .header-overlay {
     padding-top: 50px;
@@ -605,15 +614,22 @@ footer .container-fluid {
   #main-banner .container {
     padding: 45px 0px; }
 
+  #main-banner-header {
+    font-size: 3vw; }
+
   .back {
     padding: 30px 30px; }
 
   #requirements-text {
     font-size: 17pt; }
 
+  .maximize-p {
+    line-height: 26px; }
+
   .foundation-list {
     list-style-type: none;
-    padding-top: 0px; }
+    padding-top: 0px;
+    padding-left: 0px; }
     .foundation-list li {
       font-family: "Raleway", sans-serif;
       font-size: 14pt;
@@ -626,6 +642,15 @@ footer .container-fluid {
   .container-fluid, .parallax-overlay, .header-overlay {
     padding-top: 40px;
     padding-bottom: 40px; }
+
+  .navbar-logo {
+    top: 25px;
+    left: 15px;
+    z-index: 1051; }
+
+  .navbar-img {
+    height: 35px;
+    width: auto; }
 
   #main-banner .container {
     padding: 35px 0px; }
@@ -659,6 +684,14 @@ footer .container-fluid {
 @media (min-width: 992px) {
   #our-certifications {
     display: none; } }
+@media (max-width: 800px) {
+  .navbar-logo {
+    top: 25px;
+    left: 5px;
+    z-index: 1051; }
+
+  .navbar-img {
+    height: 30px; } }
 @media (max-width: 767px) {
   h1 {
     margin-bottom: 20px;
@@ -670,12 +703,11 @@ footer .container-fluid {
   #main-banner .container {
     padding: 30px 0px; }
 
+  #main-banner-header {
+    font-size: 4.3vw; }
+
   .navbar-logo {
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 5px;
+    top: 10px;
     left: 5px;
     z-index: 1051; }
 
@@ -752,6 +784,10 @@ footer .container-fluid {
 
   h2 {
     font-size: 6vw; }
+
+  .container-fluid, .parallax-overlay, .header-overlay {
+    padding-top: 30px;
+    padding-bottom: 30px; }
 
   .header-overlay {
     padding-top: 25px;
@@ -830,7 +866,10 @@ footer .container-fluid {
   .service-icon-container .service-caption {
     vertical-align: middle;
     display: inline-block;
-    font-size: 10pt; } }
+    font-size: 10pt; }
+
+  .maximize-p {
+    line-height: 20px; } }
 @media (min-width: 425px) {
   .contact-us-button-mobile {
     display: none; }
