@@ -4,7 +4,7 @@
 
   <!-- Contact Us Button -->
   <div class="container-fluid navbar-container">
-    <?php if($title != 'Giving Back') {?>
+    <?php if($title != 'Giving Back' && $title != 'EZ-AR Solutions') {?>
       <button class="contact-us-button" type="button">CONTACT US</button>
     <?php } else { ?>
       <a href="about_us.php#our-services-container"><button class="contact-us-button" type="button">CONTACT US</button></a>

@@ -59,7 +59,7 @@ $chrome = strpos($_SERVER["HTTP_USER_AGENT"], 'Chrome') ? true : false;
 								<h2 class="flipcard-caption">New to</br>Salesforce</h2>
 							</div>
 							<div class="back flipcard-left">
-								<p>Establish a foundation on Salesforce Cloud to ensure your business processes are well defined, transferred over, and optimized.</p>
+								<p>Establish a foundation on Salesforce to ensure your business processes are well defined, transferred over, and optimized.</p>
 								<a class="flipcard-link" href="new_to_salesforce.php"><button class="default-button">LEARN MORE</button></a>
 							</div>
 						</div>

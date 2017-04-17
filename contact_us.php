@@ -10,33 +10,33 @@
 
         <div id="contact-us" class="col-sm-4 contact-us-form">
           <h2 class="text-center" style="color: white;">Contact Us</h2>
-          <form action="">
+          <form action="http://www2.corraogroup.com/l/52032/2017-04-12/hlx1qn" method="post">
 
             <div class="form-group row">
               <label for="inputFirstName" class="col-sm-4 col-form-label">First Name</label>
               <div class="col-sm-8">
-                <input type="text" class="form-control" id="inputFirstName">
+                <input type="text" class="form-control" id="inputFirstName" name="firstname" required>
               </div>
             </div>
 
             <div class="form-group row">
               <label for="inputLastName" class="col-sm-4 col-form-label">Last Name</label>
               <div class="col-sm-8">
-                <input type="text" class="form-control" id="inputLastName">
+                <input type="text" class="form-control" id="inputLastName" name="lastname" required>
               </div>
             </div>
 
             <div class="form-group row">
               <label for="inputEmail" class="col-sm-4 col-form-label">Email</label>
               <div class="col-sm-8">
-                <input type="text" class="form-control" id="inputEmail">
+                <input type="text" class="form-control" id="inputEmail" name="email" required>
               </div>
             </div>
 
             <div class="form-group row">
               <label for="inputCompany" class="col-sm-4 col-form-label">Company</label>
               <div class="col-sm-8">
-                <input type="text" class="form-control" id="inputCompany">
+                <input type="text" class="form-control" id="inputCompany" name="company" required>
               </div>
             </div>
 
