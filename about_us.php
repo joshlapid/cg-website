@@ -19,7 +19,7 @@
 
           <div class="row">
             <div class="col-sm-12">
-              <img id="corporate-timeline" src="img/timeline.png" alt="" class="img-responsive center-block">
+              <img id="corporate-timeline" src="img/timeline.png" alt="Corrao Group Corporate Timeline" class="img-responsive center-block">
             </div>
           </div>
 
@@ -40,7 +40,7 @@
         <!-- Locations Map -->
         <div class="row">
           <div class="col-sm-12">
-            <img src="img/locations_map.png" alt="" class="img-responsive center-block" style="margin-bottom: 40px;">
+            <img src="img/locations_map.png" alt="Customer Location Map" class="img-responsive center-block" style="margin-bottom: 40px;">
           </div>
         </div>
 

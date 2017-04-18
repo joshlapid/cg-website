@@ -477,6 +477,12 @@ p {
   max-width: 750px;
   width: 100%; }
 
+#enf-logo {
+  background-color: white;
+  padding: 10px;
+  max-width: 271px;
+  width: 100%; }
+
 #enf-youtube-video {
   max-width: 700px;
   width: 100%;

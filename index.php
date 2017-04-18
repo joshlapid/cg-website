@@ -151,21 +151,21 @@ $chrome = strpos($_SERVER["HTTP_USER_AGENT"], 'Chrome') ? true : false;
 			<div class="row">
 				<a href="new_to_salesforce.php">
 					<div class="col-xs-4 text-center flipcard-mobile-left" style="background-color: #9bb901">
-						<img class="img-responsive center-block flipcard-image" src="img/Tiles/nts.png" alt="" >
+						<img class="img-responsive center-block flipcard-image" src="img/Tiles/nts.png" alt="New to Salesforce Image">
 						<h2 class="flipcard-caption">NEW TO SALESFORCE</h2>
 					</div>
 				</a>
 
 				<a href="optimizing_salesforce.php">
 					<div class="col-xs-4 text-center">
-						<img class="img-responsive center-block flipcard-image" src="img/Tiles/os.png" alt="">
+						<img class="img-responsive center-block flipcard-image" src="img/Tiles/os.png" alt="Optimizing Salesforce Image">
 						<h2 class="flipcard-caption">OPTIMIZING SALESFORCE</h2>
 					</div>
 				</a>
 
 				<a href="salesforce_expansion.php">
 					<div class="col-xs-4 text-center flipcard-mobile-right" style="background-color: #f6c500">
-						<img class="img-responsive center-block flipcard-image" src="img/Tiles/se.png" alt="">
+						<img class="img-responsive center-block flipcard-image" src="img/Tiles/se.png" alt="Salesforce Expansion Image">
 						<h2 class="flipcard-caption">SALESFORCE EXPANSION</h2>
 					</div>
 				</a>

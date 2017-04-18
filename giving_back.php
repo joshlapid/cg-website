@@ -12,7 +12,7 @@
 
           <div class="row">
             <div class="col-sm-12">
-              <h1 class="text-center parallax-content" style="color: white;"><a href="http://enfhope.org/"><img src="img/ENF1.png" alt="" style="background-color:white; padding: 10px; max-width: 271px; width: 100%;"></a></h1>
+              <h1 class="text-center parallax-content" style="color: white;"><a href="http://enfhope.org/"><img id="enf-logo" src="img/ENF1.png" alt="Emilion Nares Foundation Logo"></a></h1>
             </div>
           </div>
 

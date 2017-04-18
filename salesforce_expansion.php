@@ -43,7 +43,7 @@
             <p class="text-justify">Salesforce adapts to its customers’ needs, making major updates to their system three times a year. It’s crucial to monitor those updates and make any necessary changes in your Salesforce instance. To stay competitive in today’s marketplace, business processes will change. Hiring a certified implementation partner ensure your Salesforce system adapts according to best practices.</p>
           </div>
           <div class="col-md-5">
-            <img src="img/salesforce-expansion-tree.jpg" alt="" class="img-responsive center-block img-shadow">
+            <img src="img/salesforce-expansion-tree.jpg" alt="Salesforce Expansion Tree" class="img-responsive center-block img-shadow">
           </div>
         </div>
 
@@ -76,45 +76,45 @@
 
 				<div class="row service-row animation-element slide-left">
 					<div class="col-xs-4 service-zoom text-center">
-						<img class="service-image img-responsive center-block" src="img/services/salescloud.png" alt="">
+						<img class="service-image img-responsive center-block" src="img/services/salescloud.png" alt="Sales Cloud Logo">
 						<!-- <h3 class="text-center service-caption">Sales Cloud</h3> -->
 					</div>
 					<div class="col-xs-4 service-zoom text-center">
-						<img class="service-image img-responsive center-block" src="img/services/servicecloud.png" alt="">
+						<img class="service-image img-responsive center-block" src="img/services/servicecloud.png" alt="Service Cloud Logo">
 						<!-- <h3 class="text-center service-caption">Service Cloud</h3> -->
 					</div>
 					<div class="col-xs-4 service-zoom text-center">
-						<img class="service-image img-responsive center-block" src="img/services/pardot.png" alt="">
+						<img class="service-image img-responsive center-block" src="img/services/pardot.png" alt="Pardot Logo">
 						<!-- <h3 class="text-center service-caption">Pardot</h3> -->
 					</div>
 				</div>
 
 				<div class="row service-row animation-element slide-left">
 					<div class="col-xs-4 service-zoom text-center">
-						<img class="service-image img-responsive center-block" src="img/services/communitycloud.jpg" alt="">
+						<img class="service-image img-responsive center-block" src="img/services/communitycloud.jpg" alt="Community Cloud Logo">
 						<!-- <h3 class="text-center service-caption">Community Cloud</h3> -->
 					</div>
           <div class="col-xs-4 service-zoom text-center">
-						<img class="service-image img-responsive center-block" src="img/services/desk.png" alt="">
+						<img class="service-image img-responsive center-block" src="img/services/desk.png" alt="Salesforce Desk Logo">
 						<!-- <h3 class="text-center service-caption">Desk.com</h3> -->
 					</div>
           <div class="col-xs-4 service-zoom text-center">
-						<img class="service-image img-responsive center-block" src="img/services/analyticscloud.png" alt="">
+						<img class="service-image img-responsive center-block" src="img/services/analyticscloud.png" alt="Analytics Cloud Logo">
 						<!-- <h3 class="text-center service-caption">Analytics Cloud</h3> -->
 					</div>
 				</div>
 
         <div class="row service-row animation-element slide-left">
           <div class="col-xs-4 service-zoom text-center">
-            <img class="service-image img-responsive center-block" src="img/services/force.png" alt="">
+            <img class="service-image img-responsive center-block" src="img/services/force.png" alt="Force.com Logo">
             <!-- <h3 class="text-center service-caption">Salesforce CPQ</h3> -->
           </div>
           <div class="col-xs-4 service-zoom text-center">
-            <img class="service-image img-responsive center-block" src="img/services/waveanalytics.png" alt="">
+            <img class="service-image img-responsive center-block" src="img/services/waveanalytics.png" alt="Wave Analytics Logo">
             <!-- <h3 class="text-center service-caption">Wave Apps</h3> -->
           </div>
           <div class="col-xs-4 service-zoom text-center">
-            <img class="service-image img-responsive center-block" src="img/services/chatter.png" alt="">
+            <img class="service-image img-responsive center-block" src="img/services/chatter.png" alt="Chatter Logo">
             <!-- <h3 class="text-center service-caption">Heroku</h3> -->
           </div>
         </div>
@@ -122,15 +122,15 @@
 
 				<div class="row service-row animation-element slide-left">
           <div class="col-xs-4 service-zoom text-center">
-						<img class="service-image img-responsive center-block" src="img/services/cpq.png" alt="">
+						<img class="service-image img-responsive center-block" src="img/services/cpq.png" alt="CPQ Logo">
 						<!-- <h3 class="text-center service-caption">Salesforce CPQ</h3> -->
 					</div>
           <div class="col-xs-4 service-zoom text-center">
-            <img class="service-image img-responsive center-block" src="img/services/salesforceiq.png" alt="">
+            <img class="service-image img-responsive center-block" src="img/services/salesforceiq.png" alt="SalesforceIQ Logo">
             <!-- <h3 class="text-center service-caption">Wave Apps</h3> -->
           </div>
           <div class="col-xs-4 service-zoom text-center">
-						<img class="service-image img-responsive center-block" src="img/services/heroku.png" alt="">
+						<img class="service-image img-responsive center-block" src="img/services/heroku.png" alt="Salesforce Heroku Logo">
 						<!-- <h3 class="text-center service-caption">Heroku</h3> -->
 					</div>
 				</div>

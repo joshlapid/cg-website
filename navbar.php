@@ -1,6 +1,6 @@
 <header>
   <!-- Logo -->
-  <a class="navbar-logo" href="index.php"><img class="navbar-img" src="img/Corrao_Group_Logo_Resized.png" alt=""></a>
+  <a class="navbar-logo" href="index.php"><img class="navbar-img" src="img/Corrao_Group_Logo_Resized.png" alt="Corrao Group Logo"></a>
 
   <!-- Contact Us Button -->
   <div class="container-fluid navbar-container">

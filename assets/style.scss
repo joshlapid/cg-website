@@ -606,19 +606,20 @@ p {
   background-size: cover;
 }
 
-
 // About Us
 #corporate-timeline {
   max-width: 750px;
   width: 100%;
 }
 
-// #our-locations-header {
-//   padding-top: 40px;
-// }
-
 
 // Giving Back
+#enf-logo {
+  background-color: white;
+  padding: 10px;
+  max-width: 271px; width: 100%;
+}
+
 #enf-youtube-video {
   max-width: 700px;
   width: 100%;
@@ -635,6 +636,7 @@ p {
   border-radius: 3px;
   margin-top: 40px;
 }
+
 // Our Certifications
 .our-certifications-container {
   padding-top: 20px;

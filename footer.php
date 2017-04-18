@@ -4,21 +4,21 @@
 
     <div class="row">
       <div class="col-sm-6 text-center">
-          <a href="index.php"><img class="footer-image" src="img/Corrao_Group_Logo_Resized.png" alt=""></a>
+          <a href="index.php"><img class="footer-image" src="img/Corrao_Group_Logo_Resized.png" alt="Corrao Group Logo"></a>
       </div>
       <div class="col-sm-6 text-center">
         <a href="https://www.linkedin.com/company-beta/793013/" target="_blank"><div id="linkedin-sprite"></div></a>
         <a href="https://twitter.com/Corrao_Group" target="_blank"><div id="twitter-sprite"></div></a>
-        <a href="https://twitter.com/Corrao_Group" target="_blank"><img class="social-media-logo" src="img/Twitter_Logo_White_On_Blue.png" alt="" ></a>
-        <a href="http://corraogroup.com/blog" target="_blank"><img class="social-media-logo" src="img/linkedin-logo.png" alt=""></a>
+        <a href="https://twitter.com/Corrao_Group" target="_blank"><img class="social-media-logo" src="img/Twitter_Logo_White_On_Blue.png" alt="Twitter Logo" ></a>
+        <a href="http://corraogroup.com/blog" target="_blank"><img class="social-media-logo" src="img/linkedin-logo.png" alt="LinkedIn Logo"></a>
       </div>
     </div>
 
     <div class="row">
       <div class="col-sm-12 text-center">
-        <a href="new_to_salesforce.php"><img class="footer-icon" src="img/Tiles/nts.png" alt=""></a>
-        <a href="optimizing_salesforce.php"><img class="footer-icon" src="img/Tiles/os.png" alt=""></a>
-        <a href="salesforce_expansion.php"><img class="footer-icon" src="img/Tiles/se.png" alt=""></a>
+        <a href="new_to_salesforce.php"><img class="footer-icon" src="img/Tiles/nts.png" alt="New to Salesforce Icon"></a>
+        <a href="optimizing_salesforce.php"><img class="footer-icon" src="img/Tiles/os.png" alt="Optimizing Salesforce Icon"></a>
+        <a href="salesforce_expansion.php"><img class="footer-icon" src="img/Tiles/se.png" alt="Salesforce Expansion Icon"></a>
       </div>
     </div>
 
