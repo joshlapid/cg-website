@@ -32,7 +32,7 @@
 
           <!-- Salesforce Dropdown -->
           <li class="dropdown">
-            <div class="dropdown-toggle" data-toggle="dropdown" style="color: #777; font-size: 11pt; padding: 10px 15px; position: relative;">SALESFORCE <span class="caret"></span></div>
+            <div class="dropdown-toggle" data-toggle="dropdown" style="color: #777; font-size: 11pt; padding: 15px 15px; position: relative;">SALESFORCE <span class="caret"></span></div>
             <!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown">SALESFORCE <span class="caret"></span></a> -->
             <ul class="dropdown-menu">
               <li><a href="new_to_salesforce.php">NEW TO SALESFORCE</a></li>
@@ -42,7 +42,7 @@
           </li>
 
           <li class="dropdown">
-            <div class="dropdown-toggle" data-toggle="dropdown" style="color: #777; font-size: 11pt; padding: 10px 15px;">SOLUTIONS <span class="caret"></span></div>
+            <div class="dropdown-toggle" data-toggle="dropdown" style="color: #777; font-size: 11pt; padding: 15px 15px;">SOLUTIONS <span class="caret"></span></div>
             <ul class="dropdown-menu">
               <li><a href="ez-ar.php">EZ-AR</a></li>
             </ul>

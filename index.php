@@ -14,14 +14,6 @@ $chrome = strpos($_SERVER["HTTP_USER_AGENT"], 'Chrome') ? true : false;
 		<!-- Navigation -->
     <?php include('navbar.php'); ?>
 
-		<!-- Header - Rotating Images -->
-		<!-- <div id="carousel-desktop">
-			<?php include('carousel-desktop.php'); ?>
-		</div>
-		<div id="carousel-mobile">
-			<?php include('carousel-mobile.php'); ?>
-		</div> -->
-
     <!-- Main Banner -->
     <div id="main-banner" class="container-fluid parallax-window">
       <div class="container header-overlay">
